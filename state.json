@@ -1,35 +1,50 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
-  "publisher": "T-59 lighthouse (github-pages ציבורי) · CI-גיבוי: gitlab-ci",
-  "generatedAt": "2026-10-10T06:56:00Z",
-  "commit": "fd88d9d03347663afb823020e9729646e539db82",
-  "commitDate": "2026-10-10T06:33:51Z",
-  "branch": "main",
+  "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
+  "generatedAt": "2026-10-10T07:54:45Z",
+  "commit": "lastKnown:d1309d985697",
+  "commitDate": "2026-10-10T07:54:29.600Z",
+  "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T06:46:07.081Z",
-    "heartChain": "5abc3e1ce97a4713173b191a",
-    "worklogSha12": "5c3519c62484",
-    "memorySha12": "7fbfb9c9a673",
-    "vaultBytes": 4708
+    "heartAt": "2026-10-10T07:54:29.600Z",
+    "heartChain": "21d1162fc08c739b3f9e28f2",
+    "worklogSha12": "d04f15399afe",
+    "memorySha12": "1868f4c21b0c",
+    "vaultBytes": 5380
   },
   "memoryLayers": [
-    { "layer": "github", "detail": "roshpinacare-sys/sanbox" },
-    { "layer": "gitlab", "detail": "roshpinacare/sanbox + Pages-הזה" },
-    { "layer": "postgres", "detail": "Supabase sovereign_state (state-replica)" },
-    { "layer": "lighthouse", "detail": "https://roshpinacare-sys.github.io/sovereign-lighthouse — Pages ציבורי (T-59)" },
-    { "layer": "pages-beacon", "detail": "הקונסולה-הזו — נולדה-ב-CI-חוץ-מכונה" }
+    {
+      "layer": "github",
+      "detail": "roshpinacare-sys/sanbox"
+    },
+    {
+      "layer": "gitlab",
+      "detail": "roshpinacare/sanbox"
+    },
+    {
+      "layer": "postgres",
+      "detail": "Supabase sovereign_state (state-replica)"
+    },
+    {
+      "layer": "lighthouse",
+      "detail": "הכתובת-הזו — מוכתבת-מהלב-אוטומטית (T-60)"
+    },
+    {
+      "layer": "gitlab-ci",
+      "detail": "ממתין-לאימות-זהות-הבעלים (escalations)"
+    }
   ],
   "fleet": {
-    "runner": "GitLab runner 57265759 (online, self-healing via boot-all.sh)",
+    "runner": "GitLab runner 57265759 (self-healing via boot-all.sh)",
     "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
-    "escalations": "repo-vault/escalations.json — שערי-בעלים-עם-ראיות"
+    "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות"
   },
   "awakening": [
     "1. הגיט-הוא-הקוד-המלא: שני-עננים-נושאים-sanbox + vault/vault-backup.enc (AES-256-GCM)",
     "2. שחזור-כספת: bun core/vault restore — המפתח-הוא-hq.password אצל-Head-Corner",
     "3. הצתה: sh sanbox/scripts/boot-all.sh — סודות→כספת→מפקח→שומר→HQ-3010",
     "4. זיכרון-חוץ-מכונה: bun scripts/state-replica.mjs pull",
-    "5. ההתחדשות-אוטומטית: קומיט=הצתה; הלב-פועם-כל-15-דקות"
+    "5. ההתחדשות-אוטומטית: קומיט=הצתה; הלב-פועם-כל-15-דקות ומכתיב-את-המגדלור-הזה"
   ],
   "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה"
 }
