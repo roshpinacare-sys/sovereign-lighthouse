@@ -1,13 +1,13 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T13:47:56Z",
-  "commit": "lastKnown:8082cbb16d75",
-  "commitDate": "2026-10-10T13:47:56.560Z",
+  "generatedAt": "2026-10-10T14:02:57Z",
+  "commit": "lastKnown:92effe265a2f",
+  "commitDate": "2026-10-10T14:02:57.842Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T13:47:56.560Z",
-    "heartChain": "4bfbc6e022e02563386e3d33",
+    "heartAt": "2026-10-10T14:02:57.842Z",
+    "heartChain": "66187e09070732a0fdb3764a",
     "worklogSha12": "0ecd30991ee6",
     "memorySha12": "8f6d5d1eac89",
     "vaultBytes": 6748
@@ -35,15 +35,21 @@
     }
   ],
   "grid": {
-    "posts": 1,
-    "lastPostAt": "2026-10-10T13:10:16.198Z",
-    "lastTitle": "5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+    "posts": 2,
+    "lastPostAt": "2026-10-10T13:47:56.665Z",
+    "lastTitle": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
     "recent": [
       {
         "id": "gmv2ewakf",
         "ts": "2026-10-10T13:10:16.198Z",
         "kind": "report",
         "title": "5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+      },
+      {
+        "id": "gmv2g8qr1",
+        "ts": "2026-10-10T13:47:56.665Z",
+        "kind": "report",
+        "title": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
       }
     ]
   },
@@ -55,7 +61,7 @@
     "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
     "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
     "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 1 · אחרון: 5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 2 · אחרון: 7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
