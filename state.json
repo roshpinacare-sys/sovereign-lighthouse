@@ -1,16 +1,16 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T13:25:36Z",
-  "commit": "lastKnown:74fbec8c02a3",
-  "commitDate": "2026-10-10T13:25:36.337Z",
+  "generatedAt": "2026-10-10T13:32:55Z",
+  "commit": "lastKnown:8082cbb16d75",
+  "commitDate": "2026-10-10T13:32:55.218Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T13:25:36.337Z",
-    "heartChain": "e046ecbe9ee585e87dd931cc",
-    "worklogSha12": "6ed1027c82db",
-    "memorySha12": "09b0a25bca1a",
-    "vaultBytes": 2344
+    "heartAt": "2026-10-10T13:32:55.218Z",
+    "heartChain": "f6ec449e70b8e4f1cfbbaf1a",
+    "worklogSha12": "0ecd30991ee6",
+    "memorySha12": "8f6d5d1eac89",
+    "vaultBytes": 6748
   },
   "memoryLayers": [
     {
@@ -34,6 +34,19 @@
       "detail": "ממתין-לאימות-זהות-הבעלים (escalations)"
     }
   ],
+  "grid": {
+    "posts": 1,
+    "lastPostAt": "2026-10-10T13:10:16.198Z",
+    "lastTitle": "5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+    "recent": [
+      {
+        "id": "gmv2ewakf",
+        "ts": "2026-10-10T13:10:16.198Z",
+        "kind": "report",
+        "title": "5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+      }
+    ]
+  },
   "fleet": {
     "runner": "GitLab runner 57265759 (self-healing via boot-all.sh)",
     "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
@@ -42,6 +55,7 @@
     "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
     "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
     "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 1 · אחרון: 5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
