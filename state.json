@@ -1,14 +1,14 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T10:37:00Z",
+  "generatedAt": "2026-10-10T10:37:21Z",
   "commit": "lastKnown:5221b2ca09b5",
   "commitDate": "2026-10-10T10:37:00.025Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
     "heartAt": "2026-10-10T10:37:00.025Z",
     "heartChain": "fe6143e41d4e8ee325bb83ca",
-    "worklogSha12": "0225c3f62ef8",
+    "worklogSha12": "2d127c494d59",
     "memorySha12": "cce1362035eb",
     "vaultBytes": 6748
   },
@@ -37,7 +37,9 @@
   "fleet": {
     "runner": "GitLab runner 57265759 (self-healing via boot-all.sh)",
     "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
-    "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות"
+    "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות",
+    "webSense": "T-62: חיפוש-ריבוני (Tavily x2 · 200) + קריאת-דפים (Jina · 200) — אטום-בכספת · scripts/web-sense.mjs",
+    "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
     "1. הגיט-הוא-הקוד-המלא: שני-עננים-נושאים-sanbox + vault/vault-backup.enc (AES-256-GCM)",
