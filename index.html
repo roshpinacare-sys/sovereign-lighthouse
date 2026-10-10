@@ -1,66 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ראש פינה — מגדלור ריבוני</title>
 <style>
-  :root { color-scheme: dark; }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-         background: #0a0a0f; color: #e7e7ee; min-height: 100vh; padding: 24px; }
-  .wrap { max-width: 780px; margin: 0 auto; }
-  header { text-align: center; padding: 28px 0 18px; }
-  .pulse { display: inline-block; width: 12px; height: 12px; border-radius: 50%;
-           background: #22c55e; box-shadow: 0 0 12px #22c55e; animation: p 2s infinite; }
-  @keyframes p { 50% { opacity: .4; } }
-  h1 { font-size: 1.7rem; margin: 12px 0 4px; }
-  .sub { color: #9a9ab0; font-size: .95rem; }
-  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); margin: 18px 0; }
-  .card { background: #14141c; border: 1px solid #26263a; border-radius: 12px; padding: 16px; }
-  .l-name { font-weight: 700; color: #d4b483; margin-bottom: 6px; }
-  .l-detail { font-size: .88rem; color: #b9b9cc; }
-  .stat { background: #14141c; border: 1px solid #26263a; border-radius: 12px; padding: 16px; margin-bottom: 14px; }
-  .stat b { color: #d4b483; }
-  .stat code { background: #1d1d29; padding: 2px 7px; border-radius: 6px; font-size: .85rem;
-               direction: ltr; unicode-bidi: embed; }
-  h2 { font-size: 1.1rem; color: #d4b483; margin: 22px 0 10px; }
-  ol { padding-inline-start: 22px; }
-  li { margin-bottom: 9px; color: #c9c9db; font-size: .92rem; line-height: 1.65; }
-  .doct { text-align: center; color: #71718c; font-size: .8rem; padding: 22px 0 6px; line-height: 1.8; }
+:root { color-scheme: dark; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; background: #0a0a0f; color: #e7e7ee; min-height: 100vh; padding: 24px; }
+.wrap { max-width: 820px; margin: 0 auto; }
+header { text-align: center; padding: 28px 0 18px; }
+.pulse { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: #22c55e; box-shadow: 0 0 12px #22c55e; animation: p 2s infinite; }
+@keyframes p { 50% { opacity: .4; } }
+h1 { font-size: 1.7rem; margin: 12px 0 4px; }
+.sub { color: #9a9ab0; font-size: .95rem; }
+.stat, .card { background: #14141c; border: 1px solid #26263a; border-radius: 12px; padding: 16px; margin-bottom: 14px; }
+.stat b, .card b { color: #d4b483; }
+.stat code { background: #1d1d29; padding: 2px 7px; border-radius: 6px; font-size: .85rem; direction: ltr; unicode-bidi: embed; }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); margin: 14px 0; }
+.l-name { font-weight: 700; color: #d4b483; margin-bottom: 6px; }
+.l-detail { font-size: .88rem; color: #b9b9cc; }
+h2 { font-size: 1.15rem; color: #d4b483; margin: 26px 0 10px; }
+ol, ul { padding-inline-start: 22px; }
+li { margin-bottom: 9px; color: #c9c9db; font-size: .92rem; line-height: 1.65; }
+.post { background: #14141c; border: 1px solid #26263a; border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; }
+.post .p-head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.post .p-title { font-weight: 700; color: #e7e7ee; font-size: .98rem; }
+.post .p-meta { color: #71718c; font-size: .78rem; direction: ltr; unicode-bidi: embed; }
+.post .p-kind { display: inline-block; background: #1d1d29; color: #d4b483; border-radius: 6px; padding: 1px 8px; font-size: .75rem; }
+.post ul { margin-top: 8px; }
+.post li { font-size: .88rem; color: #b9b9cc; }
+.esc { border-inline-start: 3px solid #f59e0b; }
+.esc .e-id { font-weight: 700; color: #f59e0b; font-size: .9rem; }
+.esc .e-gate { font-size: .85rem; color: #b9b9cc; margin-top: 4px; }
+.esc .e-need { font-size: .85rem; color: #71718c; margin-top: 4px; }
+.doct { text-align: center; color: #71718c; font-size: .8rem; padding: 22px 0 6px; line-height: 1.8; }
+.err { color: #f87171; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <span class="pulse"></span>
-    <h1>ראש פינה — מגדלור ריבוני</h1>
-    <div class="sub">קונסולה-חוץ-מכונה · נולדה-ב-CI של גיטלאב · חיה-גם-כשהמכונה-מתה</div>
-  </header>
-  <div class="stat" id="alive"><b>טוען-מצב-אחרון…</b></div>
-  <h2>ארבע-שכבות-הזיכרון-העצמאיות</h2>
-  <div class="grid" id="layers"></div>
-  <h2>מפת-ההערה (שיקום-מאפס)</h2>
-  <div class="stat"><ol id="awaken"></ol></div>
-  <div class="doct" id="doct"></div>
+<header>
+  <span class="pulse"></span>
+  <h1>ראש פינה — מגדלור ריבוני</h1>
+  <div class="sub">קונסולה-חוץ-מכונה · נולדת-מהלב · חיה-גם-כשהמכונה-מתה · T-66b</div>
+</header>
+
+<div class="stat" id="alive">טוען-מצב-אחרון…</div>
+
+<h2>פוסטי-הגריד — פעילות-הצי-בראיות</h2>
+<div id="gridPosts">טוען-פוסטים…</div>
+
+<h2>שכבות-הזיכרון-העצמאיות</h2>
+<div class="grid" id="layers"></div>
+
+<h2>שערי-בעלים-פתוחים (שקיפות-מלאה — אין-הגבלות-סמויות)</h2>
+<div id="esc"></div>
+
+<h2>מפת-ההערה (שיקום-מאפס)</h2>
+<ol id="awaken"></ol>
+
+<div class="doct" id="doct"></div>
 </div>
+
 <script>
+const fmt = (x) => x ? String(x).replace('T',' ').slice(0,19)+'Z' : '—';
+const esc = (s) => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 fetch('state.json').then(r => r.json()).then(s => {
-  const fmt = (x) => x ? String(x).replace('T', ' ').slice(0, 19) + 'Z' : '—';
   document.getElementById('alive').innerHTML =
-    '<b>חי-אחרון-ידוע (לב):</b> <code>' + fmt(s.lastKnownAlive.heartAt) + '</code><br>' +
-    '<b>קומיט:</b> <code>' + String(s.commit).slice(0, 12) + '</code> (' + fmt(s.commitDate) + ')<br>' +
-    '<b>טביעת-יומן:</b> <code>' + s.lastKnownAlive.worklogSha12 + '</code> · ' +
-    '<b>טביעת-זיכרון:</b> <code>' + s.lastKnownAlive.memorySha12 + '</code> · ' +
-    '<b>כספת:</b> <code>' + s.lastKnownAlive.vaultBytes + 'B</code> · ' +
-    '<b>ענף:</b> <code>' + s.branch + '</code>';
-  document.getElementById('layers').innerHTML = s.memoryLayers.map(l =>
-    '<div class="card"><div class="l-name">' + l.layer + '</div><div class="l-detail">' + l.detail + '</div></div>').join('');
-  document.getElementById('awaken').innerHTML = s.awakening.map(x => '<li>' + x + '</li>').join('');
-  document.getElementById('doct').innerHTML = s.doctrine + '<br>נוצר-ב-CI-חוץ-מכונה · ' + fmt(s.generatedAt) + ' · publisher: ' + s.publisher;
-}).catch(() => {
-  document.getElementById('alive').innerHTML = '<b>state.json-לא-נטען</b> — הדף-חי-אך-המצב-חסר';
-});
+    '<b>חי-אחרון-ידוע (לב):</b> ' + fmt(s.lastKnownAlive.heartAt) + '<br>' +
+    '<b>קומיט:</b> <code>' + esc(String(s.commit).slice(0,16)) + '</code> (' + fmt(s.commitDate) + ')<br>' +
+    '<b>טביעת-יומן:</b> <code>' + esc(s.lastKnownAlive.worklogSha12) + '</code> · ' +
+    '<b>טביעת-זיכרון:</b> <code>' + esc(s.lastKnownAlive.memorySha12) + '</code> · ' +
+    '<b>כספת:</b> ' + s.lastKnownAlive.vaultBytes + 'B · <b>ענף:</b> ' + esc(s.branch);
+  document.getElementById('layers').innerHTML = (s.memoryLayers||[]).map(l =>
+    '<div class="card"><div class="l-name">' + esc(l.layer) + '</div><div class="l-detail">' + esc(l.detail) + '</div></div>').join('');
+  document.getElementById('awaken').innerHTML = (s.awakening||[]).map(x => '<li>' + esc(x) + '</li>').join('');
+  const es = s.escalations || [];
+  document.getElementById('esc').innerHTML = es.length ? es.map(e =>
+    '<div class="card esc"><div class="e-id">' + esc(e.id) + ' — ' + esc(String(e.status).split('—')[0].trim()) + '</div>' +
+    '<div class="e-gate">' + esc(e.gate) + '</div>' +
+    (e.needed ? '<div class="e-need">נדרש-מהבעלים: ' + esc(e.needed) + '</div>' : '') + '</div>').join('')
+    : '<div class="card">אין-שערי-בעלים-פתוחים — הצי-ריבוני-מלא.</div>';
+  document.getElementById('doct').innerHTML = esc(s.doctrine) + '<br>נוצר-מהלב-אוטומטית (T-66b) · ' + fmt(s.generatedAt) + ' · publisher: ' + esc(s.publisher);
+}).catch(() => { document.getElementById('alive').innerHTML = '<span class="err">state.json-לא-נטען — הדף-חי-אך-המצב-חסר</span>'; });
+
+fetch('grid.json').then(r => r.json()).then(g => {
+  const posts = (g.posts && g.posts.length ? g.posts : (g.recent||[]).map(x => ({...x, lines:[]})));
+  document.getElementById('gridPosts').innerHTML = posts.length ? posts.slice().reverse().map(p =>
+    '<div class="post"><div class="p-head"><span class="p-title">' + esc(p.title) + '</span>' +
+    '<span class="p-kind">' + esc(p.kind||'post') + '</span><span class="p-meta">' + fmt(p.ts) + '</span></div>' +
+    ((p.lines&&p.lines.length) ? '<ul>' + p.lines.map(l => '<li>' + esc(l) + '</li>').join('') + '</ul>' : '') +
+    '</div>').join('')
+    : '<div class="post">עדיין-אין-פוסטים — הגריד-יפרסם-עם-הראיה-הראשונה.</div>';
+}).catch(() => { document.getElementById('gridPosts').innerHTML = '<span class="err">grid.json-לא-נטען</span>'; });
 </script>
 </body>
 </html>
