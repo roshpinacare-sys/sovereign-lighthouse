@@ -1,25 +1,26 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-10T15:31:35.481Z",
- "total": 5,
- "lastPostAt": "2026-10-10T15:31:35.481Z",
- "lastTitle": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+ "asof": "2026-10-10T15:59:24.306Z",
+ "total": 7,
+ "lastPostAt": "2026-10-10T15:59:24.306Z",
+ "lastTitle": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+ "lastChainAt": null,
  "cursor": {
-  "commit": "cf57fe17472cce2f51cfb006bde48b712450c476",
+  "commit": "8603fa0b601b738658d870874bbcc3aa72e5b4ea",
   "lineCounts": {
-   "supervisor": 500,
-   "consoleServer": 4,
-   "webRecon": 17,
-   "lighthouse": 7,
-   "stateReplica": 455,
-   "vercelBeacon": 200,
-   "gitlabPush": 55,
-   "pushLog": 62,
-   "sovereigntyDrill": 11,
-   "vaultDrill": 2
+   "supervisor": 29,
+   "consoleServer": 1,
+   "webRecon": 5,
+   "lighthouse": 5,
+   "stateReplica": 5,
+   "vercelBeacon": 5,
+   "gitlabPush": 3,
+   "pushLog": 2,
+   "sovereigntyDrill": 0,
+   "vaultDrill": 0
   },
   "escalOpen": null,
-  "heartChain": "e0b37d0577f78a95d3a530af"
+  "heartChain": "ae82950336c2245a26762ae4"
  },
  "recent": [
   {
@@ -47,10 +48,25 @@
    "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
   },
   {
-   "id": "gmv2jy171",
-   "ts": "2026-10-10T15:31:35.481Z",
+   "id": "gmv2jeslv",
+   "ts": "2026-10-10T15:16:37.853Z",
+   "kind": "report",
+   "title": "4 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+  },
+  {
+   "id": "gmv2khghs",
+   "ts": "2026-10-10T15:46:41.739Z",
    "kind": "report",
    "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+  },
+  {
+   "id": "gmv2kxswb",
+   "ts": "2026-10-10T15:59:24.306Z",
+   "kind": "report",
+   "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+   "chain": {
+    "ok": false
+   }
   }
  ],
  "posts": [
@@ -170,23 +186,49 @@
    }
   },
   {
-   "id": "gmv2jy171",
-   "ts": "2026-10-10T15:31:35.481Z",
+   "id": "gmv2khghs",
+   "ts": "2026-10-10T15:46:41.739Z",
    "kind": "report",
    "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
    "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain bf7e4619) [lighthouse]",
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain 407ea538) [lighthouse]",
+    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
     "· דחיפה-לענן: ? () [pushLog]",
-    "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
+    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z"
    ],
    "evidence": {
     "commits": 1,
-    "newReceiptLines": 7,
+    "newReceiptLines": 19,
     "escalOpen": null,
-    "heartChain": "e0b37d0577f7",
-    "head": "cf57fe17472c"
+    "heartChain": "ae82950336c2",
+    "head": "8603fa0b601b"
+   }
+  },
+  {
+   "id": "gmv2kxswb",
+   "ts": "2026-10-10T15:59:24.306Z",
+   "kind": "report",
+   "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+   "lines": [
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain ae829503) [lighthouse]"
+   ],
+   "evidence": {
+    "commits": 0,
+    "newReceiptLines": 3,
+    "escalOpen": null,
+    "heartChain": "ae82950336c2",
+    "head": "8603fa0b601b"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
+    }
    }
   }
  ]
