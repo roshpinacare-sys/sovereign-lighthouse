@@ -2,16 +2,16 @@
   "schema": "roshpina.sovereign-beacon/1",
   "pageVersion": "T-66c.1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T16:31:47Z",
-  "commit": "lastKnown:c238c1283acb",
-  "commitDate": "2026-10-10T16:31:47.460Z",
+  "generatedAt": "2026-10-10T16:40:39Z",
+  "commit": "lastKnown:0eb6a9e3ce9c",
+  "commitDate": "2026-10-10T16:40:39.764Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T16:31:47.460Z",
-    "heartChain": "59606df5f268d1eb7f503fea",
-    "worklogSha12": "a1bf43fde59e",
-    "memorySha12": "2d3f2374b4cf",
-    "vaultBytes": 640
+    "heartAt": "2026-10-10T16:40:39.764Z",
+    "heartChain": "0c1beb31f5dc9b07bcad1529",
+    "worklogSha12": "70377c4ed91a",
+    "memorySha12": "97a3f745e5df",
+    "vaultBytes": 6768
   },
   "memoryLayers": [
     {
@@ -36,16 +36,10 @@
     }
   ],
   "grid": {
-    "posts": 6,
-    "lastPostAt": "2026-10-10T16:16:45.595Z",
-    "lastTitle": "10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)",
+    "posts": 7,
+    "lastPostAt": "2026-10-10T16:40:39.822Z",
+    "lastTitle": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
     "recent": [
-      {
-        "id": "gmv2g8qr1",
-        "ts": "2026-10-10T13:47:56.665Z",
-        "kind": "report",
-        "title": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-      },
       {
         "id": "gmv2hbdnc",
         "ts": "2026-10-10T14:17:59.262Z",
@@ -65,10 +59,16 @@
         "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
       },
       {
-        "id": "gmv2lk4cw",
-        "ts": "2026-10-10T16:16:45.595Z",
+        "id": "gmv2lc7z0",
+        "ts": "2026-10-10T16:10:37.033Z",
         "kind": "report",
-        "title": "10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)",
+        "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)"
+      },
+      {
+        "id": "gmv2mev0g",
+        "ts": "2026-10-10T16:40:39.822Z",
+        "kind": "report",
+        "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
         "chain": {
           "ok": false
         }
@@ -258,31 +258,76 @@
       }
     },
     {
-      "id": "gmv2lk4cw",
-      "ts": "2026-10-10T16:16:45.595Z",
+      "id": "gmv2lc7z0",
+      "ts": "2026-10-10T16:10:37.033Z",
       "kind": "report",
-      "title": "10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)",
+      "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
       "lines": [
-        "· משימת-מקור-ביומן: T-67-release [worklog]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· תרגיל-כספת: פער! (?) [vaultDrill]",
+        "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
+        "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
         "· שערים-חוסמים: 0 (היה ?) [escalations]",
-        "· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z",
-        "· commit: b9f2cb0 Merge branch 'main' of https://github.com/roshpinacare-sys/sanbox",
-        "· commit: 8b1b16b [T-67] grid chain publication released: Hive posting authority deployed (bit-verified) + real broadcast in run.mjs (get_content-verified, honest receipts recorded:/chain-hive) + RC-mana economy + GRID_FORCE drill gate",
-        "· commit: 0c01d7f HQ sync 2026-10-10T16:00:11.824Z",
         "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
-        "· ועוד 5 קומיטים (זנב-מלא-בגיט)"
+        "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
+        "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
+        "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
+        "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
+        "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
       ],
       "evidence": {
-        "commits": 10,
-        "newReceiptLines": 2,
+        "commits": 6,
+        "newReceiptLines": 20,
         "escalOpen": 0,
-        "heartChain": "55ffecdda1fa",
-        "head": "c238c1283acb"
+        "heartChain": "6565452ad35d",
+        "head": "b778ed010852"
+      }
+    },
+    {
+      "id": "gmv2mev0g",
+      "ts": "2026-10-10T16:40:39.822Z",
+      "kind": "report",
+      "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b778•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
+        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 0eb6a9e T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (vaultBlobContentMatches) · GitLab-הדביק-עד-d28ffa6",
+        "· commit: d28ffa6 T-66c: reseal-11-במפתח-הקנון-המאוחד + ריפוי-עצמי-משופר (בלוב-חייב-להכיל-את-התוכן-עצמו — קץ-מלחמת-הבלובים-הטכנית)",
+        "· commit: efd9984 HQ sync 2026-10-10T16:14:33.524Z",
+        "· commit: bda589d T-66c: חיסון-טעינה-עצמית-למפקח · גריד-סנכרוני-לפני-מגדלור · כותרות-מהותיות-וחיסון-כפילות · איחוד-מפתח-כספת-עם-ארנק-האם (reseal-11) · guard-נופל-בכבוד-לקנון-מקומי · escalations-אמת (SUPERSEDED/OPTIONAL) · עורקות-חיים-לקונסולה · סייר-10-נושאים",
+        "· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z",
+        "· ועוד 3 קומיטים (זנב-מלא-בגיט)"
+      ],
+      "evidence": {
+        "commits": 8,
+        "newReceiptLines": 14,
+        "escalOpen": 0,
+        "heartChain": "0c1beb31f5dc",
+        "head": "0eb6a9e3ce9c"
       },
       "chain": {
         "hive": {
           "ok": false,
-          "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1144382976 RC, needs 1349273890 RC. Please wait to transact or power up HIVE."
+          "skipped": "no-key"
         }
       }
     }
@@ -315,7 +360,7 @@
     "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
     "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
     "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 6 · אחרון: 10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 7 · אחרון: 8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
