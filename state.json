@@ -1,17 +1,17 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
-  "pageVersion": "T-66c.1",
+  "pageVersion": "T-66b.1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T15:55:35Z",
-  "commit": "lastKnown:39171d68a77c",
-  "commitDate": "2026-10-10T15:55:35.393Z",
+  "generatedAt": "2026-10-10T16:01:43Z",
+  "commit": "lastKnown:0c01d7f9db3d",
+  "commitDate": "2026-10-10T16:01:43.497Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T15:55:35.393Z",
-    "heartChain": "763f15969c05ae91af922eda",
+    "heartAt": "2026-10-10T16:01:43.497Z",
+    "heartChain": "90c6e4a59b54173b64c120f5",
     "worklogSha12": "1ff621de68a1",
     "memorySha12": "2d3f2374b4cf",
-    "vaultBytes": 6748
+    "vaultBytes": 640
   },
   "memoryLayers": [
     {
@@ -36,22 +36,10 @@
     }
   ],
   "grid": {
-    "posts": 5,
-    "lastPostAt": "2026-10-10T15:31:35.481Z",
-    "lastTitle": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+    "posts": 7,
+    "lastPostAt": "2026-10-10T15:59:24.306Z",
+    "lastTitle": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
     "recent": [
-      {
-        "id": "gmv2ewakf",
-        "ts": "2026-10-10T13:10:16.198Z",
-        "kind": "report",
-        "title": "5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-      },
-      {
-        "id": "gmv2g8qr1",
-        "ts": "2026-10-10T13:47:56.665Z",
-        "kind": "report",
-        "title": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-      },
       {
         "id": "gmv2hbdnc",
         "ts": "2026-10-10T14:17:59.262Z",
@@ -65,10 +53,25 @@
         "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
       },
       {
-        "id": "gmv2jy171",
-        "ts": "2026-10-10T15:31:35.481Z",
+        "id": "gmv2jeslv",
+        "ts": "2026-10-10T15:16:37.853Z",
+        "kind": "report",
+        "title": "4 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+      },
+      {
+        "id": "gmv2khghs",
+        "ts": "2026-10-10T15:46:41.739Z",
         "kind": "report",
         "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+      },
+      {
+        "id": "gmv2kxswb",
+        "ts": "2026-10-10T15:59:24.306Z",
+        "kind": "report",
+        "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+        "chain": {
+          "ok": false
+        }
       }
     ]
   },
@@ -189,44 +192,70 @@
       }
     },
     {
-      "id": "gmv2jy171",
-      "ts": "2026-10-10T15:31:35.481Z",
+      "id": "gmv2khghs",
+      "ts": "2026-10-10T15:46:41.739Z",
       "kind": "report",
       "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
       "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain bf7e4619) [lighthouse]",
+        "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain 407ea538) [lighthouse]",
+        "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+        "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+        "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+        "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
         "· דחיפה-לענן: ? () [pushLog]",
-        "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
+        "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z"
       ],
       "evidence": {
         "commits": 1,
-        "newReceiptLines": 7,
+        "newReceiptLines": 19,
         "escalOpen": null,
-        "heartChain": "e0b37d0577f7",
-        "head": "cf57fe17472c"
+        "heartChain": "ae82950336c2",
+        "head": "8603fa0b601b"
+      }
+    },
+    {
+      "id": "gmv2kxswb",
+      "ts": "2026-10-10T15:59:24.306Z",
+      "kind": "report",
+      "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+      "lines": [
+        "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain ae829503) [lighthouse]"
+      ],
+      "evidence": {
+        "commits": 0,
+        "newReceiptLines": 3,
+        "escalOpen": null,
+        "heartChain": "ae82950336c2",
+        "head": "8603fa0b601b"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
+        }
       }
     }
   ],
   "escalations": [
     {
       "id": "vercel-token-read-only",
-      "status": "SUPERSEDED — ורסל-היה-עותק-מיותר-של-המגד",
-      "gate": "POST /v13/deployments + POST /v9/projects → 403 (טוקן-קריאה-בלבד)",
-      "needed": "אופציונלי-בלבד: אם-וורסל-עדיין-רצוי — טוקן-ב-scope-מלא (deployments:create+projects:create) ב-secrets/vercel.keys; אחרת-אפס-פעולה-נדרשת"
+      "status": "OPEN — התשתית-מוכנה; scripts/vercel-beac",
+      "gate": "POST /v13/deployments + POST /v9/projects → 403 (forbidden, create)",
+      "needed": "Head Corner: ליצור-טוקן-וורסל-ב-scope-מלא (Full Account Scope / deployments:create + projects:create) ולהחליף-ערך-vercel_token-ב-secrets/vercel.keys"
     },
     {
       "id": "gitlab-ci-identity-verification",
-      "status": "OPEN-OPTIONAL — שיפור-אצולה; אפס-תלות-רי",
-      "gate": "CI-jobs=0 · POST-pipeline→400 \"Identity verification is required\" · runner-עצמאי-57265759-polling→403",
-      "needed": "אופציונלי-בלבד: אימות-זהות-בדשבורד-GitLab (כרטיס/טלפון) — פותח-צופה-CI-שובה-לב-אך-לא-דבר-נוסף"
+      "status": "OPEN — תשתית-מלאה-עומדת; חוסם-יחיד=אימות",
+      "gate": "CI-jobs=0 · pipeline-instant-failed · POST-pipeline→400 \"Identity verification is required in order to run CI jobs\"",
+      "needed": "Head Corner: אימות-זהות-ב-GitLab-דשבורד (כרטיס/טלפון) — רגע-אחד-פותח: פס-לינה+Pages+runner-חי+צופה-CI"
     },
     {
       "id": "github-pages-plan",
-      "status": "RESOLVED-BY-BYPASS — המגדלור-הריבוני-חי",
-      "gate": "POST /repos/sanbox/pages → 422 \"plan does not support GitHub Pages\" — רלוונטי-לריפו-פרטי-בלבד",
-      "needed": "—אין"
+      "status": "RESOLVED-BY-BYPASS — המגדלור-הריבוני-חי ",
+      "gate": "POST /repos/sanbox/pages → 422 \"Your current plan does not support GitHub Pages for this repository\" — **רלוונטי-לריפו-פרטי-בלבד**",
+      "needed": "—אין — נפתח-בעקיפה (T-59). היה-שער-ל-gate-אמיתי"
     }
   ],
   "fleet": {
@@ -237,7 +266,7 @@
     "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
     "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
     "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 5 · אחרון: 1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 7 · אחרון: פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
