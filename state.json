@@ -1,13 +1,13 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T12:31:35Z",
-  "commit": "lastKnown:9e1d6ab362f7",
-  "commitDate": "2026-10-10T12:31:35.364Z",
+  "generatedAt": "2026-10-10T12:32:50Z",
+  "commit": "lastKnown:7cf05ea4bf16",
+  "commitDate": "2026-10-10T12:32:49.947Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T12:31:35.364Z",
-    "heartChain": "31fa54e23a5ecd5533365c07",
+    "heartAt": "2026-10-10T12:32:49.947Z",
+    "heartChain": "4336ca5c189d343cf1fff2f7",
     "worklogSha12": "0fd2704cf212",
     "memorySha12": "f30b8de95b96",
     "vaultBytes": 6748
@@ -39,11 +39,14 @@
     "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
     "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות",
     "webSense": "T-62: חיפוש-ריבוני (Tavily x2 · 200) + קריאת-דפים (Jina · 200) — אטום-בכספת · scripts/web-sense.mjs",
+    "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
+    "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
+    "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
     "1. הגיט-הוא-הקוד-המלא: שני-עננים-נושאים-sanbox + vault/vault-backup.enc (AES-256-GCM)",
-    "2. שחזור-כספת: bun core/vault restore — המפתח-הוא-hq.password אצל-Head-Corner",
+    "2. שחזור-כספת: bun scripts/vault-restore.ts — המפתח: HQ_VAULT_PASS (hq.password אצל-Head-Corner · וב-~/.sovereign/guardian.env לאוטונומיה-מלאה-לאחר-התקנת-השומר)",
     "3. הצתה: sh sanbox/scripts/boot-all.sh — סודות→כספת→מפקח→שומר→HQ-3010",
     "4. זיכרון-חוץ-מכונה: bun scripts/state-replica.mjs pull",
     "5. ההתחדשות-אוטומטית: קומיט=הצתה; הלב-פועם-כל-15-דקות ומכתיב-את-המגדלור-הזה"
