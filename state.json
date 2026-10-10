@@ -1,7 +1,8 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
+  "pageVersion": "T-66b.1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T14:17:59Z",
+  "generatedAt": "2026-10-10T14:18:04Z",
   "commit": "lastKnown:df20ddc37a4c",
   "commitDate": "2026-10-10T14:17:59.181Z",
   "branch": "sanbox-main",
@@ -35,9 +36,9 @@
     }
   ],
   "grid": {
-    "posts": 2,
-    "lastPostAt": "2026-10-10T13:47:56.665Z",
-    "lastTitle": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+    "posts": 3,
+    "lastPostAt": "2026-10-10T14:17:59.262Z",
+    "lastTitle": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
     "recent": [
       {
         "id": "gmv2ewakf",
@@ -50,6 +51,12 @@
         "ts": "2026-10-10T13:47:56.665Z",
         "kind": "report",
         "title": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+      },
+      {
+        "id": "gmv2hbdnc",
+        "ts": "2026-10-10T14:17:59.262Z",
+        "kind": "report",
+        "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
       }
     ]
   },
@@ -102,6 +109,30 @@
         "heartChain": "4bfbc6e022e0",
         "head": "8082cbb16d75"
       }
+    },
+    {
+      "id": "gmv2hbdnc",
+      "ts": "2026-10-10T14:17:59.262Z",
+      "kind": "report",
+      "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 8082•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 92ef•) [stateReplica]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· commit: df20ddc HQ sync 2026-10-10T14:13:14.914Z",
+        "· commit: 92effe2 HQ sync 2026-10-10T13:48:05.082Z"
+      ],
+      "evidence": {
+        "commits": 2,
+        "newReceiptLines": 10,
+        "escalOpen": null,
+        "heartChain": "ee3335a97d5a",
+        "head": "df20ddc37a4c"
+      }
     }
   ],
   "escalations": [
@@ -132,7 +163,7 @@
     "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
     "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
     "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 2 · אחרון: 7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 3 · אחרון: 2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
