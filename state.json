@@ -1,13 +1,13 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T09:17:59Z",
+  "generatedAt": "2026-10-10T09:18:29Z",
   "commit": "lastKnown:226a2270db8a",
-  "commitDate": "2026-10-10T09:17:59.811Z",
+  "commitDate": "2026-10-10T09:18:29.825Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T09:17:59.811Z",
-    "heartChain": "217dae6641c56ca951150142",
+    "heartAt": "2026-10-10T09:18:29.825Z",
+    "heartChain": "2dd5f5081592316d1f6bc516",
     "worklogSha12": "eb93c2341204",
     "memorySha12": "6784a1e22d8f",
     "vaultBytes": 5380
