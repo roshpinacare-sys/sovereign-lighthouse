@@ -1,25 +1,25 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-10T14:17:59.262Z",
- "total": 3,
- "lastPostAt": "2026-10-10T14:17:59.262Z",
+ "asof": "2026-10-10T14:48:01.864Z",
+ "total": 4,
+ "lastPostAt": "2026-10-10T14:48:01.864Z",
  "lastTitle": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
  "cursor": {
-  "commit": "df20ddc37a4cd252a07da84ee9237ed4c41312ea",
+  "commit": "378f8fe11670c60c3b39726e8a285f42c589ad9d",
   "lineCounts": {
    "supervisor": 500,
    "consoleServer": 4,
-   "webRecon": 13,
+   "webRecon": 15,
    "lighthouse": 7,
-   "stateReplica": 451,
+   "stateReplica": 453,
    "vercelBeacon": 200,
-   "gitlabPush": 52,
-   "pushLog": 59,
+   "gitlabPush": 54,
+   "pushLog": 61,
    "sovereigntyDrill": 11,
    "vaultDrill": 2
   },
   "escalOpen": null,
-  "heartChain": "ee3335a97d5a0374af90ad99"
+  "heartChain": "c9efca5d89a637717cae5c73"
  },
  "recent": [
   {
@@ -37,6 +37,12 @@
   {
    "id": "gmv2hbdnc",
    "ts": "2026-10-10T14:17:59.262Z",
+   "kind": "report",
+   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+  },
+  {
+   "id": "gmv2ie0jm",
+   "ts": "2026-10-10T14:48:01.864Z",
    "kind": "report",
    "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
   }
@@ -113,6 +119,29 @@
     "escalOpen": null,
     "heartChain": "ee3335a97d5a",
     "head": "df20ddc37a4c"
+   }
+  },
+  {
+   "id": "gmv2ie0jm",
+   "ts": "2026-10-10T14:48:01.864Z",
+   "kind": "report",
+   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head df20•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· commit: 378f8fe HQ sync 2026-10-10T14:25:36.021Z",
+    "· commit: cb57ad6 T-66b: סקירה-חריפה-ועמוקה — שחרור-חסימות-שקריות (HQ-ריפוי-עצמי-בauth · גריד-נראה-בדף-החי) · דף-נולד-מהלב (buildPage · grid.json-פוסטים-מלאים · gridFp+pageVersion-בשער) · צינון-vercel-מעוגן (last403At) · תקרת-זנב-state-replica"
+   ],
+   "evidence": {
+    "commits": 2,
+    "newReceiptLines": 9,
+    "escalOpen": null,
+    "heartChain": "c9efca5d89a6",
+    "head": "378f8fe11670"
    }
   }
  ]
