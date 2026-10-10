@@ -1,16 +1,16 @@
 {
   "schema": "roshpina.sovereign-beacon/1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T10:46:00Z",
-  "commit": "lastKnown:e8c2cecc8dd7",
-  "commitDate": "2026-10-10T10:46:00.051Z",
+  "generatedAt": "2026-10-10T10:46:23Z",
+  "commit": "lastKnown:d158d94b22c3",
+  "commitDate": "2026-10-10T10:46:23.421Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-10T10:46:00.051Z",
-    "heartChain": "177181fde6a5345c857a4586",
-    "worklogSha12": "2d127c494d59",
-    "memorySha12": "cce1362035eb",
-    "vaultBytes": 6748
+    "heartAt": "2026-10-10T10:46:23.421Z",
+    "heartChain": "84dd991e62a780136696ec56",
+    "worklogSha12": "6de6d80091dc",
+    "memorySha12": "43d2270b5e0d",
+    "vaultBytes": 2344
   },
   "memoryLayers": [
     {
@@ -37,9 +37,7 @@
   "fleet": {
     "runner": "GitLab runner 57265759 (self-healing via boot-all.sh)",
     "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
-    "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות",
-    "webSense": "T-62: חיפוש-ריבוני (Tavily x2 · 200) + קריאת-דפים (Jina · 200) — אטום-בכספת · scripts/web-sense.mjs",
-    "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
+    "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות"
   },
   "awakening": [
     "1. הגיט-הוא-הקוד-המלא: שני-עננים-נושאים-sanbox + vault/vault-backup.enc (AES-256-GCM)",
