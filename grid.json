@@ -1,26 +1,26 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-10T15:59:24.306Z",
- "total": 7,
- "lastPostAt": "2026-10-10T15:59:24.306Z",
- "lastTitle": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
- "lastChainAt": null,
+ "asof": "2026-10-10T16:10:37.033Z",
+ "total": 6,
+ "lastPostAt": "2026-10-10T16:10:37.033Z",
+ "lastTitle": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
+ "lastSig": "[\"6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]\",\"· דחיפה-לגיטלאב אומתה () [gitlabPush]\",\"· דחיפה-לגיטלאב אומתה () [gitlabPush]\",\"· דחיפה-לגיטלאב אומתה () [gitlabPush]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· דחיפה-לענן: ? () [pushLog]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· דחיפה-לענן: ? () [pushLog]\",\"· תרגיל-כספת: פער! (?) [vaultDrill]\",\"· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]\",\"· משימת-מקור-ביומן: T-66-grid-single-child [worklog]\",\"· שערים-חוסמים: 0 (היה ?) [escalations]\",\"· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z\",\"· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z\",\"· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z\",\"· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית\",\"· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z\",\"· ועוד 1 קומיטים (זנב-מלא-בגיט)\"]]",
  "cursor": {
-  "commit": "8603fa0b601b738658d870874bbcc3aa72e5b4ea",
+  "commit": "b778ed01085209e29adf659a94b35feedab29609",
   "lineCounts": {
-   "supervisor": 29,
-   "consoleServer": 1,
-   "webRecon": 5,
-   "lighthouse": 5,
-   "stateReplica": 5,
-   "vercelBeacon": 5,
-   "gitlabPush": 3,
-   "pushLog": 2,
-   "sovereigntyDrill": 0,
-   "vaultDrill": 0
+   "supervisor": 500,
+   "consoleServer": 6,
+   "webRecon": 19,
+   "lighthouse": 7,
+   "stateReplica": 458,
+   "vercelBeacon": 200,
+   "gitlabPush": 58,
+   "pushLog": 68,
+   "sovereigntyDrill": 11,
+   "vaultDrill": 4
   },
-  "escalOpen": null,
-  "heartChain": "ae82950336c2245a26762ae4"
+  "escalOpen": 0,
+  "heartChain": "6565452ad35df6b784e168a1"
  },
  "recent": [
   {
@@ -48,25 +48,16 @@
    "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
   },
   {
-   "id": "gmv2jeslv",
-   "ts": "2026-10-10T15:16:37.853Z",
-   "kind": "report",
-   "title": "4 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-  },
-  {
-   "id": "gmv2khghs",
-   "ts": "2026-10-10T15:46:41.739Z",
+   "id": "gmv2jy171",
+   "ts": "2026-10-10T15:31:35.481Z",
    "kind": "report",
    "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
   },
   {
-   "id": "gmv2kxswb",
-   "ts": "2026-10-10T15:59:24.306Z",
+   "id": "gmv2lc7z0",
+   "ts": "2026-10-10T16:10:37.033Z",
    "kind": "report",
-   "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
-   "chain": {
-    "ok": false
-   }
+   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)"
   }
  ],
  "posts": [
@@ -186,49 +177,58 @@
    }
   },
   {
-   "id": "gmv2khghs",
-   "ts": "2026-10-10T15:46:41.739Z",
+   "id": "gmv2jy171",
+   "ts": "2026-10-10T15:31:35.481Z",
    "kind": "report",
    "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
    "lines": [
-    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain bf7e4619) [lighthouse]",
-    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain 407ea538) [lighthouse]",
-    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
-    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
-    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
-    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
-    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
     "· דחיפה-לענן: ? () [pushLog]",
-    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z"
+    "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
    ],
    "evidence": {
     "commits": 1,
-    "newReceiptLines": 19,
+    "newReceiptLines": 7,
     "escalOpen": null,
-    "heartChain": "ae82950336c2",
-    "head": "8603fa0b601b"
+    "heartChain": "e0b37d0577f7",
+    "head": "cf57fe17472c"
    }
   },
   {
-   "id": "gmv2kxswb",
-   "ts": "2026-10-10T15:59:24.306Z",
+   "id": "gmv2lc7z0",
+   "ts": "2026-10-10T16:10:37.033Z",
    "kind": "report",
-   "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
    "lines": [
-    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain ae829503) [lighthouse]"
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· תרגיל-כספת: פער! (?) [vaultDrill]",
+    "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
+    "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
+    "· שערים-חוסמים: 0 (היה ?) [escalations]",
+    "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
+    "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
+    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
+    "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
+    "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
+    "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
    ],
    "evidence": {
-    "commits": 0,
-    "newReceiptLines": 3,
-    "escalOpen": null,
-    "heartChain": "ae82950336c2",
-    "head": "8603fa0b601b"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
-    }
+    "commits": 6,
+    "newReceiptLines": 20,
+    "escalOpen": 0,
+    "heartChain": "6565452ad35d",
+    "head": "b778ed010852"
    }
   }
  ]
