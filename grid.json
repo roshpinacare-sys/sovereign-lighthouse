@@ -1,25 +1,25 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-10T13:10:16.198Z",
- "total": 1,
- "lastPostAt": "2026-10-10T13:10:16.198Z",
- "lastTitle": "5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+ "asof": "2026-10-10T13:47:56.665Z",
+ "total": 2,
+ "lastPostAt": "2026-10-10T13:47:56.665Z",
+ "lastTitle": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
  "cursor": {
-  "commit": "4f9787221ec880a39f3c15887a0165021dfbbb8f",
+  "commit": "8082cbb16d75659cee4fa0525d5887e4738b7ee4",
   "lineCounts": {
    "supervisor": 500,
    "consoleServer": 4,
-   "webRecon": 8,
+   "webRecon": 11,
    "lighthouse": 7,
-   "stateReplica": 447,
+   "stateReplica": 449,
    "vercelBeacon": 200,
-   "gitlabPush": 46,
-   "pushLog": 54,
+   "gitlabPush": 49,
+   "pushLog": 57,
    "sovereigntyDrill": 11,
    "vaultDrill": 2
   },
   "escalOpen": null,
-  "heartChain": "86017c410102468bef6b161f"
+  "heartChain": "4bfbc6e022e02563386e3d33"
  },
  "recent": [
   {
@@ -27,6 +27,12 @@
    "ts": "2026-10-10T13:10:16.198Z",
    "kind": "report",
    "title": "5 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+  },
+  {
+   "id": "gmv2g8qr1",
+   "ts": "2026-10-10T13:47:56.665Z",
+   "kind": "report",
+   "title": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
   }
  ]
 }
