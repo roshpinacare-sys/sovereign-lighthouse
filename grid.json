@@ -1,26 +1,26 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-10T16:10:37.033Z",
+ "asof": "2026-10-10T16:16:45.595Z",
  "total": 6,
- "lastPostAt": "2026-10-10T16:10:37.033Z",
- "lastTitle": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
- "lastSig": "[\"6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]\",\"· דחיפה-לגיטלאב אומתה () [gitlabPush]\",\"· דחיפה-לגיטלאב אומתה () [gitlabPush]\",\"· דחיפה-לגיטלאב אומתה () [gitlabPush]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· דחיפה-לענן: ? () [pushLog]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· דחיפה-לענן: ? () [pushLog]\",\"· תרגיל-כספת: פער! (?) [vaultDrill]\",\"· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]\",\"· משימת-מקור-ביומן: T-66-grid-single-child [worklog]\",\"· שערים-חוסמים: 0 (היה ?) [escalations]\",\"· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z\",\"· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z\",\"· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z\",\"· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית\",\"· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z\",\"· ועוד 1 קומיטים (זנב-מלא-בגיט)\"]]",
+ "lastPostAt": "2026-10-10T16:16:45.595Z",
+ "lastTitle": "10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)",
+ "lastSig": "[\"10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)\",[\"· משימת-מקור-ביומן: T-67-release [worklog]\",\"· שערים-חוסמים: 0 (היה ?) [escalations]\",\"· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z\",\"· commit: b9f2cb0 Merge branch 'main' of https://github.com/roshpinacare-sys/sanbox\",\"· commit: 8b1b16b [T-67] grid chain publication released: Hive posting authority deployed (bit-verified) + real broadcast in run.mjs (get_content-verified, honest receipts recorded:/chain-hive) + RC-mana economy + GRID_FORCE drill gate\",\"· commit: 0c01d7f HQ sync 2026-10-10T16:00:11.824Z\",\"· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z\",\"· ועוד 5 קומיטים (זנב-מלא-בגיט)\"]]",
  "cursor": {
-  "commit": "b778ed01085209e29adf659a94b35feedab29609",
+  "commit": "c238c1283acb46b4398ef86895805c0e525370a8",
   "lineCounts": {
-   "supervisor": 500,
-   "consoleServer": 6,
-   "webRecon": 19,
-   "lighthouse": 7,
-   "stateReplica": 458,
-   "vercelBeacon": 200,
-   "gitlabPush": 58,
-   "pushLog": 68,
-   "sovereigntyDrill": 11,
-   "vaultDrill": 4
+   "supervisor": 37,
+   "consoleServer": 1,
+   "webRecon": 6,
+   "lighthouse": 6,
+   "stateReplica": 7,
+   "vercelBeacon": 7,
+   "gitlabPush": 4,
+   "pushLog": 4,
+   "sovereigntyDrill": 0,
+   "vaultDrill": 0
   },
   "escalOpen": 0,
-  "heartChain": "6565452ad35df6b784e168a1"
+  "heartChain": "55ffecdda1fae5c282f95515"
  },
  "recent": [
   {
@@ -54,10 +54,13 @@
    "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
   },
   {
-   "id": "gmv2lc7z0",
-   "ts": "2026-10-10T16:10:37.033Z",
+   "id": "gmv2lk4cw",
+   "ts": "2026-10-10T16:16:45.595Z",
    "kind": "report",
-   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)"
+   "title": "10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)",
+   "chain": {
+    "ok": false
+   }
   }
  ],
  "posts": [
@@ -177,6 +180,52 @@
    }
   },
   {
+   "id": "gmv2khghs",
+   "ts": "2026-10-10T15:46:41.739Z",
+   "kind": "report",
+   "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain bf7e4619) [lighthouse]",
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain 407ea538) [lighthouse]",
+    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 19,
+    "escalOpen": null,
+    "heartChain": "ae82950336c2",
+    "head": "8603fa0b601b"
+   }
+  },
+  {
+   "id": "gmv2kxswb",
+   "ts": "2026-10-10T15:59:24.306Z",
+   "kind": "report",
+   "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+   "lines": [
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain ae829503) [lighthouse]"
+   ],
+   "evidence": {
+    "commits": 0,
+    "newReceiptLines": 3,
+    "escalOpen": null,
+    "heartChain": "ae82950336c2",
+    "head": "8603fa0b601b"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
+    }
+   }
+  },
+  {
    "id": "gmv2jy171",
    "ts": "2026-10-10T15:31:35.481Z",
    "kind": "report",
@@ -197,38 +246,32 @@
    }
   },
   {
-   "id": "gmv2lc7z0",
-   "ts": "2026-10-10T16:10:37.033Z",
+   "id": "gmv2lk4cw",
+   "ts": "2026-10-10T16:16:45.595Z",
    "kind": "report",
-   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
+   "title": "10 קומיטים: HQ sync 2026-10-10T16:04:59.527Z (+9 עוד)",
    "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· תרגיל-כספת: פער! (?) [vaultDrill]",
-    "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
-    "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
+    "· משימת-מקור-ביומן: T-67-release [worklog]",
     "· שערים-חוסמים: 0 (היה ?) [escalations]",
+    "· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z",
+    "· commit: b9f2cb0 Merge branch 'main' of https://github.com/roshpinacare-sys/sanbox",
+    "· commit: 8b1b16b [T-67] grid chain publication released: Hive posting authority deployed (bit-verified) + real broadcast in run.mjs (get_content-verified, honest receipts recorded:/chain-hive) + RC-mana economy + GRID_FORCE drill gate",
+    "· commit: 0c01d7f HQ sync 2026-10-10T16:00:11.824Z",
     "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
-    "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
-    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
-    "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
-    "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
-    "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
+    "· ועוד 5 קומיטים (זנב-מלא-בגיט)"
    ],
    "evidence": {
-    "commits": 6,
-    "newReceiptLines": 20,
+    "commits": 10,
+    "newReceiptLines": 2,
     "escalOpen": 0,
-    "heartChain": "6565452ad35d",
-    "head": "b778ed010852"
+    "heartChain": "55ffecdda1fa",
+    "head": "c238c1283acb"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1144382976 RC, needs 1349273890 RC. Please wait to transact or power up HIVE."
+    }
    }
   }
  ]
