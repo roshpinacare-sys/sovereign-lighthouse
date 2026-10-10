@@ -1,25 +1,25 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-10T13:47:56.665Z",
- "total": 2,
- "lastPostAt": "2026-10-10T13:47:56.665Z",
- "lastTitle": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+ "asof": "2026-10-10T14:17:59.262Z",
+ "total": 3,
+ "lastPostAt": "2026-10-10T14:17:59.262Z",
+ "lastTitle": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
  "cursor": {
-  "commit": "8082cbb16d75659cee4fa0525d5887e4738b7ee4",
+  "commit": "df20ddc37a4cd252a07da84ee9237ed4c41312ea",
   "lineCounts": {
    "supervisor": 500,
    "consoleServer": 4,
-   "webRecon": 11,
+   "webRecon": 13,
    "lighthouse": 7,
-   "stateReplica": 449,
+   "stateReplica": 451,
    "vercelBeacon": 200,
-   "gitlabPush": 49,
-   "pushLog": 57,
+   "gitlabPush": 52,
+   "pushLog": 59,
    "sovereigntyDrill": 11,
    "vaultDrill": 2
   },
   "escalOpen": null,
-  "heartChain": "4bfbc6e022e02563386e3d33"
+  "heartChain": "ee3335a97d5a0374af90ad99"
  },
  "recent": [
   {
@@ -33,6 +33,12 @@
    "ts": "2026-10-10T13:47:56.665Z",
    "kind": "report",
    "title": "7 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+  },
+  {
+   "id": "gmv2hbdnc",
+   "ts": "2026-10-10T14:17:59.262Z",
+   "kind": "report",
+   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
   }
  ],
  "posts": [
@@ -83,6 +89,30 @@
     "escalOpen": null,
     "heartChain": "4bfbc6e022e0",
     "head": "8082cbb16d75"
+   }
+  },
+  {
+   "id": "gmv2hbdnc",
+   "ts": "2026-10-10T14:17:59.262Z",
+   "kind": "report",
+   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 8082•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 92ef•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· commit: df20ddc HQ sync 2026-10-10T14:13:14.914Z",
+    "· commit: 92effe2 HQ sync 2026-10-10T13:48:05.082Z"
+   ],
+   "evidence": {
+    "commits": 2,
+    "newReceiptLines": 10,
+    "escalOpen": null,
+    "heartChain": "ee3335a97d5a",
+    "head": "df20ddc37a4c"
    }
   }
  ]
