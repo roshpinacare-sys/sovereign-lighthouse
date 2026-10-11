@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-11T22:29:02Z",
+ "generatedAt": "2026-10-11T23:08:26Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -328,6 +328,65 @@
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
   {
+   "at": "2026-10-11T23:08:26Z",
+   "sandboxLedgerLastLine": "- **P0-רוטציה-נרשם-ב-runbook** (§R-VAULTPASS-1): ההיסטוריה-עד-f5f4e81~1-מכילה-את-ה-passes-הישנים — איטום-מחדש-",
+   "sandboxLedgerBytes": 68567,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-11T23:02:57Z",
+     "msg": "R-VAULTPASS-1: inject STEEM_VAULT_PASSES into heartbeat job env (zai-code-3)"
+    },
+    {
+     "when": "2026-10-11T23:02:33Z",
+     "msg": "blurt-revival: receipt 2026-10-11T23:02:33Z [skip ci]"
+    },
+    {
+     "when": "2026-10-11T23:02:14Z",
+     "msg": "[zai-13b] blurt-revival honesty: 5 red runs (38148771443..38149406329, 14:49-14:"
+    },
+    {
+     "when": "2026-10-11T22:58:26Z",
+     "msg": "[zai-13b] commit-back hardening on top of A2/T-58: guard git rebase --abort (no-"
+    },
+    {
+     "when": "2026-10-11T20:52:42Z",
+     "msg": "fix(A2/T-58): commit-back honest-yield — conflict on machine-state = proof custo"
+    }
+   ],
+   "steemHead": 110359453,
+   "steemTime": "2026-10-11T23:08:24",
+   "fleetNetSp": {
+    "headcorner": 2925.6,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.1,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2925.6,
+   "hiveCornerstoneHp": 102442.1,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
+  {
    "at": "2026-10-11T22:29:02Z",
    "sandboxLedgerLastLine": "- **אנטי-דריסה:** /-מקומי-מפקדת-אורגניזם = zai-13-lane (בדיקת-דפדפן-בלבד, לא-עריכה) · Domain-office = zai-sec ",
    "sandboxLedgerBytes": 52483,
@@ -447,33 +506,33 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-11T22:29:02Z",
-  "sandboxLedgerLastLine": "- **אנטי-דריסה:** /-מקומי-מפקדת-אורגניזם = zai-13-lane (בדיקת-דפדפן-בלבד, לא-עריכה) · Domain-office = zai-sec ",
-  "sandboxLedgerBytes": 52483,
+  "at": "2026-10-11T23:08:26Z",
+  "sandboxLedgerLastLine": "- **P0-רוטציה-נרשם-ב-runbook** (§R-VAULTPASS-1): ההיסטוריה-עד-f5f4e81~1-מכילה-את-ה-passes-הישנים — איטום-מחדש-",
+  "sandboxLedgerBytes": 68567,
   "runtimeLatestCommits": [
+   {
+    "when": "2026-10-11T23:02:57Z",
+    "msg": "R-VAULTPASS-1: inject STEEM_VAULT_PASSES into heartbeat job env (zai-code-3)"
+   },
+   {
+    "when": "2026-10-11T23:02:33Z",
+    "msg": "blurt-revival: receipt 2026-10-11T23:02:33Z [skip ci]"
+   },
+   {
+    "when": "2026-10-11T23:02:14Z",
+    "msg": "[zai-13b] blurt-revival honesty: 5 red runs (38148771443..38149406329, 14:49-14:"
+   },
+   {
+    "when": "2026-10-11T22:58:26Z",
+    "msg": "[zai-13b] commit-back hardening on top of A2/T-58: guard git rebase --abort (no-"
+   },
    {
     "when": "2026-10-11T20:52:42Z",
     "msg": "fix(A2/T-58): commit-back honest-yield — conflict on machine-state = proof custo"
-   },
-   {
-    "when": "2026-10-11T18:56:48Z",
-    "msg": "blurt-revival: receipt 2026-10-11T18:56:48Z [skip ci]"
-   },
-   {
-    "when": "2026-10-11T16:01:24Z",
-    "msg": "hardened push-back: races lost to unstaged runner residuals twice (runs 249+252:"
-   },
-   {
-    "when": "2026-10-11T15:51:59Z",
-    "msg": "measured budget: heartbeat 20→30min — run 252 exceeded 20min (added R316-Z gate "
-   },
-   {
-    "when": "2026-10-11T15:16:03Z",
-    "msg": "blurt-revival: receipt 2026-10-11T15:16:03Z [skip ci]"
    }
   ],
-  "steemHead": 110358667,
-  "steemTime": "2026-10-11T22:29:00",
+  "steemHead": 110359453,
+  "steemTime": "2026-10-11T23:08:24",
   "fleetNetSp": {
    "headcorner": 2925.6,
    "cashmachine": 75.2,
@@ -500,7 +559,7 @@
    17.0
   ],
   "treasuryNetSp": 2925.6,
-  "hiveCornerstoneHp": 102441.9,
+  "hiveCornerstoneHp": 102442.1,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
