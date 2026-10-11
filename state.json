@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-11T19:26:25Z",
+ "generatedAt": "2026-10-11T22:29:02Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -328,6 +328,65 @@
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
   {
+   "at": "2026-10-11T22:29:02Z",
+   "sandboxLedgerLastLine": "- **אנטי-דריסה:** /-מקומי-מפקדת-אורגניזם = zai-13-lane (בדיקת-דפדפן-בלבד, לא-עריכה) · Domain-office = zai-sec ",
+   "sandboxLedgerBytes": 52483,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-11T20:52:42Z",
+     "msg": "fix(A2/T-58): commit-back honest-yield — conflict on machine-state = proof custo"
+    },
+    {
+     "when": "2026-10-11T18:56:48Z",
+     "msg": "blurt-revival: receipt 2026-10-11T18:56:48Z [skip ci]"
+    },
+    {
+     "when": "2026-10-11T16:01:24Z",
+     "msg": "hardened push-back: races lost to unstaged runner residuals twice (runs 249+252:"
+    },
+    {
+     "when": "2026-10-11T15:51:59Z",
+     "msg": "measured budget: heartbeat 20→30min — run 252 exceeded 20min (added R316-Z gate "
+    },
+    {
+     "when": "2026-10-11T15:16:03Z",
+     "msg": "blurt-revival: receipt 2026-10-11T15:16:03Z [skip ci]"
+    }
+   ],
+   "steemHead": 110358667,
+   "steemTime": "2026-10-11T22:29:00",
+   "fleetNetSp": {
+    "headcorner": 2925.6,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.1,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2925.6,
+   "hiveCornerstoneHp": 102441.9,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
+  {
    "at": "2026-10-11T19:26:25Z",
    "sandboxLedgerLastLine": "2026-10-11 | zai-code-3 | פנקסי-E: SOVEREIGN-REVIVAL (טריאז'-פתיחה-לכל-תיקייה-מושתקת) + GROWTH-PLAN (לולאת-ערך",
    "sandboxLedgerBytes": 17185,
@@ -388,10 +447,14 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-11T19:26:25Z",
-  "sandboxLedgerLastLine": "2026-10-11 | zai-code-3 | פנקסי-E: SOVEREIGN-REVIVAL (טריאז'-פתיחה-לכל-תיקייה-מושתקת) + GROWTH-PLAN (לולאת-ערך",
-  "sandboxLedgerBytes": 17185,
+  "at": "2026-10-11T22:29:02Z",
+  "sandboxLedgerLastLine": "- **אנטי-דריסה:** /-מקומי-מפקדת-אורגניזם = zai-13-lane (בדיקת-דפדפן-בלבד, לא-עריכה) · Domain-office = zai-sec ",
+  "sandboxLedgerBytes": 52483,
   "runtimeLatestCommits": [
+   {
+    "when": "2026-10-11T20:52:42Z",
+    "msg": "fix(A2/T-58): commit-back honest-yield — conflict on machine-state = proof custo"
+   },
    {
     "when": "2026-10-11T18:56:48Z",
     "msg": "blurt-revival: receipt 2026-10-11T18:56:48Z [skip ci]"
@@ -407,14 +470,10 @@
    {
     "when": "2026-10-11T15:16:03Z",
     "msg": "blurt-revival: receipt 2026-10-11T15:16:03Z [skip ci]"
-   },
-   {
-    "when": "2026-10-11T15:15:48Z",
-    "msg": "blurt dry-law fix: get_chain_id is NOT served by saboin (measured 2026-10-11, as"
    }
   ],
-  "steemHead": 110355029,
-  "steemTime": "2026-10-11T19:26:24",
+  "steemHead": 110358667,
+  "steemTime": "2026-10-11T22:29:00",
   "fleetNetSp": {
    "headcorner": 2925.6,
    "cashmachine": 75.2,
@@ -441,7 +500,7 @@
    17.0
   ],
   "treasuryNetSp": 2925.6,
-  "hiveCornerstoneHp": 102433.4,
+  "hiveCornerstoneHp": 102441.9,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
