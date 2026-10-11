@@ -1,329 +1,449 @@
 {
-  "schema": "roshpina.sovereign-beacon/1",
-  "pageVersion": "T-66c.1",
-  "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-10T17:55:46Z",
-  "commit": "lastKnown:5dbac5945e79",
-  "commitDate": "2026-10-10T17:55:46.698Z",
-  "branch": "sanbox-main",
-  "lastKnownAlive": {
-    "heartAt": "2026-10-10T17:55:46.698Z",
-    "heartChain": "67670f74ad0d4b6ed8b5a191",
-    "worklogSha12": "3f74e04c5565",
-    "memorySha12": "97a3f745e5df",
-    "vaultBytes": 6768
-  },
-  "memoryLayers": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
-  "grid": {
-    "posts": 9,
-    "lastPostAt": "2026-10-10T17:40:45.353Z",
-    "lastTitle": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
-    "recent": [
-      {
-        "id": "gmv2jy171",
-        "ts": "2026-10-10T15:31:35.481Z",
-        "kind": "report",
-        "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-      },
-      {
-        "id": "gmv2lc7z0",
-        "ts": "2026-10-10T16:10:37.033Z",
-        "kind": "report",
-        "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)"
-      },
-      {
-        "id": "gmv2mev0g",
-        "ts": "2026-10-10T16:40:39.822Z",
-        "kind": "report",
-        "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
-        "chain": {
-          "ok": false
-        }
-      },
-      {
-        "id": "gmv2nhi2e",
-        "ts": "2026-10-10T17:10:42.624Z",
-        "kind": "report",
-        "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
-        "chain": {
-          "ok": false
-        }
-      },
-      {
-        "id": "gmv2ok528",
-        "ts": "2026-10-10T17:40:45.353Z",
-        "kind": "report",
-        "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
-        "chain": {
-          "ok": false
-        }
-      }
-    ]
-  },
-  "gridPosts": [
-    {
-      "id": "gmv2hbdnc",
-      "ts": "2026-10-10T14:17:59.262Z",
-      "kind": "report",
-      "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-      "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 8082•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 92ef•) [stateReplica]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· commit: df20ddc HQ sync 2026-10-10T14:13:14.914Z",
-        "· commit: 92effe2 HQ sync 2026-10-10T13:48:05.082Z"
-      ],
-      "evidence": {
-        "commits": 2,
-        "newReceiptLines": 10,
-        "escalOpen": null,
-        "heartChain": "ee3335a97d5a",
-        "head": "df20ddc37a4c"
-      }
-    },
-    {
-      "id": "gmv2ie0jm",
-      "ts": "2026-10-10T14:48:01.864Z",
-      "kind": "report",
-      "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-      "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head df20•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· commit: 378f8fe HQ sync 2026-10-10T14:25:36.021Z",
-        "· commit: cb57ad6 T-66b: סקירה-חריפה-ועמוקה — שחרור-חסימות-שקריות (HQ-ריפוי-עצמי-בauth · גריד-נראה-בדף-החי) · דף-נולד-מהלב (buildPage · grid.json-פוסטים-מלאים · gridFp+pageVersion-בשער) · צינון-vercel-מעוגן (last403At) · תקרת-זנב-state-replica"
-      ],
-      "evidence": {
-        "commits": 2,
-        "newReceiptLines": 9,
-        "escalOpen": null,
-        "heartChain": "c9efca5d89a6",
-        "head": "378f8fe11670"
-      }
-    },
-    {
-      "id": "gmv2jeslv",
-      "ts": "2026-10-10T15:16:37.853Z",
-      "kind": "report",
-      "title": "4 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-      "lines": [
-        "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
-        "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
-        "· commit: 63b8b44 T-66: שער-הכספת-הקנוני (vault-guard-מול-הסיסמה-הבלועה — אסור-לדחוף-בלוב-שלא-נפתח) + פותר-rebase-ממוקד-במקום-X-theirs-עיוור (ריצה=מקומי·קוד/כספת=רחוק) — נגד-מלחמת-הבלובים-בין-המכונות (13:14-מעטפת-T-62-הוחזרה) + כספת-קנונית-מחדש (2-סודות·492B·37d4985c) + pat.env-משוחזר-מהארנק",
-        "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
-      ],
-      "evidence": {
-        "commits": 4,
-        "newReceiptLines": 1,
-        "escalOpen": null,
-        "heartChain": "bf7e461968e9",
-        "head": "181a1f83b2fd"
-      }
-    },
-    {
-      "id": "gmv2khghs",
-      "ts": "2026-10-10T15:46:41.739Z",
-      "kind": "report",
-      "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-      "lines": [
-        "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain bf7e4619) [lighthouse]",
-        "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain 407ea538) [lighthouse]",
-        "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
-        "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
-        "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
-        "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
-        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z"
-      ],
-      "evidence": {
-        "commits": 1,
-        "newReceiptLines": 19,
-        "escalOpen": null,
-        "heartChain": "ae82950336c2",
-        "head": "8603fa0b601b"
-      }
-    },
-    {
-      "id": "gmv2kxswb",
-      "ts": "2026-10-10T15:59:24.306Z",
-      "kind": "report",
-      "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
-      "lines": [
-        "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain ae829503) [lighthouse]"
-      ],
-      "evidence": {
-        "commits": 0,
-        "newReceiptLines": 3,
-        "escalOpen": null,
-        "heartChain": "ae82950336c2",
-        "head": "8603fa0b601b"
-      },
-      "chain": {
-        "hive": {
-          "ok": false,
-          "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
-        }
-      }
-    },
-    {
-      "id": "gmv2jy171",
-      "ts": "2026-10-10T15:31:35.481Z",
-      "kind": "report",
-      "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-      "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
-      ],
-      "evidence": {
-        "commits": 1,
-        "newReceiptLines": 7,
-        "escalOpen": null,
-        "heartChain": "e0b37d0577f7",
-        "head": "cf57fe17472c"
-      }
-    },
-    {
-      "id": "gmv2lc7z0",
-      "ts": "2026-10-10T16:10:37.033Z",
-      "kind": "report",
-      "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
-      "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· כשל-דחיפה: ? (?) [pushLog]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· כשל-דחיפה: ? (?) [pushLog]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· תרגיל-כספת: פער! (?) [vaultDrill]",
-        "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
-        "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
-        "· שערים-חוסמים: 0 (היה ?) [escalations]",
-        "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
-        "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
-        "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
-        "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
-        "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
-        "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
-      ],
-      "evidence": {
-        "commits": 6,
-        "newReceiptLines": 20,
-        "escalOpen": 0,
-        "heartChain": "6565452ad35d",
-        "head": "b778ed010852"
-      }
-    },
-    {
-      "id": "gmv2mev0g",
-      "ts": "2026-10-10T16:40:39.822Z",
-      "kind": "report",
-      "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
-      "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b778•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
-        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
-        "· משימת-מקור-ביומן: T-66c-final [worklog]",
-        "· commit: 0eb6a9e T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (vaultBlobContentMatches) · GitLab-הדביק-עד-d28ffa6",
-        "· commit: d28ffa6 T-66c: reseal-11-במפתח-הקנון-המאוחד + ריפוי-עצמי-משופר (בלוב-חייב-להכיל-את-התוכן-עצמו — קץ-מלחמת-הבלובים-הטכנית)",
-        "· commit: efd9984 HQ sync 2026-10-10T16:14:33.524Z",
-        "· commit: bda589d T-66c: חיסון-טעינה-עצמית-למפקח · גריד-סנכרוני-לפני-מגדלור · כותרות-מהותיות-וחיסון-כפילות · איחוד-מפתח-כספת-עם-ארנק-האם (reseal-11) · guard-נופל-בכבוד-לקנון-מקומי · escalations-אמת (SUPERSEDED/OPTIONAL) · עורקות-חיים-לקונסולה · סייר-10-נושאים",
-        "· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z",
-        "· ועוד 3 קומיטים (זנב-מלא-בגיט)"
-      ],
-      "evidence": {
-        "commits": 8,
-        "newReceiptLines": 14,
-        "escalOpen": 0,
-        "heartChain": "0c1beb31f5dc",
-        "head": "0eb6a9e3ce9c"
-      },
-      "chain": {
-        "hive": {
-          "ok": false,
-          "skipped": "no-key"
-        }
-      }
-    },
-    {
-      "id": "gmv2nhi2e",
-      "ts": "2026-10-10T17:10:42.624Z",
-      "kind": "report",
-      "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
-      "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
-        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· משימת-מקור-ביומן: T-66c-final [worklog]",
-        "· commit: 7809c89 HQ sync 2026-10-10T16:47:18.859Z"
-      ],
-      "evidence": {
-        "commits": 1,
-        "newReceiptLines": 7,
-        "escalOpen": 0,
-        "heartChain": "138aa9efa404",
-        "head": "7809c89f19a8"
-      },
-      "chain": {
-        "hive": {
-          "ok": false,
-          "skipped": "no-key"
-        }
-      }
-    },
-    {
-      "id": "gmv2ok528",
-      "ts": "2026-10-10T17:40:45.353Z",
-      "kind": "report",
-      "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
-      "lines": [
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
-        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]",
-        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-        "· דחיפה-לענן: ? () [pushLog]",
-        "· משימת-מקור-ביומן: T-66c-final [worklog]",
-        "· commit: b2ef891 HQ sync 2026-10-10T17:17:18.831Z"
-      ],
-      "evidence": {
-        "commits": 1,
-        "newReceiptLines": 7,
-        "escalOpen": 0,
-        "heartChain": "b659aa8c7256",
-        "head": "b2ef8918c752"
-      },
-      "chain": {
-        "hive": {
-          "ok": false,
-          "skipped": "no-key"
-        }
-      }
+ "schema": "roshpina.sovereign-beacon/1",
+ "pageVersion": "T-66c.1",
+ "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
+ "generatedAt": "2026-10-11T19:26:25Z",
+ "commit": "lastKnown:5dbac5945e79",
+ "commitDate": "2026-10-10T17:55:46.698Z",
+ "branch": "sanbox-main",
+ "lastKnownAlive": {
+  "heartAt": "2026-10-10T17:55:46.698Z",
+  "heartChain": "67670f74ad0d4b6ed8b5a191",
+  "worklogSha12": "3f74e04c5565",
+  "memorySha12": "97a3f745e5df",
+  "vaultBytes": 6768
+ },
+ "memoryLayers": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+ "grid": {
+  "posts": 9,
+  "lastPostAt": "2026-10-10T17:40:45.353Z",
+  "lastTitle": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
+  "recent": [
+   {
+    "id": "gmv2jy171",
+    "ts": "2026-10-10T15:31:35.481Z",
+    "kind": "report",
+    "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
+   },
+   {
+    "id": "gmv2lc7z0",
+    "ts": "2026-10-10T16:10:37.033Z",
+    "kind": "report",
+    "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)"
+   },
+   {
+    "id": "gmv2mev0g",
+    "ts": "2026-10-10T16:40:39.822Z",
+    "kind": "report",
+    "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
+    "chain": {
+     "ok": false
     }
+   },
+   {
+    "id": "gmv2nhi2e",
+    "ts": "2026-10-10T17:10:42.624Z",
+    "kind": "report",
+    "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
+    "chain": {
+     "ok": false
+    }
+   },
+   {
+    "id": "gmv2ok528",
+    "ts": "2026-10-10T17:40:45.353Z",
+    "kind": "report",
+    "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
+    "chain": {
+     "ok": false
+    }
+   }
+  ]
+ },
+ "gridPosts": [
+  {
+   "id": "gmv2hbdnc",
+   "ts": "2026-10-10T14:17:59.262Z",
+   "kind": "report",
+   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 8082•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 92ef•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· commit: df20ddc HQ sync 2026-10-10T14:13:14.914Z",
+    "· commit: 92effe2 HQ sync 2026-10-10T13:48:05.082Z"
+   ],
+   "evidence": {
+    "commits": 2,
+    "newReceiptLines": 10,
+    "escalOpen": null,
+    "heartChain": "ee3335a97d5a",
+    "head": "df20ddc37a4c"
+   }
+  },
+  {
+   "id": "gmv2ie0jm",
+   "ts": "2026-10-10T14:48:01.864Z",
+   "kind": "report",
+   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head df20•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· commit: 378f8fe HQ sync 2026-10-10T14:25:36.021Z",
+    "· commit: cb57ad6 T-66b: סקירה-חריפה-ועמוקה — שחרור-חסימות-שקריות (HQ-ריפוי-עצמי-בauth · גריד-נראה-בדף-החי) · דף-נולד-מהלב (buildPage · grid.json-פוסטים-מלאים · gridFp+pageVersion-בשער) · צינון-vercel-מעוגן (last403At) · תקרת-זנב-state-replica"
+   ],
+   "evidence": {
+    "commits": 2,
+    "newReceiptLines": 9,
+    "escalOpen": null,
+    "heartChain": "c9efca5d89a6",
+    "head": "378f8fe11670"
+   }
+  },
+  {
+   "id": "gmv2jeslv",
+   "ts": "2026-10-10T15:16:37.853Z",
+   "kind": "report",
+   "title": "4 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
+    "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
+    "· commit: 63b8b44 T-66: שער-הכספת-הקנוני (vault-guard-מול-הסיסמה-הבלועה — אסור-לדחוף-בלוב-שלא-נפתח) + פותר-rebase-ממוקד-במקום-X-theirs-עיוור (ריצה=מקומי·קוד/כספת=רחוק) — נגד-מלחמת-הבלובים-בין-המכונות (13:14-מעטפת-T-62-הוחזרה) + כספת-קנונית-מחדש (2-סודות·492B·37d4985c) + pat.env-משוחזר-מהארנק",
+    "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
+   ],
+   "evidence": {
+    "commits": 4,
+    "newReceiptLines": 1,
+    "escalOpen": null,
+    "heartChain": "bf7e461968e9",
+    "head": "181a1f83b2fd"
+   }
+  },
+  {
+   "id": "gmv2khghs",
+   "ts": "2026-10-10T15:46:41.739Z",
+   "kind": "report",
+   "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain bf7e4619) [lighthouse]",
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain 407ea538) [lighthouse]",
+    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
+    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
+    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 19,
+    "escalOpen": null,
+    "heartChain": "ae82950336c2",
+    "head": "8603fa0b601b"
+   }
+  },
+  {
+   "id": "gmv2kxswb",
+   "ts": "2026-10-10T15:59:24.306Z",
+   "kind": "report",
+   "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
+   "lines": [
+    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain ae829503) [lighthouse]"
+   ],
+   "evidence": {
+    "commits": 0,
+    "newReceiptLines": 3,
+    "escalOpen": null,
+    "heartChain": "ae82950336c2",
+    "head": "8603fa0b601b"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
+    }
+   }
+  },
+  {
+   "id": "gmv2jy171",
+   "ts": "2026-10-10T15:31:35.481Z",
+   "kind": "report",
+   "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 7,
+    "escalOpen": null,
+    "heartChain": "e0b37d0577f7",
+    "head": "cf57fe17472c"
+   }
+  },
+  {
+   "id": "gmv2lc7z0",
+   "ts": "2026-10-10T16:10:37.033Z",
+   "kind": "report",
+   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· תרגיל-כספת: פער! (?) [vaultDrill]",
+    "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
+    "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
+    "· שערים-חוסמים: 0 (היה ?) [escalations]",
+    "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
+    "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
+    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
+    "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
+    "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
+    "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
+   ],
+   "evidence": {
+    "commits": 6,
+    "newReceiptLines": 20,
+    "escalOpen": 0,
+    "heartChain": "6565452ad35d",
+    "head": "b778ed010852"
+   }
+  },
+  {
+   "id": "gmv2mev0g",
+   "ts": "2026-10-10T16:40:39.822Z",
+   "kind": "report",
+   "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b778•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
+    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: 0eb6a9e T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (vaultBlobContentMatches) · GitLab-הדביק-עד-d28ffa6",
+    "· commit: d28ffa6 T-66c: reseal-11-במפתח-הקנון-המאוחד + ריפוי-עצמי-משופר (בלוב-חייב-להכיל-את-התוכן-עצמו — קץ-מלחמת-הבלובים-הטכנית)",
+    "· commit: efd9984 HQ sync 2026-10-10T16:14:33.524Z",
+    "· commit: bda589d T-66c: חיסון-טעינה-עצמית-למפקח · גריד-סנכרוני-לפני-מגדלור · כותרות-מהותיות-וחיסון-כפילות · איחוד-מפתח-כספת-עם-ארנק-האם (reseal-11) · guard-נופל-בכבוד-לקנון-מקומי · escalations-אמת (SUPERSEDED/OPTIONAL) · עורקות-חיים-לקונסולה · סייר-10-נושאים",
+    "· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z",
+    "· ועוד 3 קומיטים (זנב-מלא-בגיט)"
+   ],
+   "evidence": {
+    "commits": 8,
+    "newReceiptLines": 14,
+    "escalOpen": 0,
+    "heartChain": "0c1beb31f5dc",
+    "head": "0eb6a9e3ce9c"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
+  },
+  {
+   "id": "gmv2nhi2e",
+   "ts": "2026-10-10T17:10:42.624Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
+    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: 7809c89 HQ sync 2026-10-10T16:47:18.859Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 7,
+    "escalOpen": 0,
+    "heartChain": "138aa9efa404",
+    "head": "7809c89f19a8"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
+  },
+  {
+   "id": "gmv2ok528",
+   "ts": "2026-10-10T17:40:45.353Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· דחיפה-לענן: ? () [pushLog]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: b2ef891 HQ sync 2026-10-10T17:17:18.831Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 7,
+    "escalOpen": 0,
+    "heartChain": "b659aa8c7256",
+    "head": "b2ef8918c752"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
+  }
+ ],
+ "escalations": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+ "fleet": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+ "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+ "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+ "pulses": [
+  {
+   "at": "2026-10-11T19:26:25Z",
+   "sandboxLedgerLastLine": "2026-10-11 | zai-code-3 | פנקסי-E: SOVEREIGN-REVIVAL (טריאז'-פתיחה-לכל-תיקייה-מושתקת) + GROWTH-PLAN (לולאת-ערך",
+   "sandboxLedgerBytes": 17185,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-11T18:56:48Z",
+     "msg": "blurt-revival: receipt 2026-10-11T18:56:48Z [skip ci]"
+    },
+    {
+     "when": "2026-10-11T16:01:24Z",
+     "msg": "hardened push-back: races lost to unstaged runner residuals twice (runs 249+252:"
+    },
+    {
+     "when": "2026-10-11T15:51:59Z",
+     "msg": "measured budget: heartbeat 20→30min — run 252 exceeded 20min (added R316-Z gate "
+    },
+    {
+     "when": "2026-10-11T15:16:03Z",
+     "msg": "blurt-revival: receipt 2026-10-11T15:16:03Z [skip ci]"
+    },
+    {
+     "when": "2026-10-11T15:15:48Z",
+     "msg": "blurt dry-law fix: get_chain_id is NOT served by saboin (measured 2026-10-11, as"
+    }
+   ],
+   "steemHead": 110355029,
+   "steemTime": "2026-10-11T19:26:24",
+   "fleetNetSp": {
+    "headcorner": 2925.6,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.1,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2925.6,
+   "hiveCornerstoneHp": 102433.4,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  }
+ ],
+ "lastPulse": {
+  "at": "2026-10-11T19:26:25Z",
+  "sandboxLedgerLastLine": "2026-10-11 | zai-code-3 | פנקסי-E: SOVEREIGN-REVIVAL (טריאז'-פתיחה-לכל-תיקייה-מושתקת) + GROWTH-PLAN (לולאת-ערך",
+  "sandboxLedgerBytes": 17185,
+  "runtimeLatestCommits": [
+   {
+    "when": "2026-10-11T18:56:48Z",
+    "msg": "blurt-revival: receipt 2026-10-11T18:56:48Z [skip ci]"
+   },
+   {
+    "when": "2026-10-11T16:01:24Z",
+    "msg": "hardened push-back: races lost to unstaged runner residuals twice (runs 249+252:"
+   },
+   {
+    "when": "2026-10-11T15:51:59Z",
+    "msg": "measured budget: heartbeat 20→30min — run 252 exceeded 20min (added R316-Z gate "
+   },
+   {
+    "when": "2026-10-11T15:16:03Z",
+    "msg": "blurt-revival: receipt 2026-10-11T15:16:03Z [skip ci]"
+   },
+   {
+    "when": "2026-10-11T15:15:48Z",
+    "msg": "blurt dry-law fix: get_chain_id is NOT served by saboin (measured 2026-10-11, as"
+   }
   ],
-  "escalations": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
-  "fleet": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
-  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
-  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]"
+  "steemHead": 110355029,
+  "steemTime": "2026-10-11T19:26:24",
+  "fleetNetSp": {
+   "headcorner": 2925.6,
+   "cashmachine": 75.2,
+   "haran": 78.4,
+   "israelnews": 94.0,
+   "lsa": 79.8,
+   "macrame": 75.1,
+   "siq": 31.1,
+   "tov": 31.2,
+   "wic": 32.7,
+   "wog": 11.9,
+   "woq": 70.0,
+   "hcsoldier1": 0.0,
+   "hcsoldier2": 0.0,
+   "hcsoldier3": 0.0,
+   "hcsoldier4": 17.0,
+   "hcsoldier5": 17.0,
+   "hcsoldier6": 17.0
+  },
+  "minOperatorSp": 11.9,
+  "soldierSp": [
+   17.0,
+   17.0,
+   17.0
+  ],
+  "treasuryNetSp": 2925.6,
+  "hiveCornerstoneHp": 102433.4,
+  "hiveCornerstoneLiquid": 13036.5,
+  "degraded": false,
+  "degradedWhy": []
+ }
 }
