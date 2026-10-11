@@ -13,28 +13,7 @@
     "memorySha12": "97a3f745e5df",
     "vaultBytes": 6768
   },
-  "memoryLayers": [
-    {
-      "layer": "github",
-      "detail": "roshpinacare-sys/sanbox"
-    },
-    {
-      "layer": "gitlab",
-      "detail": "roshpinacare/sanbox"
-    },
-    {
-      "layer": "postgres",
-      "detail": "Supabase sovereign_state (state-replica)"
-    },
-    {
-      "layer": "lighthouse",
-      "detail": "הכתובת-הזו — מוכתבת-מהלב-אוטומטית (T-60)"
-    },
-    {
-      "layer": "gitlab-ci",
-      "detail": "ממתין-לאימות-זהות-הבעלים (escalations)"
-    }
-  ],
+  "memoryLayers": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
   "grid": {
     "posts": 9,
     "lastPostAt": "2026-10-10T17:40:45.353Z",
@@ -343,43 +322,8 @@
       }
     }
   ],
-  "escalations": [
-    {
-      "id": "vercel-token-read-only",
-      "status": "SUPERSEDED — ורסל-היה-עותק-מיותר-של-המגד",
-      "gate": "POST /v13/deployments + POST /v9/projects → 403 (טוקן-קריאה-בלבד)",
-      "needed": "אופציונלי-בלבד: אם-וורסל-עדיין-רצוי — טוקן-ב-scope-מלא (deployments:create+projects:create) ב-secrets/vercel.keys; אחרת-אפס-פעולה-נדרשת"
-    },
-    {
-      "id": "gitlab-ci-identity-verification",
-      "status": "OPEN-OPTIONAL — שיפור-אצולה; אפס-תלות-רי",
-      "gate": "CI-jobs=0 · POST-pipeline→400 \"Identity verification is required\" · runner-עצמאי-57265759-polling→403",
-      "needed": "אופציונלי-בלבד: אימות-זהות-בדשבורד-GitLab (כרטיס/טלפון) — פותח-צופה-CI-שובה-לב-אך-לא-דבר-נוסף"
-    },
-    {
-      "id": "github-pages-plan",
-      "status": "RESOLVED-BY-BYPASS — המגדלור-הריבוני-חי",
-      "gate": "POST /repos/sanbox/pages → 422 \"plan does not support GitHub Pages\" — רלוונטי-לריפו-פרטי-בלבד",
-      "needed": "—אין"
-    }
-  ],
-  "fleet": {
-    "runner": "GitLab runner 57265759 (self-healing via boot-all.sh)",
-    "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
-    "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות",
-    "webSense": "T-62: חיפוש-ריבוני (Tavily x2 · 200) + קריאת-דפים (Jina · 200) — אטום-בכספת · scripts/web-sense.mjs",
-    "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
-    "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
-    "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 9 · אחרון: 1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
-    "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
-  },
-  "awakening": [
-    "1. הגיט-הוא-הקוד-המלא: שני-עננים-נושאים-sanbox + vault/vault-backup.enc (AES-256-GCM)",
-    "2. שחזור-כספת: bun scripts/vault-restore.ts — המפתח: HQ_VAULT_PASS (hq.password אצל-Head-Corner · וב-~/.sovereign/guardian.env לאוטונומיה-מלאה-לאחר-התקנת-השומר)",
-    "3. הצתה: sh sanbox/scripts/boot-all.sh — סודות→כספת→מפקח→שומר→HQ-3010",
-    "4. זיכרון-חוץ-מכונה: bun scripts/state-replica.mjs pull",
-    "5. ההתחדשות-אוטומטית: קומיט=הצתה; הלב-פועם-כל-15-דקות ומכתיב-את-המגדלור-הזה"
-  ],
-  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה"
+  "escalations": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+  "fleet": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
+  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]"
 }
