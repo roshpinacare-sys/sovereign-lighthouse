@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-12T21:26:54Z",
+ "generatedAt": "2026-10-12T22:49:55Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,61 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-12T22:49:55Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-12T22:28:01Z",
+     "msg": "23-g: capture beat CI-HEARTBEAT verdict into engine-tree state (23-f rescue PUTs"
+    },
+    {
+     "when": "2026-10-12T22:06:28Z",
+     "msg": "watchdog: 6 reds @ 2026-10-12T22:06:28Z"
+    },
+    {
+     "when": "2026-10-12T21:42:17Z",
+     "msg": "23-f: move retired repair-rot2-custody.yml out of .github/workflows (kills zero-"
+    },
+    {
+     "when": "2026-10-12T21:40:14Z",
+     "msg": "23-f: last-mile API rescue in Commit-state-back (beat verdict survives reconcile"
+    },
+    {
+     "when": "2026-10-12T21:38:30Z",
+     "msg": "custody-recover: receipt 2026-10-12T21:38:30Z [skip ci]"
+    }
+   ],
+   "steemHead": 110387779,
+   "steemTime": "2026-10-12T22:49:54",
+   "fleetNetSp": {
+    "headcorner": 2830.0,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.2,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 0.0,
+   "soldierSp": [],
+   "treasuryNetSp": null,
+   "hiveCornerstoneHp": 102466.7,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-12T21:26:54Z",
    "runtimeLatestCommits": [
@@ -1375,31 +1430,31 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-12T21:26:54Z",
+  "at": "2026-10-12T22:49:55Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-12T21:10:46Z",
-    "msg": "watchdog: 6 reds @ 2026-10-12T21:10:45Z"
+    "when": "2026-10-12T22:28:01Z",
+    "msg": "23-g: capture beat CI-HEARTBEAT verdict into engine-tree state (23-f rescue PUTs"
    },
    {
-    "when": "2026-10-12T21:10:07Z",
-    "msg": "pulse: add watchdog tick step (dispatch grid-watchdog when due; if:always; fail-"
+    "when": "2026-10-12T22:06:28Z",
+    "msg": "watchdog: 6 reds @ 2026-10-12T22:06:28Z"
    },
    {
-    "when": "2026-10-12T21:10:05Z",
-    "msg": "watchdog: add due-gate step (full observe only when due; 30min red / 120min gree"
+    "when": "2026-10-12T21:42:17Z",
+    "msg": "23-f: move retired repair-rot2-custody.yml out of .github/workflows (kills zero-"
    },
    {
-    "when": "2026-10-12T21:05:34Z",
-    "msg": "custody-recover: receipt 2026-10-12T21:05:34Z [skip ci]"
+    "when": "2026-10-12T21:40:14Z",
+    "msg": "23-f: last-mile API rescue in Commit-state-back (beat verdict survives reconcile"
    },
    {
-    "when": "2026-10-12T21:05:06Z",
-    "msg": "2-a custody-recover: install steem lib for the run (probe.cjs chain-judge helper"
+    "when": "2026-10-12T21:38:30Z",
+    "msg": "custody-recover: receipt 2026-10-12T21:38:30Z [skip ci]"
    }
   ],
-  "steemHead": 110386127,
-  "steemTime": "2026-10-12T21:26:54",
+  "steemHead": 110387779,
+  "steemTime": "2026-10-12T22:49:54",
   "fleetNetSp": {
    "headcorner": 2830.0,
    "cashmachine": 75.2,
@@ -1407,10 +1462,10 @@
    "israelnews": 94.0,
    "lsa": 79.8,
    "macrame": 75.2,
-   "siq": 38.8,
-   "tov": 41.9,
+   "siq": 31.1,
+   "tov": 31.2,
    "wic": 32.7,
-   "wog": 89.3,
+   "wog": 11.9,
    "woq": 70.0,
    "hcsoldier1": 0.0,
    "hcsoldier2": 0.0,
@@ -1422,7 +1477,7 @@
   "minOperatorSp": 0.0,
   "soldierSp": [],
   "treasuryNetSp": null,
-  "hiveCornerstoneHp": 102466.3,
+  "hiveCornerstoneHp": 102466.7,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
