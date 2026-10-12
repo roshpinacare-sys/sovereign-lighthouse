@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-12T02:20:31Z",
+ "generatedAt": "2026-10-12T03:46:00Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,65 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-12T03:46:00Z",
+   "sandboxLedgerLastLine": ">>>>>>> 64a2a6d (T-65 scope registered: grid-credential + census-v2 + hive-flow (anti-trample, before saos-run",
+   "sandboxLedgerBytes": 115653,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-12T03:38:32Z",
+     "msg": "key-census-v2: MATCH-ACTIVE-OTHER · archives=2 · seeds=317 · matches=47 2026-10-"
+    },
+    {
+     "when": "2026-10-12T03:36:47Z",
+     "msg": "[zai-16] treasury-ladder workflow: clean npm artifacts before rebase-yield (meas"
+    },
+    {
+     "when": "2026-10-12T03:25:37Z",
+     "msg": "[zai-16] treasury-ladder workflow: canary ignition of the treasury income artery"
+    },
+    {
+     "when": "2026-10-12T03:18:45Z",
+     "msg": "sovereign-runtime: the HIVE BEAT — custody → rail + community loop via the engin"
+    },
+    {
+     "when": "2026-10-12T03:18:22Z",
+     "msg": "census-v2: phased derivation (A-jackpot headcorner/cornerstone actives first), n"
+    }
+   ],
+   "steemHead": 110364985,
+   "steemTime": "2026-10-12T03:46:00",
+   "fleetNetSp": {
+    "headcorner": 2925.7,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.1,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2925.7,
+   "hiveCornerstoneHp": 102445.9,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
   {
    "at": "2026-10-12T02:20:31Z",
    "sandboxLedgerLastLine": "- **grid-provenance:** ה-FLAG-של-receipts/grid נסגר-במקור (runId/runUrl/sha — חוזה-fleet/flow).",
@@ -683,33 +742,33 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-12T02:20:31Z",
-  "sandboxLedgerLastLine": "- **grid-provenance:** ה-FLAG-של-receipts/grid נסגר-במקור (runId/runUrl/sha — חוזה-fleet/flow).",
-  "sandboxLedgerBytes": 110673,
+  "at": "2026-10-12T03:46:00Z",
+  "sandboxLedgerLastLine": ">>>>>>> 64a2a6d (T-65 scope registered: grid-credential + census-v2 + hive-flow (anti-trample, before saos-run",
+  "sandboxLedgerBytes": 115653,
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-12T02:06:41Z",
-    "msg": "[zai-16a] escrow workflow fix: ESM deps installed into the checkout (NODE_PATH d"
+    "when": "2026-10-12T03:38:32Z",
+    "msg": "key-census-v2: MATCH-ACTIVE-OTHER · archives=2 · seeds=317 · matches=47 2026-10-"
    },
    {
-    "when": "2026-10-12T02:04:19Z",
-    "msg": "[zai-16a] probe->library (module exports, guarded main) + resolve-keys (in-run b"
+    "when": "2026-10-12T03:36:47Z",
+    "msg": "[zai-16] treasury-ladder workflow: clean npm artifacts before rebase-yield (meas"
    },
    {
-    "when": "2026-10-12T01:56:15Z",
-    "msg": "key-census-probe: MATCH-OTHER · matches=27 · candidates=27 2026-10-12T01:56:15Z "
+    "when": "2026-10-12T03:25:37Z",
+    "msg": "[zai-16] treasury-ladder workflow: canary ignition of the treasury income artery"
    },
    {
-    "when": "2026-10-12T01:55:51Z",
-    "msg": "[zai-16a] key-census-probe: verify-only census of in-machine key material (GEN-2"
+    "when": "2026-10-12T03:18:45Z",
+    "msg": "sovereign-runtime: the HIVE BEAT — custody → rail + community loop via the engin"
    },
    {
-    "when": "2026-10-12T01:40:23Z",
-    "msg": "digest dedupe fix (exec-19-a/Z-19-c): list-based dedupe — search lacked is:issue"
+    "when": "2026-10-12T03:18:22Z",
+    "msg": "census-v2: phased derivation (A-jackpot headcorner/cornerstone actives first), n"
    }
   ],
-  "steemHead": 110363282,
-  "steemTime": "2026-10-12T02:20:30",
+  "steemHead": 110364985,
+  "steemTime": "2026-10-12T03:46:00",
   "fleetNetSp": {
    "headcorner": 2925.7,
    "cashmachine": 75.2,
@@ -736,7 +795,7 @@
    17.0
   ],
   "treasuryNetSp": 2925.7,
-  "hiveCornerstoneHp": 102445.5,
+  "hiveCornerstoneHp": 102445.9,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
