@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-12T09:44:09Z",
+ "generatedAt": "2026-10-12T11:15:42Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,65 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-12T11:15:42Z",
+   "sandboxLedgerLastLine": "- **דחיפות:** Sandbox 66612a8+c9c804e+a00b6fc · saos-runtime b7e80d6+d417ada+52b8499. הכל-בדקות-ציבוריות-חינם,",
+   "sandboxLedgerBytes": 119493,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-12T06:01:07Z",
+     "msg": "blurt-revival: receipt 2026-10-12T06:01:07Z [skip ci]"
+    },
+    {
+     "when": "2026-10-12T03:57:12Z",
+     "msg": "T-65 grid-arming wire: secret-first STEEM_ACTIVE_WIF -> chain-judged 0600 creden"
+    },
+    {
+     "when": "2026-10-12T03:38:32Z",
+     "msg": "key-census-v2: MATCH-ACTIVE-OTHER · archives=2 · seeds=317 · matches=47 2026-10-"
+    },
+    {
+     "when": "2026-10-12T03:36:47Z",
+     "msg": "[zai-16] treasury-ladder workflow: clean npm artifacts before rebase-yield (meas"
+    },
+    {
+     "when": "2026-10-12T03:25:37Z",
+     "msg": "[zai-16] treasury-ladder workflow: canary ignition of the treasury income artery"
+    }
+   ],
+   "steemHead": 110373949,
+   "steemTime": "2026-10-12T11:15:42",
+   "fleetNetSp": {
+    "headcorner": 2925.7,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.1,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2925.7,
+   "hiveCornerstoneHp": 102453.7,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
   {
    "at": "2026-10-12T09:44:09Z",
    "sandboxLedgerLastLine": "- **דחיפות:** Sandbox 66612a8+c9c804e+a00b6fc · saos-runtime b7e80d6+d417ada+52b8499. הכל-בדקות-ציבוריות-חינם,",
@@ -978,7 +1037,7 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-12T09:44:09Z",
+  "at": "2026-10-12T11:15:42Z",
   "sandboxLedgerLastLine": "- **דחיפות:** Sandbox 66612a8+c9c804e+a00b6fc · saos-runtime b7e80d6+d417ada+52b8499. הכל-בדקות-ציבוריות-חינם,",
   "sandboxLedgerBytes": 119493,
   "runtimeLatestCommits": [
@@ -1003,8 +1062,8 @@
     "msg": "[zai-16] treasury-ladder workflow: canary ignition of the treasury income artery"
    }
   ],
-  "steemHead": 110372124,
-  "steemTime": "2026-10-12T09:44:09",
+  "steemHead": 110373949,
+  "steemTime": "2026-10-12T11:15:42",
   "fleetNetSp": {
    "headcorner": 2925.7,
    "cashmachine": 75.2,
@@ -1031,7 +1090,7 @@
    17.0
   ],
   "treasuryNetSp": 2925.7,
-  "hiveCornerstoneHp": 102453.2,
+  "hiveCornerstoneHp": 102453.7,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
