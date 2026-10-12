@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-12T01:15:08Z",
+ "generatedAt": "2026-10-12T02:20:31Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -328,6 +328,65 @@
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
   {
+   "at": "2026-10-12T02:20:31Z",
+   "sandboxLedgerLastLine": "- **grid-provenance:** ה-FLAG-של-receipts/grid נסגר-במקור (runId/runUrl/sha — חוזה-fleet/flow).",
+   "sandboxLedgerBytes": 110673,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-12T02:06:41Z",
+     "msg": "[zai-16a] escrow workflow fix: ESM deps installed into the checkout (NODE_PATH d"
+    },
+    {
+     "when": "2026-10-12T02:04:19Z",
+     "msg": "[zai-16a] probe->library (module exports, guarded main) + resolve-keys (in-run b"
+    },
+    {
+     "when": "2026-10-12T01:56:15Z",
+     "msg": "key-census-probe: MATCH-OTHER · matches=27 · candidates=27 2026-10-12T01:56:15Z "
+    },
+    {
+     "when": "2026-10-12T01:55:51Z",
+     "msg": "[zai-16a] key-census-probe: verify-only census of in-machine key material (GEN-2"
+    },
+    {
+     "when": "2026-10-12T01:40:23Z",
+     "msg": "digest dedupe fix (exec-19-a/Z-19-c): list-based dedupe — search lacked is:issue"
+    }
+   ],
+   "steemHead": 110363282,
+   "steemTime": "2026-10-12T02:20:30",
+   "fleetNetSp": {
+    "headcorner": 2925.7,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.1,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2925.7,
+   "hiveCornerstoneHp": 102445.5,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
+  {
    "at": "2026-10-12T01:15:08Z",
    "sandboxLedgerLastLine": "- **דיסציפלינה:** 7-commits ב-4-ריפואים (Sandbox e87c42cf·6cb00b30·8a8fd027·62fba649 · FleetHQ d752fd6d+da7dd6",
    "sandboxLedgerBytes": 104090,
@@ -624,35 +683,35 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-12T01:15:08Z",
-  "sandboxLedgerLastLine": "- **דיסציפלינה:** 7-commits ב-4-ריפואים (Sandbox e87c42cf·6cb00b30·8a8fd027·62fba649 · FleetHQ d752fd6d+da7dd6",
-  "sandboxLedgerBytes": 104090,
+  "at": "2026-10-12T02:20:31Z",
+  "sandboxLedgerLastLine": "- **grid-provenance:** ה-FLAG-של-receipts/grid נסגר-במקור (runId/runUrl/sha — חוזה-fleet/flow).",
+  "sandboxLedgerBytes": 110673,
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-12T00:22:56Z",
-    "msg": "custody(N5/T-63): fee-engine runner workflow - the roshpina kernel cycles LIVE o"
+    "when": "2026-10-12T02:06:41Z",
+    "msg": "[zai-16a] escrow workflow fix: ESM deps installed into the checkout (NODE_PATH d"
    },
    {
-    "when": "2026-10-12T00:11:11Z",
-    "msg": "custody(N1/T-63): gen2-rotation one-shot workflow - the runner itself rotates th"
+    "when": "2026-10-12T02:04:19Z",
+    "msg": "[zai-16a] probe->library (module exports, guarded main) + resolve-keys (in-run b"
    },
    {
-    "when": "2026-10-12T00:04:30Z",
-    "msg": "custody(N1/T-63): gen2-rotation one-shot workflow - the runner itself rotates th"
+    "when": "2026-10-12T01:56:15Z",
+    "msg": "key-census-probe: MATCH-OTHER · matches=27 · candidates=27 2026-10-12T01:56:15Z "
    },
    {
-    "when": "2026-10-11T23:40:59Z",
-    "msg": "blurt-revival: receipt 2026-10-11T23:40:59Z [skip ci]"
+    "when": "2026-10-12T01:55:51Z",
+    "msg": "[zai-16a] key-census-probe: verify-only census of in-machine key material (GEN-2"
    },
    {
-    "when": "2026-10-11T23:02:57Z",
-    "msg": "R-VAULTPASS-1: inject STEEM_VAULT_PASSES into heartbeat job env (zai-code-3)"
+    "when": "2026-10-12T01:40:23Z",
+    "msg": "digest dedupe fix (exec-19-a/Z-19-c): list-based dedupe — search lacked is:issue"
    }
   ],
-  "steemHead": 110361978,
-  "steemTime": "2026-10-12T01:15:06",
+  "steemHead": 110363282,
+  "steemTime": "2026-10-12T02:20:30",
   "fleetNetSp": {
-   "headcorner": 2925.6,
+   "headcorner": 2925.7,
    "cashmachine": 75.2,
    "haran": 78.4,
    "israelnews": 94.0,
@@ -676,8 +735,8 @@
    17.0,
    17.0
   ],
-  "treasuryNetSp": 2925.6,
-  "hiveCornerstoneHp": 102442.8,
+  "treasuryNetSp": 2925.7,
+  "hiveCornerstoneHp": 102445.5,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
