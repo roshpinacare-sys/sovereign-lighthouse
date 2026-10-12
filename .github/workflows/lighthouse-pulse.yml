@@ -24,6 +24,7 @@ jobs:
       - name: Measure live truth (public, keyless)
         env:
           GH_TOKEN: ${{ github.token }}
+          FLEET_ROSTER_MAP: ${{ secrets.FLEET_ROSTER_MAP }}
         run: |
           python3 - <<'PY'
           import json, os, time, urllib.request
@@ -60,6 +61,32 @@ jobs:
 
           pulse = {"at": NOW}
 
+          # refs layer (estate-pseudonym law, wave 19): the roster travels as refs only.
+          # Real chain names resolve from FLEET_ROSTER_MAP (repo secret) — nested
+          # {refs:{ref:name}} / {names:{name:ref}} / flat shapes accepted. Unresolved =
+          # honest degraded pulse: NO name-keyed fleet data written, NEVER a fabricated name.
+          ROSTER_MAP = {}
+          try:
+              _m = json.loads(os.environ.get("FLEET_ROSTER_MAP", "") or "{}")
+              if isinstance(_m, dict):
+                  for _k, _v in (_m.get("refs") or {}).items():
+                      if isinstance(_k, str) and isinstance(_v, str): ROSTER_MAP[_k] = _v
+                  for _k, _v in (_m.get("names") or {}).items():
+                      if isinstance(_k, str) and isinstance(_v, str): ROSTER_MAP[_v] = _k
+                  for _k, _v in _m.items():
+                      if isinstance(_k, str) and isinstance(_v, str):
+                          if _k.startswith("acct-"): ROSTER_MAP[_k] = _v
+                          else: ROSTER_MAP[_v] = _k
+          except Exception:
+              ROSTER_MAP = {}
+          ACC_REFS = ["acct-00", "acct-01", "acct-02", "acct-03", "acct-04", "acct-05",
+                      "acct-06", "acct-07", "acct-08", "acct-09", "acct-10",
+                      "acct-15", "acct-16", "acct-17", "acct-11", "acct-12", "acct-13"]
+          HIVE_REF = "acct-18"
+          SOLDIER_REFS = {"acct-11", "acct-12", "acct-13", "acct-15", "acct-16", "acct-17"}
+          def ref_of(name):
+              return ROSTER_MAP.get(str(name), str(name))
+
           # 1. Sandbox heartbeat proof (public raw)
           st, b = fetch("https://raw.githubusercontent.com/roshpinacare-sys/Sandbox/main/ops/AGENT-LEDGER.md")
           if st == 200:
@@ -82,25 +109,31 @@ jobs:
               k = num(dp["total_vesting_fund_steem"]) / num(dp["total_vesting_shares"])
               pulse["steemHead"] = dp.get("head_block_number")
               pulse["steemTime"] = dp.get("time")
-              ACCS = ["headcorner", "cashmachine", "haran", "israelnews", "lsa", "macrame",
-                      "siq", "tov", "wic", "wog", "woq",
-                      "hcsoldier1", "hcsoldier2", "hcsoldier3", "hcsoldier4", "hcsoldier5", "hcsoldier6"]
-              accs = rpc("https://api.steemit.com", "get_accounts", [ACCS]) or []
-              fleet = {}
-              for a in accs:
-                  if not a:
-                      continue
-                  net = (num(a["vesting_shares"]) + num(a["received_vesting_shares"])
-                         - num(a["delegated_vesting_shares"])) * k
-                  fleet[a["name"]] = round(net, 1)
-              pulse["fleetNetSp"] = fleet
-              ops_net = [v for n, v in fleet.items() if n not in ("headcorner",) and not n.startswith("hcsoldier")]
-              sol_net = [v for n, v in fleet.items() if n.startswith("hcsoldier") and v > 0]
-              pulse["minOperatorSp"] = min(ops_net) if ops_net else None
-              pulse["soldierSp"] = sol_net
-              pulse["treasuryNetSp"] = fleet.get("headcorner")
-          # 4. Hive cornerstone
-          ha = rpc("https://api.hive.blog", "get_accounts", [["cornerstone"]])
+              ACCS = [ROSTER_MAP.get(r) for r in ACC_REFS]
+              if any(a is None for a in ACCS):
+                  degraded.append("fleet-roster:FLEET_ROSTER_MAP-unresolved — fleet floors skipped honestly (refs layer, wave 19; never fabricate)")
+                  pulse["rosterResolved"] = False
+              else:
+                  accs = rpc("https://api.steemit.com", "get_accounts", [ACCS]) or []
+                  fleet = {}
+                  for a in accs:
+                      if not a:
+                          continue
+                      net = (num(a["vesting_shares"]) + num(a["received_vesting_shares"])
+                             - num(a["delegated_vesting_shares"])) * k
+                      fleet[ref_of(a["name"])] = round(net, 1)   # scrub-at-write: books are public, refs only
+                  pulse["fleetNetSp"] = fleet
+                  ops_net = [v for n, v in fleet.items() if n != "acct-00" and n not in SOLDIER_REFS]
+                  sol_net = [v for n, v in fleet.items() if n in SOLDIER_REFS and v > 0]
+                  pulse["minOperatorSp"] = min(ops_net) if ops_net else None
+                  pulse["soldierSp"] = sol_net
+                  pulse["treasuryNetSp"] = fleet.get("acct-00")
+          # 4. Hive cornerstone (acct-18 ref, decoded via the refs layer)
+          HIVE_ACC = ROSTER_MAP.get(HIVE_REF)
+          ha = rpc("https://api.hive.blog", "get_accounts", [[HIVE_ACC]]) if HIVE_ACC else None
+          if not HIVE_ACC:
+              degraded.append("hive-roster:acct-18-unresolved — hive floors skipped honestly (never fabricate)")
+              pulse["rosterResolved"] = False
           if ha and ha[0]:
               hdp = rpc("https://api.hive.blog", "get_dynamic_global_properties", [])
               if hdp:

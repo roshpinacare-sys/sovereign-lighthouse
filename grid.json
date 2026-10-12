@@ -358,7 +358,7 @@
    "chain": {
     "hive": {
      "ok": false,
-     "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
+     "error": "payer has not enough RC mana for transaction:has_mana: Account: acct-00 has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
     }
    }
   },
