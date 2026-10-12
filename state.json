@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-12T19:47:02Z",
+ "generatedAt": "2026-10-12T21:26:54Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,61 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-12T21:26:54Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-12T21:10:46Z",
+     "msg": "watchdog: 6 reds @ 2026-10-12T21:10:45Z"
+    },
+    {
+     "when": "2026-10-12T21:10:07Z",
+     "msg": "pulse: add watchdog tick step (dispatch grid-watchdog when due; if:always; fail-"
+    },
+    {
+     "when": "2026-10-12T21:10:05Z",
+     "msg": "watchdog: add due-gate step (full observe only when due; 30min red / 120min gree"
+    },
+    {
+     "when": "2026-10-12T21:05:34Z",
+     "msg": "custody-recover: receipt 2026-10-12T21:05:34Z [skip ci]"
+    },
+    {
+     "when": "2026-10-12T21:05:06Z",
+     "msg": "2-a custody-recover: install steem lib for the run (probe.cjs chain-judge helper"
+    }
+   ],
+   "steemHead": 110386127,
+   "steemTime": "2026-10-12T21:26:54",
+   "fleetNetSp": {
+    "headcorner": 2830.0,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.2,
+    "siq": 38.8,
+    "tov": 41.9,
+    "wic": 32.7,
+    "wog": 89.3,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 0.0,
+   "soldierSp": [],
+   "treasuryNetSp": null,
+   "hiveCornerstoneHp": 102466.3,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-12T19:47:02Z",
    "runtimeLatestCommits": [
@@ -1320,42 +1375,42 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-12T19:47:02Z",
+  "at": "2026-10-12T21:26:54Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-12T17:21:39Z",
-    "msg": "[zai-19] estate refs wave (19-c): roster travels as refs (acct-NN) — zero estate"
+    "when": "2026-10-12T21:10:46Z",
+    "msg": "watchdog: 6 reds @ 2026-10-12T21:10:45Z"
    },
    {
-    "when": "2026-10-12T17:19:06Z",
-    "msg": "ignition closure (22-e-3): roster check counts custody ROLES — headcorner=master"
+    "when": "2026-10-12T21:10:07Z",
+    "msg": "pulse: add watchdog tick step (dispatch grid-watchdog when due; if:always; fail-"
    },
    {
-    "when": "2026-10-12T16:48:38Z",
-    "msg": "owner-key-adopt: remove stray pre-broadcast exit block (was injected mid-sequenc"
+    "when": "2026-10-12T21:10:05Z",
+    "msg": "watchdog: add due-gate step (full observe only when due; 30min red / 120min gree"
    },
    {
-    "when": "2026-10-12T16:44:06Z",
-    "msg": "owner-key-adopt: pubkey serialization = 33 raw bytes (fc public_key_data; checks"
+    "when": "2026-10-12T21:05:34Z",
+    "msg": "custody-recover: receipt 2026-10-12T21:05:34Z [skip ci]"
    },
    {
-    "when": "2026-10-12T16:40:41Z",
-    "msg": "owner-key-adopt: op id 43 (steem-js wire map, empirically anchored: vote=0 recov"
+    "when": "2026-10-12T21:05:06Z",
+    "msg": "2-a custody-recover: install steem lib for the run (probe.cjs chain-judge helper"
    }
   ],
-  "steemHead": 110384138,
-  "steemTime": "2026-10-12T19:47:03",
+  "steemHead": 110386127,
+  "steemTime": "2026-10-12T21:26:54",
   "fleetNetSp": {
-   "headcorner": 2925.8,
+   "headcorner": 2830.0,
    "cashmachine": 75.2,
    "haran": 78.4,
    "israelnews": 94.0,
    "lsa": 79.8,
    "macrame": 75.2,
-   "siq": 31.1,
-   "tov": 31.2,
+   "siq": 38.8,
+   "tov": 41.9,
    "wic": 32.7,
-   "wog": 11.9,
+   "wog": 89.3,
    "woq": 70.0,
    "hcsoldier1": 0.0,
    "hcsoldier2": 0.0,
@@ -1367,7 +1422,7 @@
   "minOperatorSp": 0.0,
   "soldierSp": [],
   "treasuryNetSp": null,
-  "hiveCornerstoneHp": 102459.7,
+  "hiveCornerstoneHp": 102466.3,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
