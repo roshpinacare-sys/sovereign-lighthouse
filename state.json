@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-12T16:29:00Z",
+ "generatedAt": "2026-10-12T18:01:18Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,61 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-12T18:01:18Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-12T17:21:39Z",
+     "msg": "[zai-19] estate refs wave (19-c): roster travels as refs (acct-NN) — zero estate"
+    },
+    {
+     "when": "2026-10-12T17:19:06Z",
+     "msg": "ignition closure (22-e-3): roster check counts custody ROLES — headcorner=master"
+    },
+    {
+     "when": "2026-10-12T16:48:38Z",
+     "msg": "owner-key-adopt: remove stray pre-broadcast exit block (was injected mid-sequenc"
+    },
+    {
+     "when": "2026-10-12T16:44:06Z",
+     "msg": "owner-key-adopt: pubkey serialization = 33 raw bytes (fc public_key_data; checks"
+    },
+    {
+     "when": "2026-10-12T16:40:41Z",
+     "msg": "owner-key-adopt: op id 43 (steem-js wire map, empirically anchored: vote=0 recov"
+    }
+   ],
+   "steemHead": 110382031,
+   "steemTime": "2026-10-12T18:01:18",
+   "fleetNetSp": {
+    "headcorner": 2925.8,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.2,
+    "siq": 31.1,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 0.0,
+   "soldierSp": [],
+   "treasuryNetSp": null,
+   "hiveCornerstoneHp": 102459.1,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-12T16:29:00Z",
    "runtimeLatestCommits": [
@@ -1155,58 +1210,54 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-12T16:29:00Z",
+  "at": "2026-10-12T18:01:18Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-12T16:28:56Z",
-    "msg": "owner-key-adopt: manual BigInt low-S normalization (FC canonical law) — fixes hi"
+    "when": "2026-10-12T17:21:39Z",
+    "msg": "[zai-19] estate refs wave (19-c): roster travels as refs (acct-NN) — zero estate"
    },
    {
-    "when": "2026-10-12T16:20:10Z",
-    "msg": "owner-key-adopt: dry-run debug (txbytes, derived, per-node verify_authority)"
+    "when": "2026-10-12T17:19:06Z",
+    "msg": "ignition closure (22-e-3): roster check counts custody ROLES — headcorner=master"
    },
    {
-    "when": "2026-10-12T16:15:28Z",
-    "msg": "owner-key-adopt: manual graphene tx builder (op id 35, FC sig layout [recid+31]|"
+    "when": "2026-10-12T16:48:38Z",
+    "msg": "owner-key-adopt: remove stray pre-broadcast exit block (was injected mid-sequenc"
    },
    {
-    "when": "2026-10-12T16:05:59Z",
-    "msg": "evolution: daily digest 2026-10-12 [skip ci]"
+    "when": "2026-10-12T16:44:06Z",
+    "msg": "owner-key-adopt: pubkey serialization = 33 raw bytes (fc public_key_data; checks"
    },
    {
-    "when": "2026-10-12T16:02:35Z",
-    "msg": "T-68 custody hardening: custodyPut accumulates ALL rotated material (per-account"
+    "when": "2026-10-12T16:40:41Z",
+    "msg": "owner-key-adopt: op id 43 (steem-js wire map, empirically anchored: vote=0 recov"
    }
   ],
-  "steemHead": 110380192,
-  "steemTime": "2026-10-12T16:29:00",
+  "steemHead": 110382031,
+  "steemTime": "2026-10-12T18:01:18",
   "fleetNetSp": {
-   "acct-00": 2925.8,
-   "acct-01": 75.2,
-   "acct-02": 78.4,
-   "acct-03": 94.0,
-   "acct-04": 79.8,
-   "acct-05": 75.2,
-   "acct-06": 31.1,
-   "acct-07": 31.2,
-   "acct-08": 32.7,
-   "acct-09": 11.9,
-   "acct-10": 70.0,
-   "acct-15": 0.0,
-   "acct-16": 0.0,
-   "acct-17": 0.0,
-   "acct-11": 17.0,
-   "acct-12": 17.0,
-   "acct-13": 17.0
+   "headcorner": 2925.8,
+   "cashmachine": 75.2,
+   "haran": 78.4,
+   "israelnews": 94.0,
+   "lsa": 79.8,
+   "macrame": 75.2,
+   "siq": 31.1,
+   "tov": 31.2,
+   "wic": 32.7,
+   "wog": 11.9,
+   "woq": 70.0,
+   "hcsoldier1": 0.0,
+   "hcsoldier2": 0.0,
+   "hcsoldier3": 0.0,
+   "hcsoldier4": 17.0,
+   "hcsoldier5": 17.0,
+   "hcsoldier6": 17.0
   },
-  "minOperatorSp": 11.9,
-  "soldierSp": [
-   17.0,
-   17.0,
-   17.0
-  ],
-  "treasuryNetSp": 2925.8,
-  "hiveCornerstoneHp": 102458.6,
+  "minOperatorSp": 0.0,
+  "soldierSp": [],
+  "treasuryNetSp": null,
+  "hiveCornerstoneHp": 102459.1,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
