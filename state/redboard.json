@@ -1,11 +1,19 @@
 {
- "schema": "estate-redboard/1",
- "at": "2026-10-13T23:30:40.444Z",
+ "schema": "estate-redboard/2",
+ "at": "2026-10-13T23:54:41.391Z",
  "redKeys": [
+  "Domain|anchor-execute",
   "Console|estate-scrub",
-  "Sandbox|identity-guard"
+  "Autonomy|claims-intake"
  ],
  "red": {
+  "Domain|anchor-execute": {
+   "repo": "Domain",
+   "workflow": "anchor-execute",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-13T23:53:40Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38486975639"
+  },
   "Console|estate-scrub": {
    "repo": "Console",
    "workflow": "estate-scrub",
@@ -13,16 +21,33 @@
    "lastAt": "2026-10-13T23:09:13Z",
    "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38482457461"
   },
-  "Sandbox|identity-guard": {
-   "repo": "Sandbox",
-   "workflow": "identity-guard",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-13T21:57:43Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38474422148"
+  "Autonomy|claims-intake": {
+   "repo": "Autonomy",
+   "workflow": "claims-intake",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-13T23:33:01Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38484924988"
   }
  },
+ "stasisKeys": [],
+ "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-13T23:54:41.391Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|identity-guard"
+  },
+  {
+   "at": "2026-10-13T23:54:41.391Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|claims-intake"
+  },
+  {
+   "at": "2026-10-13T23:54:41.391Z",
+   "kind": "NEW-RED",
+   "key": "Domain|anchor-execute"
+  },
   {
    "at": "2026-10-13T23:26:38.230Z",
    "kind": "RECOVERED",
