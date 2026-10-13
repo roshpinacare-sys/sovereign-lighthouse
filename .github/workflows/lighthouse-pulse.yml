@@ -84,8 +84,15 @@ jobs:
                       "acct-15", "acct-16", "acct-17", "acct-11", "acct-12", "acct-13"]
           HIVE_REF = "acct-18"
           SOLDIER_REFS = {"acct-11", "acct-12", "acct-13", "acct-15", "acct-16", "acct-17"}
+          # [refs-direction repair 2026-10-13] ROSTER_MAP builds ref→name in every accepted
+          # shape (refs/nested/flat — measured live). The fleet floors read ref→name (ACCS),
+          # but ref_of() and scrub_text() were reading the SAME map in the WRONG direction:
+          # ref_of(name) missed → published raw chain names into the public book, and
+          # scrub_text replaced refs→names (inverted). Fix: derive NAME_TO_REF and speak refs
+          # everywhere at write time; unknown words pass through unchanged (never fabricate).
+          NAME_TO_REF = {v: k for k, v in ROSTER_MAP.items() if k != v}
           def ref_of(name):
-              return ROSTER_MAP.get(str(name), str(name))
+              return NAME_TO_REF.get(str(name), str(name))
 
           # 3-c scrub-at-write for VERBATIM upstream text: commit messages mirrored
           # from saos-runtime may quote estate account names in prose (measured leak
@@ -94,16 +101,16 @@ jobs:
           # refs scrub here — boundary-guarded, case-insensitive; unknown words pass.
           def scrub_text(t):
               out = str(t)
-              for _name, _ref in ROSTER_MAP.items():
+              for _name in sorted(NAME_TO_REF, key=len, reverse=True):
                   out = re.sub(r"(?<![A-Za-z0-9])" + re.escape(_name) + r"(?![A-Za-z0-9])",
-                               _ref, out, flags=re.IGNORECASE)
+                               NAME_TO_REF[_name], out, flags=re.IGNORECASE)
               return out
 
           # 1. Sandbox heartbeat proof (public raw)
           st, b = fetch("https://raw.githubusercontent.com/roshpinacare-sys/Sandbox/main/ops/AGENT-LEDGER.md")
           if st == 200:
               lines = [l for l in b.decode("utf-8", "replace").strip().splitlines() if l.strip()]
-              pulse["sandboxLedgerLastLine"] = lines[-1][:110] if lines else ""
+              pulse["sandboxLedgerLastLine"] = scrub_text(lines[-1][:110]) if lines else ""  # [refs-law] scrub-at-write
               pulse["sandboxLedgerBytes"] = len(b)
           # 2. saos-runtime latest receipts (authenticated read of public repo)
           tok = os.environ.get("GH_TOKEN", "")
@@ -166,6 +173,7 @@ jobs:
           prev.insert(0, pulse)
           state["pulses"] = prev[:40]
           state["lastPulse"] = pulse
+          state = json.loads(scrub_text(json.dumps(state)))  # [refs-law] whole-book scrub-at-write (also heals historic pulses)
           with open("state.json", "w", encoding="utf-8") as f:
               json.dump(state, f, ensure_ascii=False, indent=1)
 
@@ -185,6 +193,7 @@ jobs:
               grid["recent"] = entries[:40]
           grid["asof"] = NOW
           grid["pulseCount"] = grid.get("pulseCount", 0) + 1
+          grid = json.loads(scrub_text(json.dumps(grid)))  # [refs-law] whole-book scrub-at-write
           with open("grid.json", "w", encoding="utf-8") as f:
               json.dump(grid, f, ensure_ascii=False, indent=1)
           print("PULSE-OK", title)
