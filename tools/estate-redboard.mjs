@@ -20,6 +20,15 @@ const STATE_FILE = "state/redboard.json";
 const ISSUE_TITLE = "estate red board — the network's live red set";
 const WINDOW_MIN = 95;
 
+// R324-EXAMINE-FIX (trace 1a1379e13145bd25): the office fell while everything was
+// "green" — a green-dead flow (success exit-0 + skipped main work step) is invisible
+// to failure-based alerting. The board now probes green-dead states directly:
+// (repo, workflow, main-step-fragment) — if the latest run is a success AND the main
+// work step was skipped, that is STASIS: measured, shown, transitioned.
+const STASIS_PROBES = [
+  { repo: "saos-runtime", workflow: "treasury-ladder", step: "Treasury ladder cycle" },
+];
+
 const H = (t) => ({
   Authorization: `Bearer ${t}`,
   Accept: "application/vnd.github+json",
@@ -52,6 +61,7 @@ async function scan() {
   const since = new Date(Date.now() - WINDOW_MIN * 60_000).toISOString();
   const red = new Map();
   const stale = [];
+  const stasis = new Map();
   const skipped = [];
   for (const r of repos) {
     const { status, json } = await api(
@@ -83,8 +93,22 @@ async function scan() {
         else stale.push(entry);
       }
     }
+    // green-dead probe (R324-EXAMINE-FIX): success + skipped main step = STASIS
+    for (const probe of STASIS_PROBES) {
+      if (r.name !== probe.repo) continue;
+      for (const [wf, w] of byWf) {
+        if (wf !== probe.workflow || w.lastRun?.conclusion !== "success" || !w.lastRun?.id) continue;
+        const { status, json } = await api(`${API}/repos/${OWNER}/${r.name}/actions/runs/${w.lastRun.id}/jobs?per_page=10`);
+        if (status !== 200 || !Array.isArray(json.jobs)) continue;
+        const skippedMain = (json.jobs).some((j) => (j.steps || []).some((s) => s.conclusion === "skipped" && s.name.includes(probe.step)));
+        if (skippedMain) stasis.set(`${r.name}|${wf}`, {
+          repo: r.name, workflow: wf, lastAt: w.lastAt, url: w.lastRun.html_url || "",
+          why: `green run with "${probe.step}" skipped — the organ is idle, not working`,
+        });
+      }
+    }
   }
-  return { red, stale, skipped, reposScanned: repos.length };
+  return { red, stale, stasis, skipped, reposScanned: repos.length };
 }
 
 function prevBoard() {
@@ -110,9 +134,9 @@ async function upsertIssue(body) {
   return { number: num, updated: true };
 }
 
-function render(red, transitions, meta, stale) {
+function render(red, transitions, meta, stale, stasis) {
   const L = [];
-  L.push(`**${new Date().toISOString()}** — ${meta.reposScanned} repos scanned (window ${WINDOW_MIN}min) · red=${red.size}`);
+  L.push(`**${new Date().toISOString()}** — ${meta.reposScanned} repos scanned (window ${WINDOW_MIN}min) · red=${red.size} · stasis=${stasis?.size || 0}`);
   L.push("");
   if (red.size === 0) {
     L.push("✅ **estate clean — no workflow's latest run is red.**");
@@ -125,6 +149,12 @@ function render(red, transitions, meta, stale) {
   if (stale?.length) {
     L.push("", "### stale (last run failed before the window; no newer run — covenanted or dormant)");
     for (const r of stale) L.push(`- \`${r.repo}|${r.workflow}\` — last red ${r.lastAt}`);
+  }
+  if (stasis?.size) {
+    L.push("", "### 🟡 STASIS — green-but-idle (the blind spot that killed the office: success exits, work skipped)");
+    L.push("", "| repo | workflow | last run | why |", "|---|---|---|---|");
+    for (const s of stasis.values())
+      L.push(`| ${s.repo} | ${s.workflow} | ${s.lastAt} | ${s.why} |`);
   }
   if (transitions.length) {
     L.push("", "### transitions (state-based alerting — the only history that matters)");
@@ -141,31 +171,37 @@ function render(red, transitions, meta, stale) {
 
 async function main() {
   const at = new Date().toISOString();
-  const { red, stale, skipped, reposScanned } = await scan();
+  const { red, stale, stasis, skipped, reposScanned } = await scan();
   const prev = prevBoard();
   const prevSet = new Set(prev.redKeys || []);
   const curSet = new Set([...red.keys()]);
+  const prevStasisSet = new Set((prev.stasisKeys || []).map((k) => `stasis:${k}`));
+  const curStasisSet = new Set([...stasis.keys()].map((k) => `stasis:${k}`));
   const transitions = [...(prev.transitions || [])];
   let changed = false;
   for (const k of curSet) if (!prevSet.has(k)) { transitions.unshift({ at, kind: "NEW-RED", key: k }); changed = true; }
   for (const k of prevSet) if (!curSet.has(k)) { transitions.unshift({ at, kind: "RECOVERED", key: k }); changed = true; }
+  for (const k of curStasisSet) if (!prevStasisSet.has(k)) { transitions.unshift({ at, kind: "NEW-STASIS", key: k }); changed = true; }
+  for (const k of prevStasisSet) if (!curStasisSet.has(k)) { transitions.unshift({ at, kind: "STASIS-CLEARED", key: k }); changed = true; }
   const trimmed = transitions.slice(0, 50);
 
   const board = {
-    schema: "estate-redboard/1", at,
+    schema: "estate-redboard/2", at,
     redKeys: [...curSet],
     red: Object.fromEntries([...red.entries()]),
+    stasisKeys: [...stasis.keys()],
+    stasis: Object.fromEntries([...stasis.entries()]),
     stale,
     transitions: trimmed,
   };
   fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
   fs.writeFileSync(STATE_FILE, JSON.stringify(board, null, 1) + "\n");
 
-  const body = render(red, trimmed, { reposScanned, skipped }, stale);
+  const body = render(red, trimmed, { reposScanned, skipped }, stale, stasis);
   let issue = "not-touched";
   try { issue = await upsertIssue(body); } catch (e) { issue = `issue-error: ${e.message}`; }
 
-  console.log(`redboard: red=${red.size} changed=${changed} issue=${typeof issue === "object" ? `#${issue.number}` : issue} at=${at}`);
+  console.log(`redboard: red=${red.size} stasis=${stasis.size} changed=${changed} issue=${typeof issue === "object" ? `#${issue.number}` : issue} at=${at}`);
   // anti-flood law: exit 0 ALWAYS — the commit + issue are the alarms
 }
 
