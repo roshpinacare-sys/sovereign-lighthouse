@@ -87,6 +87,18 @@ jobs:
           def ref_of(name):
               return ROSTER_MAP.get(str(name), str(name))
 
+          # 3-c scrub-at-write for VERBATIM upstream text: commit messages mirrored
+          # from saos-runtime may quote estate account names in prose (measured leak
+          # class: "roster check counts custody ROLES - <name>=master" landed in
+          # pulses[].runtimeLatestCommits). Every mirrored string passes through the
+          # refs scrub here — boundary-guarded, case-insensitive; unknown words pass.
+          def scrub_text(t):
+              out = str(t)
+              for _name, _ref in ROSTER_MAP.items():
+                  out = re.sub(r"(?<![A-Za-z0-9])" + re.escape(_name) + r"(?![A-Za-z0-9])",
+                               _ref, out, flags=re.IGNORECASE)
+              return out
+
           # 1. Sandbox heartbeat proof (public raw)
           st, b = fetch("https://raw.githubusercontent.com/roshpinacare-sys/Sandbox/main/ops/AGENT-LEDGER.md")
           if st == 200:
@@ -100,7 +112,8 @@ jobs:
           if st == 200:
               cs = json.loads(b)
               pulse["runtimeLatestCommits"] = [
-                  {"when": c["commit"]["author"]["date"], "msg": c["commit"]["message"].split("\n")[0][:80]}
+                  {"when": c["commit"]["author"]["date"],
+                   "msg": scrub_text(c["commit"]["message"].split("\n")[0][:80])}
                   for c in cs
               ]
           # 3. Steem fleet floors — the living measured truth

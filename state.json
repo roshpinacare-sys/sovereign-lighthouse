@@ -354,7 +354,7 @@
    "steemHead": 110387779,
    "steemTime": "2026-10-12T22:49:54",
    "fleetNetSp": {
-    "headcorner": 2830.0,
+    "acct-00": 2830.0,
     "cashmachine": 75.2,
     "haran": 78.4,
     "israelnews": 94.0,
@@ -409,7 +409,7 @@
    "steemHead": 110386127,
    "steemTime": "2026-10-12T21:26:54",
    "fleetNetSp": {
-    "headcorner": 2830.0,
+    "acct-00": 2830.0,
     "cashmachine": 75.2,
     "haran": 78.4,
     "israelnews": 94.0,
@@ -446,7 +446,7 @@
     },
     {
      "when": "2026-10-12T17:19:06Z",
-     "msg": "ignition closure (22-e-3): roster check counts custody ROLES — headcorner=master"
+     "msg": "ignition closure (22-e-3): roster check counts custody ROLES — acct-00=master"
     },
     {
      "when": "2026-10-12T16:48:38Z",
@@ -464,7 +464,7 @@
    "steemHead": 110384138,
    "steemTime": "2026-10-12T19:47:03",
    "fleetNetSp": {
-    "headcorner": 2925.8,
+    "acct-00": 2925.8,
     "cashmachine": 75.2,
     "haran": 78.4,
     "israelnews": 94.0,
@@ -501,7 +501,7 @@
     },
     {
      "when": "2026-10-12T17:19:06Z",
-     "msg": "ignition closure (22-e-3): roster check counts custody ROLES — headcorner=master"
+     "msg": "ignition closure (22-e-3): roster check counts custody ROLES — acct-00=master"
     },
     {
      "when": "2026-10-12T16:48:38Z",
@@ -519,7 +519,7 @@
    "steemHead": 110383825,
    "steemTime": "2026-10-12T19:31:21",
    "fleetNetSp": {
-    "headcorner": 2925.8,
+    "acct-00": 2925.8,
     "cashmachine": 75.2,
     "haran": 78.4,
     "israelnews": 94.0,
@@ -556,7 +556,7 @@
     },
     {
      "when": "2026-10-12T17:19:06Z",
-     "msg": "ignition closure (22-e-3): roster check counts custody ROLES — headcorner=master"
+     "msg": "ignition closure (22-e-3): roster check counts custody ROLES — acct-00=master"
     },
     {
      "when": "2026-10-12T16:48:38Z",
@@ -574,7 +574,7 @@
    "steemHead": 110382031,
    "steemTime": "2026-10-12T18:01:18",
    "fleetNetSp": {
-    "headcorner": 2925.8,
+    "acct-00": 2925.8,
     "cashmachine": 75.2,
     "haran": 78.4,
     "israelnews": 94.0,
@@ -1456,7 +1456,7 @@
   "steemHead": 110387779,
   "steemTime": "2026-10-12T22:49:54",
   "fleetNetSp": {
-   "headcorner": 2830.0,
+   "acct-00": 2830.0,
    "cashmachine": 75.2,
    "haran": 78.4,
    "israelnews": 94.0,
