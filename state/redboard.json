@@ -1,9 +1,8 @@
 {
  "schema": "estate-redboard/1",
- "at": "2026-10-13T23:25:34.241Z",
+ "at": "2026-10-13T23:26:38.230Z",
  "redKeys": [
   "Console|estate-scrub",
-  "saos-dex|identity-guard",
   "Sandbox|identity-guard"
  ],
  "red": {
@@ -13,13 +12,6 @@
    "failsInWindow": 2,
    "lastAt": "2026-10-13T23:09:13Z",
    "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38482457461"
-  },
-  "saos-dex|identity-guard": {
-   "repo": "saos-dex",
-   "workflow": "identity-guard",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-13T21:51:04Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/38473639523"
   },
   "Sandbox|identity-guard": {
    "repo": "Sandbox",
@@ -31,6 +23,11 @@
  },
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-13T23:26:38.230Z",
+   "kind": "RECOVERED",
+   "key": "saos-dex|identity-guard"
+  },
   {
    "at": "2026-10-13T23:25:34.241Z",
    "kind": "NEW-RED",
