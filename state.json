@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-13T11:07:44Z",
+ "generatedAt": "2026-10-13T12:30:20Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,61 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-13T12:30:20Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-13T12:30:05Z",
+     "msg": "26-b: watchdog reads canonical home first (saos-runtime) → steem CI path → legac"
+    },
+    {
+     "when": "2026-10-13T12:30:02Z",
+     "msg": "26-b: canonical verdict home — beat writes state/beat/ci-last-heartbeat.json to "
+    },
+    {
+     "when": "2026-10-13T12:15:59Z",
+     "msg": "watchdog: 7 reds @ 2026-10-13T12:15:58Z"
+    },
+    {
+     "when": "2026-10-13T11:43:32Z",
+     "msg": "watchdog: 6 reds @ 2026-10-13T11:43:32Z"
+    },
+    {
+     "when": "2026-10-13T11:06:13Z",
+     "msg": "watchdog: 6 reds @ 2026-10-13T11:06:12Z"
+    }
+   ],
+   "steemHead": 110404120,
+   "steemTime": "2026-10-13T12:30:18",
+   "fleetNetSp": {
+    "headcorner": 2791.5,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.2,
+    "siq": 31.2,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 0.0,
+   "soldierSp": [],
+   "treasuryNetSp": null,
+   "hiveCornerstoneHp": 102486.0,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-13T11:07:44Z",
    "runtimeLatestCommits": [
@@ -1650,33 +1705,33 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-13T11:07:44Z",
+  "at": "2026-10-13T12:30:20Z",
   "runtimeLatestCommits": [
+   {
+    "when": "2026-10-13T12:30:05Z",
+    "msg": "26-b: watchdog reads canonical home first (saos-runtime) → steem CI path → legac"
+   },
+   {
+    "when": "2026-10-13T12:30:02Z",
+    "msg": "26-b: canonical verdict home — beat writes state/beat/ci-last-heartbeat.json to "
+   },
+   {
+    "when": "2026-10-13T12:15:59Z",
+    "msg": "watchdog: 7 reds @ 2026-10-13T12:15:58Z"
+   },
+   {
+    "when": "2026-10-13T11:43:32Z",
+    "msg": "watchdog: 6 reds @ 2026-10-13T11:43:32Z"
+   },
    {
     "when": "2026-10-13T11:06:13Z",
     "msg": "watchdog: 6 reds @ 2026-10-13T11:06:12Z"
-   },
-   {
-    "when": "2026-10-13T11:04:17Z",
-    "msg": "custody-recover: receipt 2026-10-13T11:04:17Z [skip ci]"
-   },
-   {
-    "when": "2026-10-13T10:29:39Z",
-    "msg": "watchdog: 6 reds @ 2026-10-13T10:29:39Z"
-   },
-   {
-    "when": "2026-10-13T09:52:59Z",
-    "msg": "watchdog: 6 reds @ 2026-10-13T09:52:59Z"
-   },
-   {
-    "when": "2026-10-13T09:21:19Z",
-    "msg": "watchdog: 6 reds @ 2026-10-13T09:21:19Z"
    }
   ],
-  "steemHead": 110402472,
-  "steemTime": "2026-10-13T11:07:42",
+  "steemHead": 110404120,
+  "steemTime": "2026-10-13T12:30:18",
   "fleetNetSp": {
-   "headcorner": 2791.4,
+   "headcorner": 2791.5,
    "cashmachine": 75.2,
    "haran": 78.4,
    "israelnews": 94.0,
@@ -1697,7 +1752,7 @@
   "minOperatorSp": 0.0,
   "soldierSp": [],
   "treasuryNetSp": null,
-  "hiveCornerstoneHp": 102485.6,
+  "hiveCornerstoneHp": 102486.0,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
