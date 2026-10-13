@@ -1,0 +1,62 @@
+# estate-redboard — the network's ONE honest red light (R324-FIX-MAIN)
+#
+# WHY: 8 agents x 16+ repos x event-based failure emails = the operator's
+# inbox became the only "dashboard" (owner-trace 1a1377d1cb5beb91: "אני רק
+# מקבל באימייל חסימות כל כמה דק"). Giants do state-based alerting: ONE place,
+# visible transitions, no per-run spam. This board IS that place:
+#   - scans every repo's Actions runs (private included via OFFICE_GIT_PAT)
+#   - diffs the red set vs the previous committed board
+#   - maintains exactly ONE tracking issue (body = current truth + transitions)
+#   - commits the board state as evidence (the commit IS the receipt)
+#   - exits 0 ALWAYS — the board never emails; the issue is the loud channel
+#
+# Anti-overwrite: unique filenames (estate-redboard.*), repo = lighthouse,
+# no shared files touched.
+name: estate-redboard
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: estate-redboard
+  cancel-in-progress: false
+
+jobs:
+  board:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Scan estate, diff red set, maintain the one issue
+        env:
+          PAT: ${{ secrets.OFFICE_GIT_PAT }}
+          ISSUE_TOKEN: ${{ secrets.OFFICE_GIT_PAT }}
+        run: node tools/estate-redboard.mjs
+      - name: Publish board state (race-proof, FF-only)
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name  "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add state/redboard.json
+          if git diff --cached --quiet; then
+            echo "board unchanged — honest skip"; exit 0
+          fi
+          git commit -m "redboard: $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
+          OK=0
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main 2>/dev/null || true
+            if git push -q origin main 2>/dev/null; then OK=1; break; fi
+            sleep 5
+          done
+          [ "$OK" = "1" ] && echo "board pushed" || echo "push lost the race — evidence lives in the run log"
+          exit 0

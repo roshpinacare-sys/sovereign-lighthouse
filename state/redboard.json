@@ -1,0 +1,50 @@
+{
+ "schema": "estate-redboard/1",
+ "at": "2026-10-13T23:25:34.241Z",
+ "redKeys": [
+  "Console|estate-scrub",
+  "saos-dex|identity-guard",
+  "Sandbox|identity-guard"
+ ],
+ "red": {
+  "Console|estate-scrub": {
+   "repo": "Console",
+   "workflow": "estate-scrub",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-13T23:09:13Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38482457461"
+  },
+  "saos-dex|identity-guard": {
+   "repo": "saos-dex",
+   "workflow": "identity-guard",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-13T21:51:04Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/38473639523"
+  },
+  "Sandbox|identity-guard": {
+   "repo": "Sandbox",
+   "workflow": "identity-guard",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-13T21:57:43Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38474422148"
+  }
+ },
+ "stale": [],
+ "transitions": [
+  {
+   "at": "2026-10-13T23:25:34.241Z",
+   "kind": "NEW-RED",
+   "key": "Sandbox|identity-guard"
+  },
+  {
+   "at": "2026-10-13T23:25:34.241Z",
+   "kind": "NEW-RED",
+   "key": "saos-dex|identity-guard"
+  },
+  {
+   "at": "2026-10-13T23:25:34.241Z",
+   "kind": "NEW-RED",
+   "key": "Console|estate-scrub"
+  }
+ ]
+}
