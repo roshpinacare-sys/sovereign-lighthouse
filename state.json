@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-13T14:00:37Z",
+ "generatedAt": "2026-10-13T15:30:30Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,61 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-13T15:30:30Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-13T15:25:21Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T15:22:18.031Z"
+    },
+    {
+     "when": "2026-10-13T15:06:58Z",
+     "msg": "watchdog: 4 reds @ 2026-10-13T15:06:58Z"
+    },
+    {
+     "when": "2026-10-13T15:06:33Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T15:01:10.726Z"
+    },
+    {
+     "when": "2026-10-13T14:45:25Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T14:41:49.685Z"
+    },
+    {
+     "when": "2026-10-13T14:34:31Z",
+     "msg": "evolution: daily digest 2026-10-13 [skip ci]"
+    }
+   ],
+   "steemHead": 110407713,
+   "steemTime": "2026-10-13T15:30:30",
+   "fleetNetSp": {
+    "headcorner": 2791.5,
+    "cashmachine": 75.2,
+    "haran": 78.4,
+    "israelnews": 94.0,
+    "lsa": 79.8,
+    "macrame": 75.2,
+    "siq": 31.2,
+    "tov": 31.2,
+    "wic": 32.7,
+    "wog": 11.9,
+    "woq": 70.0,
+    "hcsoldier1": 0.0,
+    "hcsoldier2": 0.0,
+    "hcsoldier3": 0.0,
+    "hcsoldier4": 17.0,
+    "hcsoldier5": 17.0,
+    "hcsoldier6": 17.0
+   },
+   "minOperatorSp": 0.0,
+   "soldierSp": [],
+   "treasuryNetSp": null,
+   "hiveCornerstoneHp": 102489.8,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-13T14:00:37Z",
    "runtimeLatestCommits": [
@@ -1760,31 +1815,31 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-13T14:00:37Z",
+  "at": "2026-10-13T15:30:30Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-13T13:48:52Z",
-    "msg": "watchdog: 3 reds @ 2026-10-13T13:48:52Z"
+    "when": "2026-10-13T15:25:21Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T15:22:18.031Z"
    },
    {
-    "when": "2026-10-13T13:48:23Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T13:45:26.866Z"
+    "when": "2026-10-13T15:06:58Z",
+    "msg": "watchdog: 4 reds @ 2026-10-13T15:06:58Z"
    },
    {
-    "when": "2026-10-13T13:29:46Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T13:26:42.939Z"
+    "when": "2026-10-13T15:06:33Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T15:01:10.726Z"
    },
    {
-    "when": "2026-10-13T13:12:52Z",
-    "msg": "watchdog: 3 reds @ 2026-10-13T13:12:52Z"
+    "when": "2026-10-13T14:45:25Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T14:41:49.685Z"
    },
    {
-    "when": "2026-10-13T13:11:03Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-13T13:08:13.772Z"
+    "when": "2026-10-13T14:34:31Z",
+    "msg": "evolution: daily digest 2026-10-13 [skip ci]"
    }
   ],
-  "steemHead": 110405919,
-  "steemTime": "2026-10-13T14:00:36",
+  "steemHead": 110407713,
+  "steemTime": "2026-10-13T15:30:30",
   "fleetNetSp": {
    "headcorner": 2791.5,
    "cashmachine": 75.2,
@@ -1807,7 +1862,7 @@
   "minOperatorSp": 0.0,
   "soldierSp": [],
   "treasuryNetSp": null,
-  "hiveCornerstoneHp": 102486.5,
+  "hiveCornerstoneHp": 102489.8,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
