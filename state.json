@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-14T05:21:18Z",
+ "generatedAt": "2026-10-14T06:09:09Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,65 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-14T06:09:09Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-14T06:07:45Z",
+     "msg": "watchdog: 1 reds @ 2026-10-14T06:07:45Z"
+    },
+    {
+     "when": "2026-10-14T05:45:36Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T05:34:11.466Z"
+    },
+    {
+     "when": "2026-10-14T05:19:06Z",
+     "msg": "watchdog: 1 reds @ 2026-10-14T05:19:06Z"
+    },
+    {
+     "when": "2026-10-14T05:18:42Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T05:07:28.221Z"
+    },
+    {
+     "when": "2026-10-14T05:17:59Z",
+     "msg": "self-memory: the network remembers — +1 new / 9 reinforced / 0 forgotten (10 rec"
+    }
+   ],
+   "steemHead": 110425080,
+   "steemTime": "2026-10-14T06:09:09",
+   "fleetNetSp": {
+    "acct-00": 2841.7,
+    "acct-01": 75.3,
+    "acct-02": 78.4,
+    "acct-03": 94.0,
+    "acct-04": 79.8,
+    "acct-05": 75.2,
+    "acct-06": 31.2,
+    "acct-07": 31.2,
+    "acct-08": 32.7,
+    "acct-09": 11.9,
+    "acct-10": 70.0,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2841.7,
+   "hiveCornerstoneHp": 102508.3,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-14T05:21:18Z",
    "runtimeLatestCommits": [
@@ -2537,8 +2596,16 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-14T05:21:18Z",
+  "at": "2026-10-14T06:09:09Z",
   "runtimeLatestCommits": [
+   {
+    "when": "2026-10-14T06:07:45Z",
+    "msg": "watchdog: 1 reds @ 2026-10-14T06:07:45Z"
+   },
+   {
+    "when": "2026-10-14T05:45:36Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T05:34:11.466Z"
+   },
    {
     "when": "2026-10-14T05:19:06Z",
     "msg": "watchdog: 1 reds @ 2026-10-14T05:19:06Z"
@@ -2550,18 +2617,10 @@
    {
     "when": "2026-10-14T05:17:59Z",
     "msg": "self-memory: the network remembers — +1 new / 9 reinforced / 0 forgotten (10 rec"
-   },
-   {
-    "when": "2026-10-14T04:51:54Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T04:37:56.817Z"
-   },
-   {
-    "when": "2026-10-14T04:27:06Z",
-    "msg": "exec29/29-a4 last-mile candidates += presence-matrix verdict files (verdicts-onl"
    }
   ],
-  "steemHead": 110424124,
-  "steemTime": "2026-10-14T05:21:18",
+  "steemHead": 110425080,
+  "steemTime": "2026-10-14T06:09:09",
   "fleetNetSp": {
    "acct-00": 2841.7,
    "acct-01": 75.3,
@@ -2588,7 +2647,7 @@
    17.0
   ],
   "treasuryNetSp": 2841.7,
-  "hiveCornerstoneHp": 102508.1,
+  "hiveCornerstoneHp": 102508.3,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
