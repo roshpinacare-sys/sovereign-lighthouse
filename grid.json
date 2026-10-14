@@ -1,6 +1,6 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-14T00:30:18Z",
+ "asof": "2026-10-14T01:11:45Z",
  "total": 9,
  "lastPostAt": "2026-10-10T17:40:45.353Z",
  "lastTitle": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
@@ -23,6 +23,18 @@
   "heartChain": "b659aa8c7256340ba6206639"
  },
  "recent": [
+  {
+   "id": "pulse-20261014T011145Z",
+   "ts": "2026-10-14T01:11:45Z",
+   "kind": "pulse",
+   "title": "פעימה-חיה: אוצר 2791.6 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
+   "sig": [
+    "steem-rpc",
+    "hive-rpc",
+    "sandbox-ledger",
+    "saos-runtime-commits"
+   ]
+  },
   {
    "id": "pulse-20261014T003018Z",
    "ts": "2026-10-14T00:30:18Z",
@@ -466,12 +478,6 @@
    "ts": "2026-10-10T15:31:35.481Z",
    "kind": "report",
    "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-  },
-  {
-   "id": "gmv2lc7z0",
-   "ts": "2026-10-10T16:10:37.033Z",
-   "kind": "report",
-   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)"
   }
  ],
  "posts": [
@@ -736,5 +742,5 @@
    }
   }
  ],
- "pulseCount": 35
+ "pulseCount": 36
 }
