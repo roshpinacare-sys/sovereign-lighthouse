@@ -1,5 +1,10 @@
 # 🗼 מגדלור ריבוני — Sovereign Lighthouse
 
+[![SAOS office](https://roshpinacare-sys.github.io/Domain/badge/office.svg)](https://roshpinacare-sys.github.io/Domain/office3d/)
+[![SAOS fleet](https://roshpinacare-sys.github.io/Domain/badge/fleet.svg)](https://roshpinacare-sys.github.io/Domain/status/)
+[![steem-edge](https://roshpinacare-sys.github.io/Domain/badge/edge.svg)](https://roshpinacare-sys.github.io/Domain/money.html)
+
+
 **ROLE (2026-10-11, task 10-c):** the **public heart-rail beacon** — the
 GitHub-Pages mirror of the sovereign memory (the second cloud, twin of
 `sovereign-beacon` on the GitLab rail; "two independent hearts" by design —
