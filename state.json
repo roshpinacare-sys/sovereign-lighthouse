@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-14T18:30:24Z",
+ "generatedAt": "2026-10-14T20:00:20Z",
  "commit": "lastKnown:f0ce062728b5",
  "commitDate": "2026-10-14T15:15:54.598Z",
  "branch": "sanbox-main",
@@ -413,6 +413,65 @@
  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
  "pulses": [
   {
+   "at": "2026-10-14T20:00:20Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-14T19:43:52Z",
+     "msg": "watchdog: 2 reds @ 2026-10-14T19:43:52Z"
+    },
+    {
+     "when": "2026-10-14T19:12:28Z",
+     "msg": "watchdog: 2 reds @ 2026-10-14T19:12:28Z"
+    },
+    {
+     "when": "2026-10-14T18:41:22Z",
+     "msg": "watchdog: 1 reds @ 2026-10-14T18:41:22Z"
+    },
+    {
+     "when": "2026-10-14T18:40:57Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T18:28:00.304Z"
+    },
+    {
+     "when": "2026-10-14T18:39:49Z",
+     "msg": "blurt-revival: receipt 2026-10-14T18:39:49Z [skip ci]"
+    }
+   ],
+   "steemHead": 110441637,
+   "steemTime": "2026-10-14T20:00:18",
+   "fleetNetSp": {
+    "acct-00": 2810.8,
+    "acct-01": 75.3,
+    "acct-02": 78.4,
+    "acct-03": 94.0,
+    "acct-04": 79.8,
+    "acct-05": 75.2,
+    "acct-06": 31.2,
+    "acct-07": 31.2,
+    "acct-08": 32.7,
+    "acct-09": 11.9,
+    "acct-10": 70.0,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2810.8,
+   "hiveCornerstoneHp": 102523.2,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
+  {
    "at": "2026-10-14T18:30:24Z",
    "runtimeLatestCommits": [
     {
@@ -650,33 +709,33 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-14T18:30:24Z",
+  "at": "2026-10-14T20:00:20Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-14T18:11:53Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T18:04:54.709Z"
+    "when": "2026-10-14T19:43:52Z",
+    "msg": "watchdog: 2 reds @ 2026-10-14T19:43:52Z"
    },
    {
-    "when": "2026-10-14T17:49:33Z",
-    "msg": "watchdog: 1 reds @ 2026-10-14T17:49:33Z"
+    "when": "2026-10-14T19:12:28Z",
+    "msg": "watchdog: 2 reds @ 2026-10-14T19:12:28Z"
    },
    {
-    "when": "2026-10-14T17:49:03Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T17:41:48.182Z"
+    "when": "2026-10-14T18:41:22Z",
+    "msg": "watchdog: 1 reds @ 2026-10-14T18:41:22Z"
    },
    {
-    "when": "2026-10-14T17:37:40Z",
-    "msg": "system-map: the network sees itself — 8 alive / 0 red / heartbeat ALIVE [skip ci"
+    "when": "2026-10-14T18:40:57Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T18:28:00.304Z"
    },
    {
-    "when": "2026-10-14T17:33:06Z",
-    "msg": "self-memory: the network remembers — +0 new / 9 reinforced / 0 forgotten (11 rec"
+    "when": "2026-10-14T18:39:49Z",
+    "msg": "blurt-revival: receipt 2026-10-14T18:39:49Z [skip ci]"
    }
   ],
-  "steemHead": 110439843,
-  "steemTime": "2026-10-14T18:30:24",
+  "steemHead": 110441637,
+  "steemTime": "2026-10-14T20:00:18",
   "fleetNetSp": {
-   "acct-00": 2810.7,
+   "acct-00": 2810.8,
    "acct-01": 75.3,
    "acct-02": 78.4,
    "acct-03": 94.0,
@@ -700,8 +759,8 @@
    17.0,
    17.0
   ],
-  "treasuryNetSp": 2810.7,
-  "hiveCornerstoneHp": 102522.7,
+  "treasuryNetSp": 2810.8,
+  "hiveCornerstoneHp": 102523.2,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
