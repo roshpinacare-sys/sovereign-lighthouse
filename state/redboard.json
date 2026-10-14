@@ -1,54 +1,64 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-14T21:44:41.756Z",
+ "at": "2026-10-14T23:09:30.915Z",
  "redKeys": [
-  "Domain|saos-act",
-  "Autonomy|.github/workflows/fleet-yield.yml",
   "Autonomy|artery-grid",
   "Autonomy|artery-fleet",
+  "Autonomy|.github/workflows/fleet-yield.yml",
+  "saos-runtime|grid-watchdog",
   "Console|estate-scrub"
  ],
  "red": {
-  "Domain|saos-act": {
-   "repo": "Domain",
-   "workflow": "saos-act",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-14T21:39:37Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38641944394"
-  },
-  "Autonomy|.github/workflows/fleet-yield.yml": {
-   "repo": "Autonomy",
-   "workflow": ".github/workflows/fleet-yield.yml",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-14T21:37:21Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38641660247"
-  },
   "Autonomy|artery-grid": {
    "repo": "Autonomy",
    "workflow": "artery-grid",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-14T21:17:57Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38639155838"
+   "failsInWindow": 3,
+   "lastAt": "2026-10-14T22:31:45Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38648265165"
   },
   "Autonomy|artery-fleet": {
    "repo": "Autonomy",
    "workflow": "artery-fleet",
    "failsInWindow": 2,
-   "lastAt": "2026-10-14T21:17:54Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38639149638"
+   "lastAt": "2026-10-14T22:30:34Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38648128766"
+  },
+  "Autonomy|.github/workflows/fleet-yield.yml": {
+   "repo": "Autonomy",
+   "workflow": ".github/workflows/fleet-yield.yml",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-14T22:30:31Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38648122506"
+  },
+  "saos-runtime|grid-watchdog": {
+   "repo": "saos-runtime",
+   "workflow": "grid-watchdog",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-14T23:06:24Z",
+   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/38652011377"
   },
   "Console|estate-scrub": {
    "repo": "Console",
    "workflow": "estate-scrub",
    "failsInWindow": 2,
-   "lastAt": "2026-10-14T21:34:08Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38641258997"
+   "lastAt": "2026-10-14T23:08:55Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38652273092"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-14T23:09:30.915Z",
+   "kind": "RECOVERED",
+   "key": "Domain|saos-act"
+  },
+  {
+   "at": "2026-10-14T23:09:30.915Z",
+   "kind": "NEW-RED",
+   "key": "saos-runtime|grid-watchdog"
+  },
   {
    "at": "2026-10-14T21:44:41.756Z",
    "kind": "RECOVERED",
