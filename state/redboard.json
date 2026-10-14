@@ -1,30 +1,22 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-14T06:13:47.665Z",
- "redKeys": [
-  "FleetHQ|office-3d",
-  "Sandbox|compute-canary"
- ],
- "red": {
-  "FleetHQ|office-3d": {
-   "repo": "FleetHQ",
-   "workflow": "office-3d",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-14T05:51:38Z",
-   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/38518911933"
-  },
-  "Sandbox|compute-canary": {
-   "repo": "Sandbox",
-   "workflow": "compute-canary",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-14T05:21:00Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38516152567"
-  }
- },
+ "at": "2026-10-14T07:41:55.279Z",
+ "redKeys": [],
+ "red": {},
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-14T07:41:55.279Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|compute-canary"
+  },
+  {
+   "at": "2026-10-14T07:41:55.279Z",
+   "kind": "RECOVERED",
+   "key": "FleetHQ|office-3d"
+  },
   {
    "at": "2026-10-14T06:13:47.665Z",
    "kind": "NEW-RED",
