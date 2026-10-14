@@ -1,34 +1,28 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-14T14:00:47.669Z",
- "total": 12,
- "lastPostAt": "2026-10-14T14:00:47.669Z",
- "lastTitle": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
- "lastSig": "[\"1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: 3d5bba7 HQ sync 2026-10-14T13:31:33.450Z\"]]",
+ "asof": "2026-10-14T14:30:50.454Z",
+ "total": 13,
+ "lastPostAt": "2026-10-14T14:30:50.454Z",
+ "lastTitle": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+ "lastSig": "[\"1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: 7a33063 HQ sync 2026-10-14T14:01:33.428Z\"]]",
  "cursor": {
-  "commit": "3d5bba712a0f514100cce828e6222b69ca50b8fe",
+  "commit": "7a33063100f361081b662dc928c2cdb8ebf71ead",
   "lineCounts": {
    "supervisor": 500,
    "consoleServer": 7,
-   "webRecon": 31,
+   "webRecon": 33,
    "lighthouse": 7,
-   "stateReplica": 470,
+   "stateReplica": 472,
    "vercelBeacon": 200,
    "gitlabPush": 66,
-   "pushLog": 76,
+   "pushLog": 77,
    "sovereigntyDrill": 11,
    "vaultDrill": 5
   },
   "escalOpen": 0,
-  "heartChain": "7c763b8a2b33fb9b283f1751"
+  "heartChain": "7bad0c2a699b65a0fad3e404"
  },
  "recent": [
-  {
-   "id": "gmv2jy171",
-   "ts": "2026-10-10T15:31:35.481Z",
-   "kind": "report",
-   "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-  },
   {
    "id": "gmv2lc7z0",
    "ts": "2026-10-10T16:10:37.033Z",
@@ -88,33 +82,18 @@
    "chain": {
     "ok": false
    }
+  },
+  {
+   "id": "gmv87jbd7",
+   "ts": "2026-10-14T14:30:50.454Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+   "chain": {
+    "ok": false
+   }
   }
  ],
  "posts": [
-  {
-   "id": "gmv2khghs",
-   "ts": "2026-10-10T15:46:41.739Z",
-   "kind": "report",
-   "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-   "lines": [
-    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain bf7e4619) [lighthouse]",
-    "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain 407ea538) [lighthouse]",
-    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
-    "· תקלת-שכפול-פוסטגרס-נתפסה (missing pat/ref in secrets) [stateReplica]",
-    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
-    "· תקלת-משדר-ורסל (אין-vercel_token-בכספת) [vercelBeacon]",
-    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 19,
-    "escalOpen": null,
-    "heartChain": "ae82950336c2",
-    "head": "8603fa0b601b"
-   }
-  },
   {
    "id": "gmv2kxswb",
    "ts": "2026-10-10T15:59:24.306Z",
@@ -360,6 +339,32 @@
     "escalOpen": 0,
     "heartChain": "7c763b8a2b33",
     "head": "3d5bba712a0f"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
+  },
+  {
+   "id": "gmv87jbd7",
+   "ts": "2026-10-14T14:30:50.454Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: 7a33063 HQ sync 2026-10-14T14:01:33.428Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 6,
+    "escalOpen": 0,
+    "heartChain": "7bad0c2a699b",
+    "head": "7a33063100f3"
    },
    "chain": {
     "hive": {
