@@ -2,13 +2,13 @@
   "schema": "roshpina.sovereign-beacon/1",
   "pageVersion": "T-66c.1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-14T14:45:51Z",
-  "commit": "lastKnown:10e65492d606",
-  "commitDate": "2026-10-14T14:45:51.840Z",
+  "generatedAt": "2026-10-14T15:15:54Z",
+  "commit": "lastKnown:f0ce062728b5",
+  "commitDate": "2026-10-14T15:15:54.598Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-14T14:45:51.840Z",
-    "heartChain": "7bcc1c177b6de6c7796a652f",
+    "heartAt": "2026-10-14T15:15:54.598Z",
+    "heartChain": "7570a6797fe1bee77db7fea9",
     "worklogSha12": "3f74e04c5565",
     "memorySha12": "97a3f745e5df",
     "vaultBytes": 6768
@@ -36,19 +36,10 @@
     }
   ],
   "grid": {
-    "posts": 13,
-    "lastPostAt": "2026-10-14T14:30:50.454Z",
-    "lastTitle": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+    "posts": 14,
+    "lastPostAt": "2026-10-14T15:00:53.256Z",
+    "lastTitle": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
     "recent": [
-      {
-        "id": "gmv2ok528",
-        "ts": "2026-10-10T17:40:45.353Z",
-        "kind": "report",
-        "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
-        "chain": {
-          "ok": false
-        }
-      },
       {
         "id": "gmv84be8y",
         "ts": "2026-10-14T13:00:42.163Z",
@@ -84,32 +75,19 @@
         "chain": {
           "ok": false
         }
+      },
+      {
+        "id": "gmv88lyf0",
+        "ts": "2026-10-14T15:00:53.256Z",
+        "kind": "report",
+        "title": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
+        "chain": {
+          "ok": false
+        }
       }
     ]
   },
   "gridPosts": [
-    {
-      "id": "gmv2kxswb",
-      "ts": "2026-10-10T15:59:24.306Z",
-      "kind": "report",
-      "title": "פעילות-צי: 1 אירועים-ראויים-צוינו מ-3 שורות-קבלות-חדשות",
-      "lines": [
-        "· מגדלור-מוכתב-מהלב: פורסם-ואומת-200 מבחוץ (chain ae829503) [lighthouse]"
-      ],
-      "evidence": {
-        "commits": 0,
-        "newReceiptLines": 3,
-        "escalOpen": null,
-        "heartChain": "ae82950336c2",
-        "head": "8603fa0b601b"
-      },
-      "chain": {
-        "hive": {
-          "ok": false,
-          "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
-        }
-      }
-    },
     {
       "id": "gmv2jy171",
       "ts": "2026-10-10T15:31:35.481Z",
@@ -366,6 +344,32 @@
           "skipped": "no-key"
         }
       }
+    },
+    {
+      "id": "gmv88lyf0",
+      "ts": "2026-10-14T15:00:53.256Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 10e6549 HQ sync 2026-10-14T14:31:33.421Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 6,
+        "escalOpen": 0,
+        "heartChain": "480229eb60d5",
+        "head": "10e65492d606"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
     }
   ],
   "escalations": [
@@ -396,7 +400,7 @@
     "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
     "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
     "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 13 · אחרון: 1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 14 · אחרון: 1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
