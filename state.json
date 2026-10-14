@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-14T10:30:12Z",
+ "generatedAt": "2026-10-14T11:46:42Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,65 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-14T11:46:42Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-14T11:44:48Z",
+     "msg": "watchdog: 1 reds @ 2026-10-14T11:44:48Z"
+    },
+    {
+     "when": "2026-10-14T11:28:59Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T11:15:41.869Z"
+    },
+    {
+     "when": "2026-10-14T11:00:23Z",
+     "msg": "watchdog: 1 reds @ 2026-10-14T11:00:23Z"
+    },
+    {
+     "when": "2026-10-14T11:00:03Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T10:48:29.331Z"
+    },
+    {
+     "when": "2026-10-14T10:32:52Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T10:21:18.829Z"
+    }
+   ],
+   "steemHead": 110431805,
+   "steemTime": "2026-10-14T11:46:42",
+   "fleetNetSp": {
+    "acct-00": 2810.7,
+    "acct-01": 75.3,
+    "acct-02": 78.4,
+    "acct-03": 94.0,
+    "acct-04": 79.8,
+    "acct-05": 75.2,
+    "acct-06": 31.2,
+    "acct-07": 31.2,
+    "acct-08": 32.7,
+    "acct-09": 42.9,
+    "acct-10": 70.0,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 31.2,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2810.7,
+   "hiveCornerstoneHp": 102516.8,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-14T10:30:12Z",
    "runtimeLatestCommits": [
@@ -2534,93 +2593,34 @@
    "hiveCornerstoneLiquid": 13036.5,
    "degraded": false,
    "degradedWhy": []
-  },
-  {
-   "at": "2026-10-11T23:45:27Z",
-   "sandboxLedgerLastLine": "- **לא-נגעתי:** Domain-marketing (zai-sec/T-60) · תוכן-Adsmarket-עצמו (אפס-עריכות-תוכן) · ריפואים-פרטיות-אחרות",
-   "sandboxLedgerBytes": 80378,
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-11T23:40:59Z",
-     "msg": "blurt-revival: receipt 2026-10-11T23:40:59Z [skip ci]"
-    },
-    {
-     "when": "2026-10-11T23:02:57Z",
-     "msg": "R-VAULTPASS-1: inject STEEM_VAULT_PASSES into heartbeat job env (zai-code-3)"
-    },
-    {
-     "when": "2026-10-11T23:02:33Z",
-     "msg": "blurt-revival: receipt 2026-10-11T23:02:33Z [skip ci]"
-    },
-    {
-     "when": "2026-10-11T23:02:14Z",
-     "msg": "[zai-13b] blurt-revival honesty: 5 red runs (38148771443..38149406329, 14:49-14:"
-    },
-    {
-     "when": "2026-10-11T22:58:26Z",
-     "msg": "[zai-13b] commit-back hardening on top of A2/T-58: guard git rebase --abort (no-"
-    }
-   ],
-   "steemHead": 110360192,
-   "steemTime": "2026-10-11T23:45:27",
-   "fleetNetSp": {
-    "acct-00": 2925.6,
-    "acct-01": 75.2,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.1,
-    "acct-06": 31.1,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2925.6,
-   "hiveCornerstoneHp": 102442.3,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": false,
-   "degradedWhy": []
   }
  ],
  "lastPulse": {
-  "at": "2026-10-14T10:30:12Z",
+  "at": "2026-10-14T11:46:42Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-14T10:06:00Z",
-    "msg": "watchdog: 1 reds @ 2026-10-14T10:06:00Z"
+    "when": "2026-10-14T11:44:48Z",
+    "msg": "watchdog: 1 reds @ 2026-10-14T11:44:48Z"
    },
    {
-    "when": "2026-10-14T10:05:33Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T09:53:41.650Z"
+    "when": "2026-10-14T11:28:59Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T11:15:41.869Z"
    },
    {
-    "when": "2026-10-14T09:44:02Z",
-    "msg": "R327-c fix (measured #483): ladder entries were dropped — set the map entry back"
+    "when": "2026-10-14T11:00:23Z",
+    "msg": "watchdog: 1 reds @ 2026-10-14T11:00:23Z"
    },
    {
-    "when": "2026-10-14T09:37:52Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T09:30:39.147Z"
+    "when": "2026-10-14T11:00:03Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T10:48:29.331Z"
    },
    {
-    "when": "2026-10-14T09:25:52Z",
-    "msg": "R327-c GENERATION LADDER: the vault re-pulls across seals until the chain says y"
+    "when": "2026-10-14T10:32:52Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T10:21:18.829Z"
    }
   ],
-  "steemHead": 110430282,
-  "steemTime": "2026-10-14T10:30:12",
+  "steemHead": 110431805,
+  "steemTime": "2026-10-14T11:46:42",
   "fleetNetSp": {
    "acct-00": 2810.7,
    "acct-01": 75.3,
@@ -2647,7 +2647,7 @@
    17.0
   ],
   "treasuryNetSp": 2810.7,
-  "hiveCornerstoneHp": 102516.4,
+  "hiveCornerstoneHp": 102516.8,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
