@@ -1,12 +1,27 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-14T03:24:56.077Z",
- "redKeys": [],
- "red": {},
+ "at": "2026-10-14T04:36:45.009Z",
+ "redKeys": [
+  "FleetHQ|office-3d"
+ ],
+ "red": {
+  "FleetHQ|office-3d": {
+   "repo": "FleetHQ",
+   "workflow": "office-3d",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-14T04:06:51Z",
+   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/38509720236"
+  }
+ },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-14T04:36:45.009Z",
+   "kind": "NEW-RED",
+   "key": "FleetHQ|office-3d"
+  },
   {
    "at": "2026-10-14T02:11:02.556Z",
    "kind": "RECOVERED",
