@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-14T07:30:19Z",
+ "generatedAt": "2026-10-14T08:44:54Z",
  "commit": "lastKnown:5dbac5945e79",
  "commitDate": "2026-10-10T17:55:46.698Z",
  "branch": "sanbox-main",
@@ -327,6 +327,65 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-10-14T08:44:54Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-14T08:29:15Z",
+     "msg": "watchdog: 1 reds @ 2026-10-14T08:29:15Z"
+    },
+    {
+     "when": "2026-10-14T08:28:51Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T08:15:31.124Z"
+    },
+    {
+     "when": "2026-10-14T08:27:58Z",
+     "msg": "ROT2 custody rail: chain-judged adoption for accounts the git vault can't serve "
+    },
+    {
+     "when": "2026-10-14T07:59:57Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T07:46:19.476Z"
+    },
+    {
+     "when": "2026-10-14T07:39:56Z",
+     "msg": "blurt-revival: receipt 2026-10-14T07:39:56Z [skip ci]"
+    }
+   ],
+   "steemHead": 110428185,
+   "steemTime": "2026-10-14T08:44:54",
+   "fleetNetSp": {
+    "acct-00": 2841.7,
+    "acct-01": 75.3,
+    "acct-02": 78.4,
+    "acct-03": 94.0,
+    "acct-04": 79.8,
+    "acct-05": 75.2,
+    "acct-06": 31.2,
+    "acct-07": 31.2,
+    "acct-08": 32.7,
+    "acct-09": 11.9,
+    "acct-10": 70.0,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 11.9,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2841.7,
+   "hiveCornerstoneHp": 102515.8,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-14T07:30:19Z",
    "runtimeLatestCommits": [
@@ -2534,93 +2593,34 @@
    "hiveCornerstoneLiquid": 13036.5,
    "degraded": false,
    "degradedWhy": []
-  },
-  {
-   "at": "2026-10-11T22:29:02Z",
-   "sandboxLedgerLastLine": "- **אנטי-דריסה:** /-מקומי-מפקדת-אורגניזם = zai-13-lane (בדיקת-דפדפן-בלבד, לא-עריכה) · Domain-office = zai-sec ",
-   "sandboxLedgerBytes": 52483,
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-11T20:52:42Z",
-     "msg": "fix(A2/T-58): commit-back honest-yield — conflict on machine-state = proof custo"
-    },
-    {
-     "when": "2026-10-11T18:56:48Z",
-     "msg": "blurt-revival: receipt 2026-10-11T18:56:48Z [skip ci]"
-    },
-    {
-     "when": "2026-10-11T16:01:24Z",
-     "msg": "hardened push-back: races lost to unstaged runner residuals twice (runs 249+252:"
-    },
-    {
-     "when": "2026-10-11T15:51:59Z",
-     "msg": "measured budget: heartbeat 20→30min — run 252 exceeded 20min (added R316-Z gate "
-    },
-    {
-     "when": "2026-10-11T15:16:03Z",
-     "msg": "blurt-revival: receipt 2026-10-11T15:16:03Z [skip ci]"
-    }
-   ],
-   "steemHead": 110358667,
-   "steemTime": "2026-10-11T22:29:00",
-   "fleetNetSp": {
-    "acct-00": 2925.6,
-    "acct-01": 75.2,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.1,
-    "acct-06": 31.1,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2925.6,
-   "hiveCornerstoneHp": 102441.9,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": false,
-   "degradedWhy": []
   }
  ],
  "lastPulse": {
-  "at": "2026-10-14T07:30:19Z",
+  "at": "2026-10-14T08:44:54Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-14T07:07:51Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T06:55:33.913Z"
+    "when": "2026-10-14T08:29:15Z",
+    "msg": "watchdog: 1 reds @ 2026-10-14T08:29:15Z"
    },
    {
-    "when": "2026-10-14T06:52:08Z",
-    "msg": "ci: node-version 20→22 (LTS) — Node 20 is EOL since 2026-04 (no security patches"
+    "when": "2026-10-14T08:28:51Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T08:15:31.124Z"
    },
    {
-    "when": "2026-10-14T06:51:21Z",
-    "msg": "ci: node-version 20→22 (LTS) — Node 20 is EOL since 2026-04 (no security patches"
+    "when": "2026-10-14T08:27:58Z",
+    "msg": "ROT2 custody rail: chain-judged adoption for accounts the git vault can't serve "
    },
    {
-    "when": "2026-10-14T06:43:49Z",
-    "msg": "system-map: the network sees itself — 9 alive / 0 red / heartbeat ALIVE [skip ci"
+    "when": "2026-10-14T07:59:57Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T07:46:19.476Z"
    },
    {
-    "when": "2026-10-14T06:40:20Z",
-    "msg": "watchdog: 1 reds @ 2026-10-14T06:40:20Z"
+    "when": "2026-10-14T07:39:56Z",
+    "msg": "blurt-revival: receipt 2026-10-14T07:39:56Z [skip ci]"
    }
   ],
-  "steemHead": 110426697,
-  "steemTime": "2026-10-14T07:30:18",
+  "steemHead": 110428185,
+  "steemTime": "2026-10-14T08:44:54",
   "fleetNetSp": {
    "acct-00": 2841.7,
    "acct-01": 75.3,
@@ -2647,7 +2647,7 @@
    17.0
   ],
   "treasuryNetSp": 2841.7,
-  "hiveCornerstoneHp": 102508.8,
+  "hiveCornerstoneHp": 102515.8,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
