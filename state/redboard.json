@@ -1,12 +1,27 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-14T11:27:21.327Z",
- "redKeys": [],
- "red": {},
+ "at": "2026-10-14T12:56:32.212Z",
+ "redKeys": [
+  "Domain|exposure-gate"
+ ],
+ "red": {
+  "Domain|exposure-gate": {
+   "repo": "Domain",
+   "workflow": "exposure-gate",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-14T12:45:13Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38566228260"
+  }
+ },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-14T12:56:32.212Z",
+   "kind": "NEW-RED",
+   "key": "Domain|exposure-gate"
+  },
   {
    "at": "2026-10-14T07:41:55.279Z",
    "kind": "RECOVERED",
