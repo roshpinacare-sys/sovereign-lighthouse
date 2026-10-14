@@ -1,34 +1,28 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-14T13:00:42.163Z",
- "total": 10,
- "lastPostAt": "2026-10-14T13:00:42.163Z",
- "lastTitle": "1 קומיטים: HQ sync 2026-10-10T17:47:18.808Z",
- "lastSig": "[\"1 קומיטים: HQ sync 2026-10-10T17:47:18.808Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 5dba•) [stateReplica]\",\"· כשל-דחיפה-גיטלאב (?) [gitlabPush]\",\"· דחיפה-לענן: ? () [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: 5dbac59 HQ sync 2026-10-10T17:47:18.808Z\"]]",
+ "asof": "2026-10-14T13:30:44.906Z",
+ "total": 11,
+ "lastPostAt": "2026-10-14T13:30:44.906Z",
+ "lastTitle": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+ "lastSig": "[\"4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)\",[\"· סיור-רשת-הושלם: \\\"מחירי דלק בישראל היום\\\" (4755ms · חיפוש+ביקורת-חוץ-עצמית) [webRecon]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 5dba•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]\",\"· דחיפה-לגיטלאב אומתה () [gitlabPush]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: ae07e7a HQ sync 2026-10-14T13:01:28.552Z\",\"· commit: f75dea4 sovereign identity law: every commit signed as roshpinacare-sys - foreign account attribution eliminated (name collisions on noreply emails credited stranger accounts)\",\"· commit: 5fb059a docs(N4/T-63): rename receipt - sanbox -> sandbox-private (sovereign decision D2, redirect 301 verified)\",\"· commit: 32b2262 [zai-10c] README role declaration: constant productive role + why-silenced (measured) + revival path (owner mandate trace 1a12c59452cbc355: no archive, no fleeing — every unit works as one fist)\"]]",
  "cursor": {
-  "commit": "5dbac5945e7995c4ea476aac3d9c7c036db62ea6",
+  "commit": "ae07e7a21421e92079cc5c68871e77d8954f5ab0",
   "lineCounts": {
    "supervisor": 500,
-   "consoleServer": 6,
-   "webRecon": 27,
+   "consoleServer": 7,
+   "webRecon": 29,
    "lighthouse": 7,
-   "stateReplica": 466,
+   "stateReplica": 468,
    "vercelBeacon": 200,
-   "gitlabPush": 65,
+   "gitlabPush": 66,
    "pushLog": 75,
    "sovereigntyDrill": 11,
    "vaultDrill": 5
   },
   "escalOpen": 0,
-  "heartChain": "217c9bee317977cedcb53dc9"
+  "heartChain": "77c45b18741830573880b715"
  },
  "recent": [
-  {
-   "id": "gmv2hbdnc",
-   "ts": "2026-10-10T14:17:59.262Z",
-   "kind": "report",
-   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם"
-  },
   {
    "id": "gmv2ie0jm",
    "ts": "2026-10-10T14:48:01.864Z",
@@ -82,32 +76,18 @@
    "chain": {
     "ok": false
    }
+  },
+  {
+   "id": "gmv85e1b4",
+   "ts": "2026-10-14T13:30:44.906Z",
+   "kind": "report",
+   "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+   "chain": {
+    "ok": false
+   }
   }
  ],
  "posts": [
-  {
-   "id": "gmv2ie0jm",
-   "ts": "2026-10-10T14:48:01.864Z",
-   "kind": "report",
-   "title": "2 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head df20•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· commit: 378f8fe HQ sync 2026-10-10T14:25:36.021Z",
-    "· commit: cb57ad6 T-66b: סקירה-חריפה-ועמוקה — שחרור-חסימות-שקריות (HQ-ריפוי-עצמי-בauth · גריד-נראה-בדף-החי) · דף-נולד-מהלב (buildPage · grid.json-פוסטים-מלאים · gridFp+pageVersion-בשער) · צינון-vercel-מעוגן (last403At) · תקרת-זנב-state-replica"
-   ],
-   "evidence": {
-    "commits": 2,
-    "newReceiptLines": 9,
-    "escalOpen": null,
-    "heartChain": "c9efca5d89a6",
-    "head": "378f8fe11670"
-   }
-  },
   {
    "id": "gmv2jeslv",
    "ts": "2026-10-10T15:16:37.853Z",
@@ -340,6 +320,36 @@
     "escalOpen": 0,
     "heartChain": "217c9bee3179",
     "head": "5dbac5945e79"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
+  },
+  {
+   "id": "gmv85e1b4",
+   "ts": "2026-10-14T13:30:44.906Z",
+   "kind": "report",
+   "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+   "lines": [
+    "· סיור-רשת-הושלם: \"מחירי דלק בישראל היום\" (4755ms · חיפוש+ביקורת-חוץ-עצמית) [webRecon]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 5dba•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]",
+    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: ae07e7a HQ sync 2026-10-14T13:01:28.552Z",
+    "· commit: f75dea4 sovereign identity law: every commit signed as roshpinacare-sys - foreign account attribution eliminated (name collisions on noreply emails credited stranger accounts)",
+    "· commit: 5fb059a docs(N4/T-63): rename receipt - sanbox -> sandbox-private (sovereign decision D2, redirect 301 verified)",
+    "· commit: 32b2262 [zai-10c] README role declaration: constant productive role + why-silenced (measured) + revival path (owner mandate trace 1a12c59452cbc355: no archive, no fleeing — every unit works as one fist)"
+   ],
+   "evidence": {
+    "commits": 4,
+    "newReceiptLines": 7,
+    "escalOpen": 0,
+    "heartChain": "77c45b187418",
+    "head": "ae07e7a21421"
    },
    "chain": {
     "hive": {
