@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@v5
         with: { fetch-depth: 1 }
       - uses: actions/setup-node@v5
-        with: { node-version: 20 }
+        with: { node-version: 22 }
       - name: Scan estate, diff red set, maintain the one issue
         env:
           PAT: ${{ secrets.OFFICE_GIT_PAT }}
