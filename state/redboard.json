@@ -1,12 +1,27 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-14T13:06:25.289Z",
- "redKeys": [],
- "red": {},
+ "at": "2026-10-14T14:41:41.207Z",
+ "redKeys": [
+  "Autonomy|sovereign-tick"
+ ],
+ "red": {
+  "Autonomy|sovereign-tick": {
+   "repo": "Autonomy",
+   "workflow": "sovereign-tick",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-14T14:35:53Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38581937941"
+  }
+ },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-14T14:41:41.207Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|sovereign-tick"
+  },
   {
    "at": "2026-10-14T13:06:25.289Z",
    "kind": "RECOVERED",
