@@ -1,6 +1,6 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-14T13:40:55Z",
+ "asof": "2026-10-14T13:30:44.906Z",
  "total": 11,
  "lastPostAt": "2026-10-14T13:30:44.906Z",
  "lastTitle": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
@@ -23,18 +23,6 @@
   "heartChain": "77c45b18741830573880b715"
  },
  "recent": [
-  {
-   "id": "pulse-20261014T134055Z",
-   "ts": "2026-10-14T13:40:55Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 31.2 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
   {
    "id": "gmv2ie0jm",
    "ts": "2026-10-10T14:48:01.864Z",
@@ -161,7 +149,7 @@
    "chain": {
     "hive": {
      "ok": false,
-     "error": "payer has not enough RC mana for transaction:has_mana: Account: acct-00 has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
+     "error": "payer has not enough RC mana for transaction:has_mana: Account: headcorner has 1041129839 RC, needs 1139502840 RC. Please wait to transact or power up HIVE."
     }
    }
   },
@@ -370,6 +358,5 @@
     }
    }
   }
- ],
- "pulseCount": 1
+ ]
 }
