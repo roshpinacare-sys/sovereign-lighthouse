@@ -1,6 +1,6 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-13T22:40:08Z",
+ "asof": "2026-10-14T00:30:18Z",
  "total": 9,
  "lastPostAt": "2026-10-10T17:40:45.353Z",
  "lastTitle": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
@@ -23,6 +23,18 @@
   "heartChain": "b659aa8c7256340ba6206639"
  },
  "recent": [
+  {
+   "id": "pulse-20261014T003018Z",
+   "ts": "2026-10-14T00:30:18Z",
+   "kind": "pulse",
+   "title": "פעימה-חיה: אוצר 2791.5 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
+   "sig": [
+    "steem-rpc",
+    "hive-rpc",
+    "sandbox-ledger",
+    "saos-runtime-commits"
+   ]
+  },
   {
    "id": "pulse-20261013T224008Z",
    "ts": "2026-10-13T22:40:08Z",
@@ -460,15 +472,6 @@
    "ts": "2026-10-10T16:10:37.033Z",
    "kind": "report",
    "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)"
-  },
-  {
-   "id": "gmv2mev0g",
-   "ts": "2026-10-10T16:40:39.822Z",
-   "kind": "report",
-   "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
-   "chain": {
-    "ok": false
-   }
   }
  ],
  "posts": [
@@ -733,5 +736,5 @@
    }
   }
  ],
- "pulseCount": 34
+ "pulseCount": 35
 }
