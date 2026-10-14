@@ -1,12 +1,53 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-14T16:16:23.472Z",
- "redKeys": [],
- "red": {},
+ "at": "2026-10-14T17:35:50.513Z",
+ "redKeys": [
+  "Autonomy|artery-fleet",
+  "FleetHQ|office-ci",
+  "FleetHQ|.github/workflows/office-heartbeat.yml"
+ ],
+ "red": {
+  "Autonomy|artery-fleet": {
+   "repo": "Autonomy",
+   "workflow": "artery-fleet",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-14T17:21:39Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38605992668"
+  },
+  "FleetHQ|office-ci": {
+   "repo": "FleetHQ",
+   "workflow": "office-ci",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-14T17:23:20Z",
+   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/38606227406"
+  },
+  "FleetHQ|.github/workflows/office-heartbeat.yml": {
+   "repo": "FleetHQ",
+   "workflow": ".github/workflows/office-heartbeat.yml",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-14T16:44:42Z",
+   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/38600668352"
+  }
+ },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-14T17:35:50.513Z",
+   "kind": "NEW-RED",
+   "key": "FleetHQ|.github/workflows/office-heartbeat.yml"
+  },
+  {
+   "at": "2026-10-14T17:35:50.513Z",
+   "kind": "NEW-RED",
+   "key": "FleetHQ|office-ci"
+  },
+  {
+   "at": "2026-10-14T17:35:50.513Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|artery-fleet"
+  },
   {
    "at": "2026-10-14T16:16:23.472Z",
    "kind": "RECOVERED",
