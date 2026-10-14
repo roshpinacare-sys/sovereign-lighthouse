@@ -2,13 +2,13 @@
   "schema": "roshpina.sovereign-beacon/1",
   "pageVersion": "T-66c.1",
   "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
-  "generatedAt": "2026-10-14T13:45:46Z",
+  "generatedAt": "2026-10-14T14:00:47Z",
   "commit": "lastKnown:3d5bba712a0f",
-  "commitDate": "2026-10-14T13:45:46.254Z",
+  "commitDate": "2026-10-14T14:00:47.612Z",
   "branch": "sanbox-main",
   "lastKnownAlive": {
-    "heartAt": "2026-10-14T13:45:46.254Z",
-    "heartChain": "c9c628a7e92cacbda0cf9025",
+    "heartAt": "2026-10-14T14:00:47.612Z",
+    "heartChain": "7c763b8a2b33fb9b283f1751",
     "worklogSha12": "3f74e04c5565",
     "memorySha12": "97a3f745e5df",
     "vaultBytes": 6768
@@ -36,19 +36,10 @@
     }
   ],
   "grid": {
-    "posts": 11,
-    "lastPostAt": "2026-10-14T13:30:44.906Z",
-    "lastTitle": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+    "posts": 12,
+    "lastPostAt": "2026-10-14T14:00:47.669Z",
+    "lastTitle": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
     "recent": [
-      {
-        "id": "gmv2mev0g",
-        "ts": "2026-10-10T16:40:39.822Z",
-        "kind": "report",
-        "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
-        "chain": {
-          "ok": false
-        }
-      },
       {
         "id": "gmv2nhi2e",
         "ts": "2026-10-10T17:10:42.624Z",
@@ -84,29 +75,19 @@
         "chain": {
           "ok": false
         }
+      },
+      {
+        "id": "gmv86gobt",
+        "ts": "2026-10-14T14:00:47.669Z",
+        "kind": "report",
+        "title": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
+        "chain": {
+          "ok": false
+        }
       }
     ]
   },
   "gridPosts": [
-    {
-      "id": "gmv2jeslv",
-      "ts": "2026-10-10T15:16:37.853Z",
-      "kind": "report",
-      "title": "4 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-      "lines": [
-        "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
-        "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
-        "· commit: 63b8b44 T-66: שער-הכספת-הקנוני (vault-guard-מול-הסיסמה-הבלועה — אסור-לדחוף-בלוב-שלא-נפתח) + פותר-rebase-ממוקד-במקום-X-theirs-עיוור (ריצה=מקומי·קוד/כספת=רחוק) — נגד-מלחמת-הבלובים-בין-המכונות (13:14-מעטפת-T-62-הוחזרה) + כספת-קנונית-מחדש (2-סודות·492B·37d4985c) + pat.env-משוחזר-מהארנק",
-        "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
-      ],
-      "evidence": {
-        "commits": 4,
-        "newReceiptLines": 1,
-        "escalOpen": null,
-        "heartChain": "bf7e461968e9",
-        "head": "181a1f83b2fd"
-      }
-    },
     {
       "id": "gmv2khghs",
       "ts": "2026-10-10T15:46:41.739Z",
@@ -357,6 +338,32 @@
           "skipped": "no-key"
         }
       }
+    },
+    {
+      "id": "gmv86gobt",
+      "ts": "2026-10-14T14:00:47.669Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 3d5bba7 HQ sync 2026-10-14T13:31:33.450Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 6,
+        "escalOpen": 0,
+        "heartChain": "7c763b8a2b33",
+        "head": "3d5bba712a0f"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
     }
   ],
   "escalations": [
@@ -387,7 +394,7 @@
     "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
     "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
     "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 11 · אחרון: 4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 12 · אחרון: 1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
     "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
   },
   "awakening": [
