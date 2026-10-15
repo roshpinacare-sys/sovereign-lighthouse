@@ -1,54 +1,58 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T12:17:07.006Z",
+ "at": "2026-10-15T13:46:52.086Z",
  "redKeys": [
-  "Console|truth-gate",
+  "Domain|estate-scrub",
   "Domain|dex-mirror",
-  "Autonomy|artery-participation",
-  "Autonomy|value-scan",
-  "Autonomy|artery-decision-truth"
+  "Autonomy|artery-participation"
  ],
  "red": {
-  "Console|truth-gate": {
-   "repo": "Console",
-   "workflow": "truth-gate",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T11:23:34Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38727000211"
+  "Domain|estate-scrub": {
+   "repo": "Domain",
+   "workflow": "estate-scrub",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-15T13:46:40Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38745594639"
   },
   "Domain|dex-mirror": {
    "repo": "Domain",
    "workflow": "dex-mirror",
    "failsInWindow": 2,
-   "lastAt": "2026-10-15T12:10:06Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38732601704"
+   "lastAt": "2026-10-15T13:32:16Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38743537508"
   },
   "Autonomy|artery-participation": {
    "repo": "Autonomy",
    "workflow": "artery-participation",
    "failsInWindow": 1,
-   "lastAt": "2026-10-15T12:04:50Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38731957109"
-  },
-  "Autonomy|value-scan": {
-   "repo": "Autonomy",
-   "workflow": "value-scan",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T11:20:30Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38726635390"
-  },
-  "Autonomy|artery-decision-truth": {
-   "repo": "Autonomy",
-   "workflow": "artery-decision-truth",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T11:18:51Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38726435583"
+   "lastAt": "2026-10-15T13:23:36Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38742298991"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-15T13:46:52.086Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|artery-decision-truth"
+  },
+  {
+   "at": "2026-10-15T13:46:52.086Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|value-scan"
+  },
+  {
+   "at": "2026-10-15T13:46:52.086Z",
+   "kind": "RECOVERED",
+   "key": "Console|truth-gate"
+  },
+  {
+   "at": "2026-10-15T13:46:52.086Z",
+   "kind": "NEW-RED",
+   "key": "Domain|estate-scrub"
+  },
   {
    "at": "2026-10-15T12:17:07.006Z",
    "kind": "RECOVERED",
@@ -278,26 +282,6 @@
    "at": "2026-10-14T20:58:40.160Z",
    "kind": "NEW-RED",
    "key": "Autonomy|artery-fleet"
-  },
-  {
-   "at": "2026-10-14T20:58:40.160Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-grid"
-  },
-  {
-   "at": "2026-10-14T19:25:40.759Z",
-   "kind": "RECOVERED",
-   "key": "FleetHQ|.github/workflows/office-heartbeat.yml"
-  },
-  {
-   "at": "2026-10-14T19:25:40.759Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-fleet"
-  },
-  {
-   "at": "2026-10-14T18:02:36.502Z",
-   "kind": "RECOVERED",
-   "key": "FleetHQ|office-ci"
   }
  ]
 }
