@@ -1,54 +1,97 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T14:26:14.247Z",
+ "at": "2026-10-15T16:58:15.513Z",
  "redKeys": [
-  "Domain|exposure-gate",
-  "Domain|estate-scrub",
+  "Autonomy|artery-decision-truth",
+  "Autonomy|.github/workflows/fleet-yield.yml",
   "Autonomy|artery-participation",
-  "Console|truth-gate",
-  "Console|estate-scrub"
+  "Domain|estate-scrub",
+  "Domain|dex-mirror",
+  "Sandbox|compute-canary"
  ],
  "red": {
-  "Domain|exposure-gate": {
-   "repo": "Domain",
-   "workflow": "exposure-gate",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-15T14:22:14Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38750771351"
+  "Autonomy|artery-decision-truth": {
+   "repo": "Autonomy",
+   "workflow": "artery-decision-truth",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T16:57:44Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38773332795"
   },
-  "Domain|estate-scrub": {
-   "repo": "Domain",
-   "workflow": "estate-scrub",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-15T13:57:39Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38747177059"
+  "Autonomy|.github/workflows/fleet-yield.yml": {
+   "repo": "Autonomy",
+   "workflow": ".github/workflows/fleet-yield.yml",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T16:57:20Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38773276546"
   },
   "Autonomy|artery-participation": {
    "repo": "Autonomy",
    "workflow": "artery-participation",
    "failsInWindow": 1,
-   "lastAt": "2026-10-15T13:23:36Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38742298991"
+   "lastAt": "2026-10-15T15:39:45Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38762291568"
   },
-  "Console|truth-gate": {
-   "repo": "Console",
-   "workflow": "truth-gate",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-15T14:23:17Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38750930196"
-  },
-  "Console|estate-scrub": {
-   "repo": "Console",
+  "Domain|estate-scrub": {
+   "repo": "Domain",
    "workflow": "estate-scrub",
    "failsInWindow": 1,
-   "lastAt": "2026-10-15T14:21:18Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38750632968"
+   "lastAt": "2026-10-15T16:58:04Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38773377966"
+  },
+  "Domain|dex-mirror": {
+   "repo": "Domain",
+   "workflow": "dex-mirror",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T16:24:17Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38768703379"
+  },
+  "Sandbox|compute-canary": {
+   "repo": "Sandbox",
+   "workflow": "compute-canary",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T16:58:16Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38773405975"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-15T16:58:15.513Z",
+   "kind": "RECOVERED",
+   "key": "Console|estate-scrub"
+  },
+  {
+   "at": "2026-10-15T16:58:15.513Z",
+   "kind": "RECOVERED",
+   "key": "Console|truth-gate"
+  },
+  {
+   "at": "2026-10-15T16:58:15.513Z",
+   "kind": "RECOVERED",
+   "key": "Domain|exposure-gate"
+  },
+  {
+   "at": "2026-10-15T16:58:15.513Z",
+   "kind": "NEW-RED",
+   "key": "Sandbox|compute-canary"
+  },
+  {
+   "at": "2026-10-15T16:58:15.513Z",
+   "kind": "NEW-RED",
+   "key": "Domain|dex-mirror"
+  },
+  {
+   "at": "2026-10-15T16:58:15.513Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|.github/workflows/fleet-yield.yml"
+  },
+  {
+   "at": "2026-10-15T16:58:15.513Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|artery-decision-truth"
+  },
   {
    "at": "2026-10-15T14:26:14.247Z",
    "kind": "RECOVERED",
@@ -263,41 +306,6 @@
    "at": "2026-10-15T00:08:34.021Z",
    "kind": "NEW-RED",
    "key": "Console|truth-gate"
-  },
-  {
-   "at": "2026-10-15T00:08:34.021Z",
-   "kind": "NEW-RED",
-   "key": "Domain|.github/workflows/key-verify.yml"
-  },
-  {
-   "at": "2026-10-14T23:09:30.915Z",
-   "kind": "RECOVERED",
-   "key": "Domain|saos-act"
-  },
-  {
-   "at": "2026-10-14T23:09:30.915Z",
-   "kind": "NEW-RED",
-   "key": "saos-runtime|grid-watchdog"
-  },
-  {
-   "at": "2026-10-14T21:44:41.756Z",
-   "kind": "RECOVERED",
-   "key": "Domain|treasury-route"
-  },
-  {
-   "at": "2026-10-14T21:44:41.756Z",
-   "kind": "RECOVERED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-14T21:44:41.756Z",
-   "kind": "NEW-RED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-14T21:44:41.756Z",
-   "kind": "NEW-RED",
-   "key": "Domain|saos-act"
   }
  ]
 }
