@@ -1,30 +1,43 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T21:49:33.770Z",
+ "at": "2026-10-15T23:20:33.838Z",
  "redKeys": [
+  "Console|estate-scrub",
   "Domain|dex-mirror",
-  "Console|estate-scrub"
+  "Domain|estate-scrub"
  ],
  "red": {
-  "Domain|dex-mirror": {
-   "repo": "Domain",
-   "workflow": "dex-mirror",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T21:42:00Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38811839136"
-  },
   "Console|estate-scrub": {
    "repo": "Console",
    "workflow": "estate-scrub",
    "failsInWindow": 1,
    "lastAt": "2026-10-15T21:47:59Z",
    "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38812577881"
+  },
+  "Domain|dex-mirror": {
+   "repo": "Domain",
+   "workflow": "dex-mirror",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-15T23:20:02Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38822933462"
+  },
+  "Domain|estate-scrub": {
+   "repo": "Domain",
+   "workflow": "estate-scrub",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T23:18:39Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38822800297"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-15T23:20:33.838Z",
+   "kind": "NEW-RED",
+   "key": "Domain|estate-scrub"
+  },
   {
    "at": "2026-10-15T21:49:33.770Z",
    "kind": "RECOVERED",
@@ -269,11 +282,6 @@
    "at": "2026-10-15T04:41:09.440Z",
    "kind": "RECOVERED",
    "key": "Autonomy|.github/workflows/fleet-yield.yml"
-  },
-  {
-   "at": "2026-10-15T04:41:09.440Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-participation"
   }
  ]
 }
