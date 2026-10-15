@@ -1,54 +1,61 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T07:46:54.552Z",
+ "at": "2026-10-15T09:00:45.235Z",
  "redKeys": [
-  "Autonomy|value-scan",
   "Autonomy|artery-decision-truth",
-  "Autonomy|artery-participation",
-  "Autonomy|.github/workflows/fleet-yield.yml",
+  "Autonomy|value-scan",
+  "Domain|estate-scrub",
   "Domain|dex-mirror"
  ],
  "red": {
-  "Autonomy|value-scan": {
-   "repo": "Autonomy",
-   "workflow": "value-scan",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T07:29:31Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38699099334"
-  },
   "Autonomy|artery-decision-truth": {
    "repo": "Autonomy",
    "workflow": "artery-decision-truth",
    "failsInWindow": 2,
-   "lastAt": "2026-10-15T07:28:08Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38698945881"
+   "lastAt": "2026-10-15T08:46:22Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38708058392"
   },
-  "Autonomy|artery-participation": {
+  "Autonomy|value-scan": {
    "repo": "Autonomy",
-   "workflow": "artery-participation",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T07:23:46Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38698457928"
+   "workflow": "value-scan",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-15T08:20:36Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38704971909"
   },
-  "Autonomy|.github/workflows/fleet-yield.yml": {
-   "repo": "Autonomy",
-   "workflow": ".github/workflows/fleet-yield.yml",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T07:22:13Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38698282876"
+  "Domain|estate-scrub": {
+   "repo": "Domain",
+   "workflow": "estate-scrub",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-15T08:52:15Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38708761841"
   },
   "Domain|dex-mirror": {
    "repo": "Domain",
    "workflow": "dex-mirror",
    "failsInWindow": 1,
-   "lastAt": "2026-10-15T07:29:55Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38699144921"
+   "lastAt": "2026-10-15T08:41:36Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38707481066"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-15T09:00:45.235Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|.github/workflows/fleet-yield.yml"
+  },
+  {
+   "at": "2026-10-15T09:00:45.235Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|artery-participation"
+  },
+  {
+   "at": "2026-10-15T09:00:45.235Z",
+   "kind": "NEW-RED",
+   "key": "Domain|estate-scrub"
+  },
   {
    "at": "2026-10-15T07:46:54.552Z",
    "kind": "NEW-RED",
@@ -283,21 +290,6 @@
    "at": "2026-10-14T01:56:40.451Z",
    "kind": "RECOVERED",
    "key": "Autonomy|claims-intake"
-  },
-  {
-   "at": "2026-10-14T01:56:40.451Z",
-   "kind": "RECOVERED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-14T01:56:40.451Z",
-   "kind": "RECOVERED",
-   "key": "Domain|anchor-execute"
-  },
-  {
-   "at": "2026-10-14T01:56:40.451Z",
-   "kind": "NEW-RED",
-   "key": "FleetHQ|office-heartbeat"
   }
  ]
 }
