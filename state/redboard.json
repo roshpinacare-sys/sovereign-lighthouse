@@ -1,25 +1,27 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T13:46:52.086Z",
+ "at": "2026-10-15T14:26:14.247Z",
  "redKeys": [
+  "Domain|exposure-gate",
   "Domain|estate-scrub",
-  "Domain|dex-mirror",
-  "Autonomy|artery-participation"
+  "Autonomy|artery-participation",
+  "Console|truth-gate",
+  "Console|estate-scrub"
  ],
  "red": {
+  "Domain|exposure-gate": {
+   "repo": "Domain",
+   "workflow": "exposure-gate",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-15T14:22:14Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38750771351"
+  },
   "Domain|estate-scrub": {
    "repo": "Domain",
    "workflow": "estate-scrub",
    "failsInWindow": 2,
-   "lastAt": "2026-10-15T13:46:40Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38745594639"
-  },
-  "Domain|dex-mirror": {
-   "repo": "Domain",
-   "workflow": "dex-mirror",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-15T13:32:16Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38743537508"
+   "lastAt": "2026-10-15T13:57:39Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38747177059"
   },
   "Autonomy|artery-participation": {
    "repo": "Autonomy",
@@ -27,12 +29,46 @@
    "failsInWindow": 1,
    "lastAt": "2026-10-15T13:23:36Z",
    "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38742298991"
+  },
+  "Console|truth-gate": {
+   "repo": "Console",
+   "workflow": "truth-gate",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-15T14:23:17Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38750930196"
+  },
+  "Console|estate-scrub": {
+   "repo": "Console",
+   "workflow": "estate-scrub",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T14:21:18Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38750632968"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-15T14:26:14.247Z",
+   "kind": "RECOVERED",
+   "key": "Domain|dex-mirror"
+  },
+  {
+   "at": "2026-10-15T14:26:14.247Z",
+   "kind": "NEW-RED",
+   "key": "Console|estate-scrub"
+  },
+  {
+   "at": "2026-10-15T14:26:14.247Z",
+   "kind": "NEW-RED",
+   "key": "Console|truth-gate"
+  },
+  {
+   "at": "2026-10-15T14:26:14.247Z",
+   "kind": "NEW-RED",
+   "key": "Domain|exposure-gate"
+  },
   {
    "at": "2026-10-15T13:46:52.086Z",
    "kind": "RECOVERED",
@@ -262,26 +298,6 @@
    "at": "2026-10-14T21:44:41.756Z",
    "kind": "NEW-RED",
    "key": "Domain|saos-act"
-  },
-  {
-   "at": "2026-10-14T20:58:40.160Z",
-   "kind": "NEW-RED",
-   "key": "Domain|treasury-route"
-  },
-  {
-   "at": "2026-10-14T20:58:40.160Z",
-   "kind": "NEW-RED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-14T20:58:40.160Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
-  },
-  {
-   "at": "2026-10-14T20:58:40.160Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-fleet"
   }
  ]
 }
