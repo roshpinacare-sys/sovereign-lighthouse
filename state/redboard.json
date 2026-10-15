@@ -1,46 +1,47 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T18:12:02.211Z",
+ "at": "2026-10-15T18:41:23.632Z",
  "redKeys": [
-  "Autonomy|.github/workflows/fleet-yield.yml",
-  "Domain|estate-scrub",
-  "Domain|dex-mirror",
-  "Sandbox|compute-canary"
+  "Console|estate-scrub"
  ],
  "red": {
-  "Autonomy|.github/workflows/fleet-yield.yml": {
-   "repo": "Autonomy",
-   "workflow": ".github/workflows/fleet-yield.yml",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T16:57:20Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38773276546"
-  },
-  "Domain|estate-scrub": {
-   "repo": "Domain",
+  "Console|estate-scrub": {
+   "repo": "Console",
    "workflow": "estate-scrub",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-15T18:00:47Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38782074173"
-  },
-  "Domain|dex-mirror": {
-   "repo": "Domain",
-   "workflow": "dex-mirror",
    "failsInWindow": 1,
-   "lastAt": "2026-10-15T17:23:51Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38776987706"
-  },
-  "Sandbox|compute-canary": {
-   "repo": "Sandbox",
-   "workflow": "compute-canary",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T16:58:16Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38773405975"
+   "lastAt": "2026-10-15T18:30:30Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38786198515"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-15T18:41:23.632Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|compute-canary"
+  },
+  {
+   "at": "2026-10-15T18:41:23.632Z",
+   "kind": "RECOVERED",
+   "key": "Domain|dex-mirror"
+  },
+  {
+   "at": "2026-10-15T18:41:23.632Z",
+   "kind": "RECOVERED",
+   "key": "Domain|estate-scrub"
+  },
+  {
+   "at": "2026-10-15T18:41:23.632Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|.github/workflows/fleet-yield.yml"
+  },
+  {
+   "at": "2026-10-15T18:41:23.632Z",
+   "kind": "NEW-RED",
+   "key": "Console|estate-scrub"
+  },
   {
    "at": "2026-10-15T18:12:02.211Z",
    "kind": "RECOVERED",
@@ -265,31 +266,6 @@
    "at": "2026-10-15T03:15:36.127Z",
    "kind": "RECOVERED",
    "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T03:15:36.127Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|value-scan"
-  },
-  {
-   "at": "2026-10-15T03:15:36.127Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-decision-truth"
-  },
-  {
-   "at": "2026-10-15T01:28:19.078Z",
-   "kind": "RECOVERED",
-   "key": "Domain|.github/workflows/key-verify.yml"
-  },
-  {
-   "at": "2026-10-15T01:28:19.078Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-participation"
-  },
-  {
-   "at": "2026-10-15T01:28:19.078Z",
-   "kind": "NEW-RED",
-   "key": "Domain|dex-mirror"
   }
  ]
 }
