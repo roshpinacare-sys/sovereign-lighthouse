@@ -1,22 +1,45 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T21:34:31.680Z",
+ "at": "2026-10-15T21:49:33.770Z",
  "redKeys": [
-  "Domain|estate-scrub"
+  "Domain|dex-mirror",
+  "Console|estate-scrub"
  ],
  "red": {
-  "Domain|estate-scrub": {
+  "Domain|dex-mirror": {
    "repo": "Domain",
+   "workflow": "dex-mirror",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T21:42:00Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38811839136"
+  },
+  "Console|estate-scrub": {
+   "repo": "Console",
    "workflow": "estate-scrub",
    "failsInWindow": 1,
-   "lastAt": "2026-10-15T21:04:00Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38806976988"
+   "lastAt": "2026-10-15T21:47:59Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38812577881"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-15T21:49:33.770Z",
+   "kind": "RECOVERED",
+   "key": "Domain|estate-scrub"
+  },
+  {
+   "at": "2026-10-15T21:49:33.770Z",
+   "kind": "NEW-RED",
+   "key": "Console|estate-scrub"
+  },
+  {
+   "at": "2026-10-15T21:49:33.770Z",
+   "kind": "NEW-RED",
+   "key": "Domain|dex-mirror"
+  },
   {
    "at": "2026-10-15T21:34:31.680Z",
    "kind": "RECOVERED",
@@ -251,21 +274,6 @@
    "at": "2026-10-15T04:41:09.440Z",
    "kind": "NEW-RED",
    "key": "Autonomy|artery-participation"
-  },
-  {
-   "at": "2026-10-15T04:41:09.440Z",
-   "kind": "NEW-RED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T03:15:36.127Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-fleet"
-  },
-  {
-   "at": "2026-10-15T03:15:36.127Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-grid"
   }
  ]
 }
