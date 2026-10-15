@@ -1,14 +1,21 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-15T04:41:09.440Z",
+ "at": "2026-10-15T04:46:17.610Z",
  "redKeys": [
+  "Domain|dex-mirror",
   "Console|estate-scrub",
   "Console|truth-gate",
-  "Domain|dex-mirror",
   "Autonomy|artery-decision-truth",
   "Autonomy|artery-participation"
  ],
  "red": {
+  "Domain|dex-mirror": {
+   "repo": "Domain",
+   "workflow": "dex-mirror",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-15T04:31:53Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38681948135"
+  },
   "Console|estate-scrub": {
    "repo": "Console",
    "workflow": "estate-scrub",
@@ -22,13 +29,6 @@
    "failsInWindow": 1,
    "lastAt": "2026-10-15T04:33:10Z",
    "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38682062634"
-  },
-  "Domain|dex-mirror": {
-   "repo": "Domain",
-   "workflow": "dex-mirror",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T04:31:53Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38681948135"
   },
   "Autonomy|artery-decision-truth": {
    "repo": "Autonomy",
