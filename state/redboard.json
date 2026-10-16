@@ -1,30 +1,40 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T08:10:14.100Z",
+ "at": "2026-10-16T09:23:51.611Z",
  "redKeys": [
-  "Domain|dex-mirror",
-  "Domain|exposure-gate"
+  "Domain|exposure-gate",
+  "Domain|treasury-route"
  ],
  "red": {
-  "Domain|dex-mirror": {
-   "repo": "Domain",
-   "workflow": "dex-mirror",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T07:57:29Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38870503045"
-  },
   "Domain|exposure-gate": {
    "repo": "Domain",
    "workflow": "exposure-gate",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-16T07:52:21Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38869954739"
+   "failsInWindow": 7,
+   "lastAt": "2026-10-16T09:23:24Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38880114866"
+  },
+  "Domain|treasury-route": {
+   "repo": "Domain",
+   "workflow": "treasury-route",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-16T08:42:20Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38875462784"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T09:23:51.611Z",
+   "kind": "RECOVERED",
+   "key": "Domain|dex-mirror"
+  },
+  {
+   "at": "2026-10-16T09:23:51.611Z",
+   "kind": "NEW-RED",
+   "key": "Domain|treasury-route"
+  },
   {
    "at": "2026-10-16T08:10:14.100Z",
    "kind": "RECOVERED",
@@ -264,16 +274,6 @@
    "at": "2026-10-15T12:17:07.006Z",
    "kind": "NEW-RED",
    "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-15T12:17:07.006Z",
-   "kind": "NEW-RED",
-   "key": "Console|truth-gate"
-  },
-  {
-   "at": "2026-10-15T10:56:25.201Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-participation"
   }
  ]
 }
