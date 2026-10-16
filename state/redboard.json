@@ -1,22 +1,32 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T16:11:49.504Z",
+ "at": "2026-10-16T17:47:08.469Z",
  "redKeys": [
-  "Domain|office-worldbeat"
+  "Autonomy|artery-grid"
  ],
  "red": {
-  "Domain|office-worldbeat": {
-   "repo": "Domain",
-   "workflow": "office-worldbeat",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T15:26:42Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38923984473"
+  "Autonomy|artery-grid": {
+   "repo": "Autonomy",
+   "workflow": "artery-grid",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-16T16:40:15Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38933769537"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T17:47:08.469Z",
+   "kind": "RECOVERED",
+   "key": "Domain|office-worldbeat"
+  },
+  {
+   "at": "2026-10-16T17:47:08.469Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|artery-grid"
+  },
   {
    "at": "2026-10-16T16:11:49.504Z",
    "kind": "NEW-RED",
@@ -256,16 +266,6 @@
    "at": "2026-10-15T14:26:14.247Z",
    "kind": "NEW-RED",
    "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T14:26:14.247Z",
-   "kind": "NEW-RED",
-   "key": "Console|truth-gate"
-  },
-  {
-   "at": "2026-10-15T14:26:14.247Z",
-   "kind": "NEW-RED",
-   "key": "Domain|exposure-gate"
   }
  ]
 }
