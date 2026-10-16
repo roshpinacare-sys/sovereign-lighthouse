@@ -1,22 +1,58 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T09:53:34.370Z",
+ "at": "2026-10-16T11:27:14.244Z",
  "redKeys": [
-  "Domain|exposure-gate"
+  "Console|truth-gate",
+  "Domain|office-pulse",
+  "Domain|office-worldbeat"
  ],
  "red": {
-  "Domain|exposure-gate": {
+  "Console|truth-gate": {
+   "repo": "Console",
+   "workflow": "truth-gate",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-16T11:18:13Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38892874562"
+  },
+  "Domain|office-pulse": {
    "repo": "Domain",
-   "workflow": "exposure-gate",
-   "failsInWindow": 8,
-   "lastAt": "2026-10-16T09:48:54Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38883023982"
+   "workflow": "office-pulse",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-16T11:07:21Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38891687654"
+  },
+  "Domain|office-worldbeat": {
+   "repo": "Domain",
+   "workflow": "office-worldbeat",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-16T10:50:07Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38889823240"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T11:27:14.244Z",
+   "kind": "RECOVERED",
+   "key": "Domain|exposure-gate"
+  },
+  {
+   "at": "2026-10-16T11:27:14.244Z",
+   "kind": "NEW-RED",
+   "key": "Domain|office-worldbeat"
+  },
+  {
+   "at": "2026-10-16T11:27:14.244Z",
+   "kind": "NEW-RED",
+   "key": "Domain|office-pulse"
+  },
+  {
+   "at": "2026-10-16T11:27:14.244Z",
+   "kind": "NEW-RED",
+   "key": "Console|truth-gate"
+  },
   {
    "at": "2026-10-16T09:53:34.370Z",
    "kind": "RECOVERED",
@@ -246,26 +282,6 @@
    "at": "2026-10-15T13:46:52.086Z",
    "kind": "NEW-RED",
    "key": "Domain|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T12:17:07.006Z",
-   "kind": "RECOVERED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T12:17:07.006Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|profit-oracle"
-  },
-  {
-   "at": "2026-10-15T12:17:07.006Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
-  },
-  {
-   "at": "2026-10-15T12:17:07.006Z",
-   "kind": "RECOVERED",
-   "key": "Domain|exposure-gate"
   }
  ]
 }
