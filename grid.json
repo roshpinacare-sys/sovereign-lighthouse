@@ -1,530 +1,102 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-16T18:20:35Z",
- "total": 14,
- "lastPostAt": "2026-10-14T15:00:53.256Z",
- "lastTitle": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
- "lastSig": "[\"1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: 10e6549 HQ sync 2026-10-14T14:31:33.421Z\"]]",
+ "asof": "2026-10-16T19:20:07.215Z",
+ "total": 15,
+ "lastPostAt": "2026-10-16T19:20:07.215Z",
+ "lastTitle": "1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
+ "lastSig": "[\"1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head f0ce•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: f0ce062 HQ sync 2026-10-14T15:01:33.418Z\"]]",
  "cursor": {
-  "commit": "10e65492d606b10912e989c6724a5d83d6686847",
+  "commit": "f0ce062728b58b7066ffc0e06e50c60a57755f20",
   "lineCounts": {
    "supervisor": 500,
    "consoleServer": 7,
-   "webRecon": 35,
+   "webRecon": 37,
    "lighthouse": 7,
-   "stateReplica": 474,
+   "stateReplica": 476,
    "vercelBeacon": 200,
    "gitlabPush": 66,
-   "pushLog": 78,
+   "pushLog": 79,
    "sovereigntyDrill": 11,
    "vaultDrill": 5
   },
   "escalOpen": 0,
-  "heartChain": "480229eb60d5c02ef797912f"
+  "heartChain": "b2d54732782adb2f245b4905"
  },
  "recent": [
   {
-   "id": "pulse-20261016T182035Z",
-   "ts": "2026-10-16T18:20:35Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 3502.3 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmv2nhi2e",
+   "ts": "2026-10-10T17:10:42.624Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
+   "chain": {
+    "ok": false
+   }
   },
   {
-   "id": "pulse-20261016T181329Z",
-   "ts": "2026-10-16T18:13:29Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 3502.3 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmv2ok528",
+   "ts": "2026-10-10T17:40:45.353Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
+   "chain": {
+    "ok": false
+   }
   },
   {
-   "id": "pulse-20261016T165523Z",
-   "ts": "2026-10-16T16:55:23Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 3502.3 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmv84be8y",
+   "ts": "2026-10-14T13:00:42.163Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-10T17:47:18.808Z",
+   "chain": {
+    "ok": false
+   }
   },
   {
-   "id": "pulse-20261016T153042Z",
-   "ts": "2026-10-16T15:30:42Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 3278.9 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmv85e1b4",
+   "ts": "2026-10-14T13:30:44.906Z",
+   "kind": "report",
+   "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+   "chain": {
+    "ok": false
+   }
   },
   {
-   "id": "pulse-20261016T141418Z",
-   "ts": "2026-10-16T14:14:18Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.9 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmv86gobt",
+   "ts": "2026-10-14T14:00:47.669Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
+   "chain": {
+    "ok": false
+   }
   },
   {
-   "id": "pulse-20261016T132251Z",
-   "ts": "2026-10-16T13:22:51Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.9 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmv87jbd7",
+   "ts": "2026-10-14T14:30:50.454Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+   "chain": {
+    "ok": false
+   }
   },
   {
-   "id": "pulse-20261016T120022Z",
-   "ts": "2026-10-16T12:00:22Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmv88lyf0",
+   "ts": "2026-10-14T15:00:53.256Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
+   "chain": {
+    "ok": false
+   }
   },
   {
-   "id": "pulse-20261016T104417Z",
-   "ts": "2026-10-16T10:44:17Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261016T091704Z",
-   "ts": "2026-10-16T09:17:04Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261016T085800Z",
-   "ts": "2026-10-16T08:58:00Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261016T072313Z",
-   "ts": "2026-10-16T07:23:13Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261016T054911Z",
-   "ts": "2026-10-16T05:49:11Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261016T042453Z",
-   "ts": "2026-10-16T04:24:53Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261016T030021Z",
-   "ts": "2026-10-16T03:00:21Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261016T013024Z",
-   "ts": "2026-10-16T01:30:24Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.1 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T235036Z",
-   "ts": "2026-10-15T23:50:36Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.9 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T223608Z",
-   "ts": "2026-10-15T22:36:08Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.9 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T211910Z",
-   "ts": "2026-10-15T21:19:10Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.9 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T203023Z",
-   "ts": "2026-10-15T20:30:23Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T190717Z",
-   "ts": "2026-10-15T19:07:17Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T174511Z",
-   "ts": "2026-10-15T17:45:11Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T171307Z",
-   "ts": "2026-10-15T17:13:07Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T160020Z",
-   "ts": "2026-10-15T16:00:20Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T142154Z",
-   "ts": "2026-10-15T14:21:54Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T125140Z",
-   "ts": "2026-10-15T12:51:40Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T114822Z",
-   "ts": "2026-10-15T11:48:22Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T101309Z",
-   "ts": "2026-10-15T10:13:09Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T090021Z",
-   "ts": "2026-10-15T09:00:21Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T072227Z",
-   "ts": "2026-10-15T07:22:27Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.0 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T062922Z",
-   "ts": "2026-10-15T06:29:22Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.0 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T044108Z",
-   "ts": "2026-10-15T04:41:08Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.0 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T031537Z",
-   "ts": "2026-10-15T03:15:37Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.0 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T014938Z",
-   "ts": "2026-10-15T01:49:38Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 12.0 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261015T003729Z",
-   "ts": "2026-10-15T00:37:29Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261014T232652Z",
-   "ts": "2026-10-14T23:26:52Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261014T230926Z",
-   "ts": "2026-10-14T23:09:26Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261014T215612Z",
-   "ts": "2026-10-14T21:56:12Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261014T204020Z",
-   "ts": "2026-10-14T20:40:20Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261014T200020Z",
-   "ts": "2026-10-14T20:00:20Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.8 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
-  },
-  {
-   "id": "pulse-20261014T183024Z",
-   "ts": "2026-10-14T18:30:24Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2810.7 SP · מינ-מפעיל 11.9 SP · חיילים [17.0, 17.0, 17.0] SP · degraded=True",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
+   "id": "gmvbcr17z",
+   "ts": "2026-10-16T19:20:07.215Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
+   "chain": {
+    "ok": false
+   }
   }
  ],
  "posts": [
-  {
-   "id": "gmv2jy171",
-   "ts": "2026-10-10T15:31:35.481Z",
-   "kind": "report",
-   "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 7,
-    "escalOpen": null,
-    "heartChain": "e0b37d0577f7",
-    "head": "cf57fe17472c"
-   }
-  },
   {
    "id": "gmv2lc7z0",
    "ts": "2026-10-10T16:10:37.033Z",
@@ -787,7 +359,32 @@
      "skipped": "no-key"
     }
    }
+  },
+  {
+   "id": "gmvbcr17z",
+   "ts": "2026-10-16T19:20:07.215Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head f0ce•) [stateReplica]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: f0ce062 HQ sync 2026-10-14T15:01:33.418Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 6,
+    "escalOpen": 0,
+    "heartChain": "b2d54732782a",
+    "head": "f0ce062728b5"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
   }
- ],
- "pulseCount": 43
+ ]
 }
