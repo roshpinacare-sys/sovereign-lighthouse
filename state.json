@@ -1,2835 +1,420 @@
 {
- "schema": "roshpina.sovereign-beacon/1",
- "pageVersion": "T-66c.1",
- "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-16T18:20:35Z",
- "commit": "lastKnown:f0ce062728b5",
- "commitDate": "2026-10-14T15:15:54.598Z",
- "branch": "sanbox-main",
- "lastKnownAlive": {
-  "heartAt": "2026-10-14T15:15:54.598Z",
-  "heartChain": "7570a6797fe1bee77db7fea9",
-  "worklogSha12": "3f74e04c5565",
-  "memorySha12": "97a3f745e5df",
-  "vaultBytes": 6768
- },
- "memoryLayers": [
-  {
-   "layer": "github",
-   "detail": "roshpinacare-sys/sanbox"
+  "schema": "roshpina.sovereign-beacon/1",
+  "pageVersion": "T-66c.1",
+  "publisher": "T-60 heart-tick-automated (lighthouse-sync · כל-פעימת-לב)",
+  "generatedAt": "2026-10-16T19:20:07Z",
+  "commit": "lastKnown:f0ce062728b5",
+  "commitDate": "2026-10-16T19:20:06.947Z",
+  "branch": "sanbox-main",
+  "lastKnownAlive": {
+    "heartAt": "2026-10-16T19:20:06.947Z",
+    "heartChain": "b2d54732782adb2f245b4905",
+    "worklogSha12": "3f74e04c5565",
+    "memorySha12": "97a3f745e5df",
+    "vaultBytes": 6768
   },
-  {
-   "layer": "gitlab",
-   "detail": "roshpinacare/sanbox"
-  },
-  {
-   "layer": "postgres",
-   "detail": "Supabase sovereign_state (state-replica)"
-  },
-  {
-   "layer": "lighthouse",
-   "detail": "הכתובת-הזו — מוכתבת-מהלב-אוטומטית (T-60)"
-  },
-  {
-   "layer": "gitlab-ci",
-   "detail": "ממתין-לאימות-זהות-הבעלים (escalations)"
-  }
- ],
- "grid": {
-  "posts": 14,
-  "lastPostAt": "2026-10-14T15:00:53.256Z",
-  "lastTitle": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
-  "recent": [
-   {
-    "id": "gmv84be8y",
-    "ts": "2026-10-14T13:00:42.163Z",
-    "kind": "report",
-    "title": "1 קומיטים: HQ sync 2026-10-10T17:47:18.808Z",
-    "chain": {
-     "ok": false
+  "memoryLayers": [
+    {
+      "layer": "github",
+      "detail": "roshpinacare-sys/sanbox"
+    },
+    {
+      "layer": "gitlab",
+      "detail": "roshpinacare/sanbox"
+    },
+    {
+      "layer": "postgres",
+      "detail": "Supabase sovereign_state (state-replica)"
+    },
+    {
+      "layer": "lighthouse",
+      "detail": "הכתובת-הזו — מוכתבת-מהלב-אוטומטית (T-60)"
+    },
+    {
+      "layer": "gitlab-ci",
+      "detail": "ממתין-לאימות-זהות-הבעלים (escalations)"
     }
-   },
-   {
-    "id": "gmv85e1b4",
-    "ts": "2026-10-14T13:30:44.906Z",
-    "kind": "report",
-    "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
-    "chain": {
-     "ok": false
-    }
-   },
-   {
-    "id": "gmv86gobt",
-    "ts": "2026-10-14T14:00:47.669Z",
-    "kind": "report",
-    "title": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
-    "chain": {
-     "ok": false
-    }
-   },
-   {
-    "id": "gmv87jbd7",
-    "ts": "2026-10-14T14:30:50.454Z",
-    "kind": "report",
-    "title": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
-    "chain": {
-     "ok": false
-    }
-   },
-   {
-    "id": "gmv88lyf0",
-    "ts": "2026-10-14T15:00:53.256Z",
-    "kind": "report",
-    "title": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
-    "chain": {
-     "ok": false
-    }
-   }
-  ]
- },
- "gridPosts": [
-  {
-   "id": "gmv2jy171",
-   "ts": "2026-10-10T15:31:35.481Z",
-   "kind": "report",
-   "title": "1 קומיטים חדשים בריפו-הריבוני — הצי-מתקדם",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 378f•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· commit: cf57fe1 HQ sync 2026-10-10T14:54:51.029Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 7,
-    "escalOpen": null,
-    "heartChain": "e0b37d0577f7",
-    "head": "cf57fe17472c"
-   }
-  },
-  {
-   "id": "gmv2lc7z0",
-   "ts": "2026-10-10T16:10:37.033Z",
-   "kind": "report",
-   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· תרגיל-כספת: פער! (?) [vaultDrill]",
-    "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
-    "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
-    "· שערים-חוסמים: 0 (היה ?) [escalations]",
-    "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
-    "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
-    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
-    "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
-    "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
-    "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
-   ],
-   "evidence": {
-    "commits": 6,
-    "newReceiptLines": 20,
-    "escalOpen": 0,
-    "heartChain": "6565452ad35d",
-    "head": "b778ed010852"
-   }
-  },
-  {
-   "id": "gmv2mev0g",
-   "ts": "2026-10-10T16:40:39.822Z",
-   "kind": "report",
-   "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b778•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
-    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: 0eb6a9e T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (vaultBlobContentMatches) · GitLab-הדביק-עד-d28ffa6",
-    "· commit: d28ffa6 T-66c: reseal-11-במפתח-הקנון-המאוחד + ריפוי-עצמי-משופר (בלוב-חייב-להכיל-את-התוכן-עצמו — קץ-מלחמת-הבלובים-הטכנית)",
-    "· commit: efd9984 HQ sync 2026-10-10T16:14:33.524Z",
-    "· commit: bda589d T-66c: חיסון-טעינה-עצמית-למפקח · גריד-סנכרוני-לפני-מגדלור · כותרות-מהותיות-וחיסון-כפילות · איחוד-מפתח-כספת-עם-ארנק-האם (reseal-11) · guard-נופל-בכבוד-לקנון-מקומי · escalations-אמת (SUPERSEDED/OPTIONAL) · עורקות-חיים-לקונסולה · סייר-10-נושאים",
-    "· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z",
-    "· ועוד 3 קומיטים (זנב-מלא-בגיט)"
-   ],
-   "evidence": {
-    "commits": 8,
-    "newReceiptLines": 14,
-    "escalOpen": 0,
-    "heartChain": "0c1beb31f5dc",
-    "head": "0eb6a9e3ce9c"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
-  {
-   "id": "gmv2nhi2e",
-   "ts": "2026-10-10T17:10:42.624Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
-    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: 7809c89 HQ sync 2026-10-10T16:47:18.859Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 7,
-    "escalOpen": 0,
-    "heartChain": "138aa9efa404",
-    "head": "7809c89f19a8"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
-  {
-   "id": "gmv2ok528",
-   "ts": "2026-10-10T17:40:45.353Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: b2ef891 HQ sync 2026-10-10T17:17:18.831Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 7,
-    "escalOpen": 0,
-    "heartChain": "b659aa8c7256",
-    "head": "b2ef8918c752"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
-  {
-   "id": "gmv84be8y",
-   "ts": "2026-10-14T13:00:42.163Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-10T17:47:18.808Z",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 5dba•) [stateReplica]",
-    "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: 5dbac59 HQ sync 2026-10-10T17:47:18.808Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 7,
-    "escalOpen": 0,
-    "heartChain": "217c9bee3179",
-    "head": "5dbac5945e79"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
-  {
-   "id": "gmv85e1b4",
-   "ts": "2026-10-14T13:30:44.906Z",
-   "kind": "report",
-   "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
-   "lines": [
-    "· סיור-רשת-הושלם: \"מחירי דלק בישראל היום\" (4755ms · חיפוש+ביקורת-חוץ-עצמית) [webRecon]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 5dba•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: ae07e7a HQ sync 2026-10-14T13:01:28.552Z",
-    "· commit: f75dea4 sovereign identity law: every commit signed as roshpinacare-sys - foreign account attribution eliminated (name collisions on noreply emails credited stranger accounts)",
-    "· commit: 5fb059a docs(N4/T-63): rename receipt - sanbox -> sandbox-private (sovereign decision D2, redirect 301 verified)",
-    "· commit: 32b2262 [zai-10c] README role declaration: constant productive role + why-silenced (measured) + revival path (owner mandate trace 1a12c59452cbc355: no archive, no fleeing — every unit works as one fist)"
-   ],
-   "evidence": {
-    "commits": 4,
-    "newReceiptLines": 7,
-    "escalOpen": 0,
-    "heartChain": "77c45b187418",
-    "head": "ae07e7a21421"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
-  {
-   "id": "gmv86gobt",
-   "ts": "2026-10-14T14:00:47.669Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: 3d5bba7 HQ sync 2026-10-14T13:31:33.450Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 6,
-    "escalOpen": 0,
-    "heartChain": "7c763b8a2b33",
-    "head": "3d5bba712a0f"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
-  {
-   "id": "gmv87jbd7",
-   "ts": "2026-10-14T14:30:50.454Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: 7a33063 HQ sync 2026-10-14T14:01:33.428Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 6,
-    "escalOpen": 0,
-    "heartChain": "7bad0c2a699b",
-    "head": "7a33063100f3"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
-  {
-   "id": "gmv88lyf0",
-   "ts": "2026-10-14T15:00:53.256Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: 10e6549 HQ sync 2026-10-14T14:31:33.421Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 6,
-    "escalOpen": 0,
-    "heartChain": "480229eb60d5",
-    "head": "10e65492d606"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  }
- ],
- "escalations": [
-  {
-   "id": "vercel-token-read-only",
-   "status": "SUPERSEDED — ורסל-היה-עותק-מיותר-של-המגד",
-   "gate": "POST /v13/deployments + POST /v9/projects → 403 (טוקן-קריאה-בלבד)",
-   "needed": "אופציונלי-בלבד: אם-וורסל-עדיין-רצוי — טוקן-ב-scope-מלא (deployments:create+projects:create) ב-secrets/vercel.keys; אחרת-אפס-פעולה-נדרשת"
-  },
-  {
-   "id": "gitlab-ci-identity-verification",
-   "status": "OPEN-OPTIONAL — שיפור-אצולה; אפס-תלות-רי",
-   "gate": "CI-jobs=0 · POST-pipeline→400 \"Identity verification is required\" · runner-עצמאי-57265759-polling→403",
-   "needed": "אופציונלי-בלבד: אימות-זהות-בדשבורד-GitLab (כרטיס/טלפון) — פותח-צופה-CI-שובה-לב-אך-לא-דבר-נוסף"
-  },
-  {
-   "id": "github-pages-plan",
-   "status": "RESOLVED-BY-BYPASS — המגדלור-הריבוני-חי",
-   "gate": "POST /repos/sanbox/pages → 422 \"plan does not support GitHub Pages\" — רלוונטי-לריפו-פרטי-בלבד",
-   "needed": "—אין"
-  }
- ],
- "fleet": {
-  "runner": "GitLab runner 57265759 (self-healing via boot-all.sh)",
-  "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
-  "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות",
-  "webSense": "T-62: חיפוש-ריבוני (Tavily x2 · 200) + קריאת-דפים (Jina · 200) — אטום-בכספת · scripts/web-sense.mjs",
-  "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
-  "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
-  "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
-  "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 14 · אחרון: 1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
-  "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
- },
- "awakening": [
-  "1. הגיט-הוא-הקוד-המלא: שני-עננים-נושאים-sanbox + vault/vault-backup.enc (AES-256-GCM)",
-  "2. שחזור-כספת: bun scripts/vault-restore.ts — המפתח: HQ_VAULT_PASS (hq.password אצל-Head-Corner · וב-~/.sovereign/guardian.env לאוטונומיה-מלאה-לאחר-התקנת-השומר)",
-  "3. הצתה: sh sanbox/scripts/boot-all.sh — סודות→כספת→מפקח→שומר→HQ-3010",
-  "4. זיכרון-חוץ-מכונה: bun scripts/state-replica.mjs pull",
-  "5. ההתחדשות-אוטומטית: קומיט=הצתה; הלב-פועם-כל-15-דקות ומכתיב-את-המגדלור-הזה"
- ],
- "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
- "pulses": [
-  {
-   "at": "2026-10-16T18:20:35Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T18:04:15Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T18:04:15Z"
-    },
-    {
-     "when": "2026-10-16T18:03:48Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T17:40:43.742Z"
-    },
-    {
-     "when": "2026-10-16T17:25:16Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T17:25:16Z"
-    },
-    {
-     "when": "2026-10-16T17:24:53Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T17:07:13.918Z"
-    },
-    {
-     "when": "2026-10-16T16:42:28Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T16:42:28Z"
-    }
-   ],
-   "steemHead": 110496829,
-   "steemTime": "2026-10-16T18:20:36",
-   "fleetNetSp": {
-    "acct-00": 3502.3,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 3502.3,
-   "hiveCornerstoneHp": 102585.3,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T18:13:29Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T18:04:15Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T18:04:15Z"
-    },
-    {
-     "when": "2026-10-16T18:03:48Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T17:40:43.742Z"
-    },
-    {
-     "when": "2026-10-16T17:25:16Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T17:25:16Z"
-    },
-    {
-     "when": "2026-10-16T17:24:53Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T17:07:13.918Z"
-    },
-    {
-     "when": "2026-10-16T16:42:28Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T16:42:28Z"
-    }
-   ],
-   "steemHead": 110496687,
-   "steemTime": "2026-10-16T18:13:30",
-   "fleetNetSp": {
-    "acct-00": 3502.3,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 3502.3,
-   "hiveCornerstoneHp": 102585.2,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T16:55:23Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T16:42:28Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T16:42:28Z"
-    },
-    {
-     "when": "2026-10-16T16:42:05Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T16:19:42.574Z"
-    },
-    {
-     "when": "2026-10-16T16:38:09Z",
-     "msg": "pages: honest landing page — site resurrected at GitHub Pages [t77-8]"
-    },
-    {
-     "when": "2026-10-16T16:04:19Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T16:04:19Z"
-    },
-    {
-     "when": "2026-10-16T16:03:56Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T15:41:50.958Z"
-    }
-   ],
-   "steemHead": 110495131,
-   "steemTime": "2026-10-16T16:55:24",
-   "fleetNetSp": {
-    "acct-00": 3502.3,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 3502.3,
-   "hiveCornerstoneHp": 102584.8,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T15:30:42Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T15:26:32Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T15:26:32Z"
-    },
-    {
-     "when": "2026-10-16T15:26:04Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T14:56:19.318Z"
-    },
-    {
-     "when": "2026-10-16T14:42:32Z",
-     "msg": "de-schedule: כל-ה-triggers-המתוזמנים-הומרו-ל-workflow_dispatch — מכסת-דקות-פרטיי"
-    },
-    {
-     "when": "2026-10-16T14:40:51Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T14:40:51Z"
-    },
-    {
-     "when": "2026-10-16T14:40:29Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T14:28:27.269Z"
-    }
-   ],
-   "steemHead": 110493441,
-   "steemTime": "2026-10-16T15:30:42",
-   "fleetNetSp": {
-    "acct-00": 3278.9,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 3278.9,
-   "hiveCornerstoneHp": 102584.4,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T14:14:18Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T14:12:45Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T14:05:18.899Z"
-    },
-    {
-     "when": "2026-10-16T13:49:48Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T13:49:48Z"
-    },
-    {
-     "when": "2026-10-16T13:49:25Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T13:37:22.054Z"
-    },
-    {
-     "when": "2026-10-16T13:21:37Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T13:13:50.937Z"
-    },
-    {
-     "when": "2026-10-16T13:16:48Z",
-     "msg": "blurt-revival: receipt 2026-10-16T13:16:48Z [skip ci]"
-    }
-   ],
-   "steemHead": 110491918,
-   "steemTime": "2026-10-16T14:14:18",
-   "fleetNetSp": {
-    "acct-00": 2810.9,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.9,
-   "hiveCornerstoneHp": 102574.9,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T13:22:51Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T13:21:37Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T13:13:50.937Z"
-    },
-    {
-     "when": "2026-10-16T13:16:48Z",
-     "msg": "blurt-revival: receipt 2026-10-16T13:16:48Z [skip ci]"
-    },
-    {
-     "when": "2026-10-16T12:58:02Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T12:44:34.643Z"
-    },
-    {
-     "when": "2026-10-16T12:52:30Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T12:52:30Z"
-    },
-    {
-     "when": "2026-10-16T12:52:03Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T12:35:23.394Z"
-    }
-   ],
-   "steemHead": 110490895,
-   "steemTime": "2026-10-16T13:22:51",
-   "fleetNetSp": {
-    "acct-00": 2810.9,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.9,
-   "hiveCornerstoneHp": 102574.6,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T12:00:22Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T11:54:15Z",
-     "msg": "evolution: daily digest 2026-10-16 [skip ci]"
-    },
-    {
-     "when": "2026-10-16T11:50:16Z",
-     "msg": "self-memory: the network remembers — +0 new / 9 reinforced / 0 forgotten (16 rec"
-    },
-    {
-     "when": "2026-10-16T11:38:00Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T11:30:35.836Z"
-    },
-    {
-     "when": "2026-10-16T11:15:09Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T11:15:09Z"
-    },
-    {
-     "when": "2026-10-16T11:14:45Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T11:02:47.986Z"
-    }
-   ],
-   "steemHead": 110489252,
-   "steemTime": "2026-10-16T12:00:21",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102574.2,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T10:44:17Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T10:19:47Z",
-     "msg": "watchdog: 2 reds @ 2026-10-16T10:19:47Z"
-    },
-    {
-     "when": "2026-10-16T10:19:24Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T10:11:54.471Z"
-    },
-    {
-     "when": "2026-10-16T09:56:06Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T09:44:27.825Z"
-    },
-    {
-     "when": "2026-10-16T09:51:17Z",
-     "msg": "system-map: the network sees itself — 10 alive / 0 red / heartbeat ALIVE [skip c"
-    },
-    {
-     "when": "2026-10-16T09:47:44Z",
-     "msg": "watchdog: 2 reds @ 2026-10-16T09:47:44Z"
-    }
-   ],
-   "steemHead": 110487736,
-   "steemTime": "2026-10-16T10:44:18",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102573.8,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T09:17:04Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T09:03:04Z",
-     "msg": "watchdog: 2 reds @ 2026-10-16T09:03:04Z"
-    },
-    {
-     "when": "2026-10-16T09:02:40Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T08:51:02.956Z"
-    },
-    {
-     "when": "2026-10-16T08:35:23Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T08:31:10.884Z"
-    },
-    {
-     "when": "2026-10-16T08:29:42Z",
-     "msg": "custody-recover: receipt 2026-10-16T08:29:42Z [skip ci]"
-    },
-    {
-     "when": "2026-10-16T08:15:53Z",
-     "msg": "watchdog: 2 reds @ 2026-10-16T08:15:53Z"
-    }
-   ],
-   "steemHead": 110485998,
-   "steemTime": "2026-10-16T09:17:03",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102573.3,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T08:58:00Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T08:35:23Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T08:31:10.884Z"
-    },
-    {
-     "when": "2026-10-16T08:29:42Z",
-     "msg": "custody-recover: receipt 2026-10-16T08:29:42Z [skip ci]"
-    },
-    {
-     "when": "2026-10-16T08:15:53Z",
-     "msg": "watchdog: 2 reds @ 2026-10-16T08:15:53Z"
-    },
-    {
-     "when": "2026-10-16T08:15:30Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T08:03:47.401Z"
-    },
-    {
-     "when": "2026-10-16T07:48:06Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T07:36:24.586Z"
-    }
-   ],
-   "steemHead": 110485616,
-   "steemTime": "2026-10-16T08:57:57",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102573.2,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T07:23:13Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T07:21:07Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T07:21:07Z"
-    },
-    {
-     "when": "2026-10-16T07:20:42Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T07:14:02.330Z"
-    },
-    {
-     "when": "2026-10-16T07:11:58Z",
-     "msg": "blurt-revival: receipt 2026-10-16T07:11:58Z [skip ci]"
-    },
-    {
-     "when": "2026-10-16T06:58:19Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T06:46:37.933Z"
-    },
-    {
-     "when": "2026-10-16T06:31:13Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T06:31:13Z"
-    }
-   ],
-   "steemHead": 110483729,
-   "steemTime": "2026-10-16T07:23:12",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102568.4,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T05:49:11Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T05:31:29Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T05:31:29Z"
-    },
-    {
-     "when": "2026-10-16T05:31:10Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T05:19:24.181Z"
-    },
-    {
-     "when": "2026-10-16T05:04:41Z",
-     "msg": "system-map: the network sees itself — 8 alive / 0 red / heartbeat ALIVE [skip ci"
-    },
-    {
-     "when": "2026-10-16T05:03:47Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T04:57:18.555Z"
-    },
-    {
-     "when": "2026-10-16T04:54:00Z",
-     "msg": "self-memory: the network remembers — +1 new / 10 reinforced / 0 forgotten (16 re"
-    }
-   ],
-   "steemHead": 110481856,
-   "steemTime": "2026-10-16T05:49:09",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102567.8,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T04:24:53Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T04:13:57Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T04:02:20.192Z"
-    },
-    {
-     "when": "2026-10-16T03:46:56Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T03:46:56Z"
-    },
-    {
-     "when": "2026-10-16T03:46:34Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T03:39:55.385Z"
-    },
-    {
-     "when": "2026-10-16T03:24:13Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T03:12:21.866Z"
-    },
-    {
-     "when": "2026-10-16T02:56:53Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T02:56:53Z"
-    }
-   ],
-   "steemHead": 110480173,
-   "steemTime": "2026-10-16T04:24:51",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102567.4,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T03:00:21Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T02:56:53Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T02:56:53Z"
-    },
-    {
-     "when": "2026-10-16T02:56:32Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T02:49:42.567Z"
-    },
-    {
-     "when": "2026-10-16T02:33:57Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T02:21:52.533Z"
-    },
-    {
-     "when": "2026-10-16T02:06:30Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T02:06:30Z"
-    },
-    {
-     "when": "2026-10-16T02:06:09Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T01:54:29.630Z"
-    }
-   ],
-   "steemHead": 110478494,
-   "steemTime": "2026-10-16T03:00:21",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102566.9,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-16T01:30:24Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-16T01:15:49Z",
-     "msg": "watchdog: 1 reds @ 2026-10-16T01:15:49Z"
-    },
-    {
-     "when": "2026-10-16T01:15:25Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T01:09:30.743Z"
-    },
-    {
-     "when": "2026-10-16T00:53:46Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T00:42:06.004Z"
-    },
-    {
-     "when": "2026-10-16T00:26:23Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T00:10:56.296Z"
-    },
-    {
-     "when": "2026-10-16T00:25:51Z",
-     "msg": "blurt-revival: receipt 2026-10-16T00:25:51Z [skip ci]"
-    }
-   ],
-   "steemHead": 110476755,
-   "steemTime": "2026-10-16T01:30:21",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.1,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.1,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102558.8,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T23:50:36Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T23:27:48Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T23:21:43.205Z"
-    },
-    {
-     "when": "2026-10-15T23:06:24Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T23:06:24Z"
-    },
-    {
-     "when": "2026-10-15T23:06:02Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T22:59:00.539Z"
-    },
-    {
-     "when": "2026-10-15T22:43:20Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T22:37:02.176Z"
-    },
-    {
-     "when": "2026-10-15T22:36:08Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T22:28:57.817Z"
-    }
-   ],
-   "steemHead": 110474866,
-   "steemTime": "2026-10-15T23:50:36",
-   "fleetNetSp": {
-    "acct-00": 2810.9,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.9,
-   "hiveCornerstoneHp": 102558.2,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T22:36:08Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T22:21:46Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T22:21:46Z"
-    },
-    {
-     "when": "2026-10-15T22:21:19Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T22:13:42.205Z"
-    },
-    {
-     "when": "2026-10-15T21:57:48Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T21:46:18.658Z"
-    },
-    {
-     "when": "2026-10-15T21:48:13Z",
-     "msg": "system-map: the network sees itself — 9 alive / 0 red / heartbeat ALIVE [skip ci"
-    },
-    {
-     "when": "2026-10-15T21:47:44Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T21:47:44Z"
-    }
-   ],
-   "steemHead": 110473428,
-   "steemTime": "2026-10-15T22:36:06",
-   "fleetNetSp": {
-    "acct-00": 2810.9,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.9,
-   "hiveCornerstoneHp": 102557.8,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T21:19:10Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T21:03:13Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T20:50:08.662Z"
-    },
-    {
-     "when": "2026-10-15T20:34:48Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T20:34:47Z"
-    },
-    {
-     "when": "2026-10-15T20:34:19Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T20:26:48.420Z"
-    },
-    {
-     "when": "2026-10-15T20:10:59Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T20:04:59.243Z"
-    },
-    {
-     "when": "2026-10-15T19:49:25Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T19:49:25Z"
-    }
-   ],
-   "steemHead": 110471900,
-   "steemTime": "2026-10-15T21:19:09",
-   "fleetNetSp": {
-    "acct-00": 2810.9,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.9,
-   "hiveCornerstoneHp": 102557.4,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T20:30:23Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T20:10:59Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T20:04:59.243Z"
-    },
-    {
-     "when": "2026-10-15T19:49:25Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T19:49:25Z"
-    },
-    {
-     "when": "2026-10-15T19:48:56Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T19:41:27.586Z"
-    },
-    {
-     "when": "2026-10-15T19:27:43Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T19:15:47.976Z"
-    },
-    {
-     "when": "2026-10-15T19:25:39Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T19:13:37.800Z"
-    }
-   ],
-   "steemHead": 110470930,
-   "steemTime": "2026-10-15T20:30:21",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102557.1,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T19:07:17Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T18:58:12Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T18:58:12Z"
-    },
-    {
-     "when": "2026-10-15T18:57:48Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T18:46:11.946Z"
-    },
-    {
-     "when": "2026-10-15T18:41:00Z",
-     "msg": "system-map: the network sees itself — 9 alive / 0 red / heartbeat ALIVE [skip ci"
-    },
-    {
-     "when": "2026-10-15T18:30:24Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T18:26:40.230Z"
-    },
-    {
-     "when": "2026-10-15T18:20:06Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T18:20:06Z"
-    }
-   ],
-   "steemHead": 110469272,
-   "steemTime": "2026-10-15T19:07:18",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102551.5,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T17:45:11Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T17:26:05Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T17:18:58.090Z"
-    },
-    {
-     "when": "2026-10-15T17:18:07Z",
-     "msg": "self-memory: the network remembers — +2 new / 7 reinforced / 0 forgotten (14 rec"
-    },
-    {
-     "when": "2026-10-15T17:03:39Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T17:03:39Z"
-    },
-    {
-     "when": "2026-10-15T17:03:13Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T16:51:17.920Z"
-    },
-    {
-     "when": "2026-10-15T16:35:32Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T16:23:44.305Z"
-    }
-   ],
-   "steemHead": 110467636,
-   "steemTime": "2026-10-15T17:45:09",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102551.1,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T17:13:07Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T17:03:39Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T17:03:39Z"
-    },
-    {
-     "when": "2026-10-15T17:03:13Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T16:51:17.920Z"
-    },
-    {
-     "when": "2026-10-15T16:35:32Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T16:23:44.305Z"
-    },
-    {
-     "when": "2026-10-15T16:08:22Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T16:08:22Z"
-    },
-    {
-     "when": "2026-10-15T16:07:58Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T15:55:49.590Z"
-    }
-   ],
-   "steemHead": 110466997,
-   "steemTime": "2026-10-15T17:13:06",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102550.9,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T16:00:20Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T15:40:07Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T15:27:48.302Z"
-    },
-    {
-     "when": "2026-10-15T15:22:24Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T15:22:24Z"
-    },
-    {
-     "when": "2026-10-15T15:21:26Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T15:08:42.054Z"
-    },
-    {
-     "when": "2026-10-15T15:12:04Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T15:00:08.463Z"
-    },
-    {
-     "when": "2026-10-15T14:44:46Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T14:44:46Z"
-    }
-   ],
-   "steemHead": 110465548,
-   "steemTime": "2026-10-15T16:00:18",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102550.5,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T14:21:54Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T14:12:43Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T14:01:32.694Z"
-    },
-    {
-     "when": "2026-10-15T13:46:06Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T13:46:06Z"
-    },
-    {
-     "when": "2026-10-15T13:45:42Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T13:33:45.862Z"
-    },
-    {
-     "when": "2026-10-15T13:18:02Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T13:05:59.209Z"
-    },
-    {
-     "when": "2026-10-15T12:50:38Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T12:50:38Z"
-    }
-   ],
-   "steemHead": 110463586,
-   "steemTime": "2026-10-15T14:21:54",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102550.0,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T12:51:40Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T12:50:38Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T12:50:38Z"
-    },
-    {
-     "when": "2026-10-15T12:50:16Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T12:42:46.900Z"
-    },
-    {
-     "when": "2026-10-15T12:27:01Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T12:15:28.841Z"
-    },
-    {
-     "when": "2026-10-15T12:07:00Z",
-     "msg": "evolution: daily digest 2026-10-15 [skip ci]"
-    },
-    {
-     "when": "2026-10-15T12:00:01Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T12:00:01Z"
-    }
-   ],
-   "steemHead": 110461791,
-   "steemTime": "2026-10-15T12:51:39",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102544.8,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T11:48:22Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T11:38:11Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T11:33:58.699Z"
-    },
-    {
-     "when": "2026-10-15T11:32:32Z",
-     "msg": "blurt-revival: receipt 2026-10-15T11:32:32Z [skip ci]"
-    },
-    {
-     "when": "2026-10-15T11:18:39Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T11:18:39Z"
-    },
-    {
-     "when": "2026-10-15T11:18:16Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T11:10:29.039Z"
-    },
-    {
-     "when": "2026-10-15T10:54:40Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T10:50:48.074Z"
-    }
-   ],
-   "steemHead": 110460527,
-   "steemTime": "2026-10-15T11:48:21",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102544.5,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T10:13:09Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T10:10:47Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T10:06:28.907Z"
-    },
-    {
-     "when": "2026-10-15T09:55:05Z",
-     "msg": "watchdog: 1 reds @ 2026-10-15T09:55:05Z"
-    },
-    {
-     "when": "2026-10-15T09:54:40Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T09:50:18.154Z"
-    },
-    {
-     "when": "2026-10-15T09:34:40Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T09:23:42.815Z"
-    },
-    {
-     "when": "2026-10-15T09:27:47Z",
-     "msg": "system-map: the network sees itself — 9 alive / 0 red / heartbeat ALIVE [skip ci"
-    }
-   ],
-   "steemHead": 110458629,
-   "steemTime": "2026-10-15T10:13:09",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102544.0,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T09:00:21Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T08:45:43Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T08:33:40.532Z"
-    },
-    {
-     "when": "2026-10-15T08:35:03Z",
-     "msg": "custody-recover: receipt 2026-10-15T08:35:03Z [skip ci]"
-    },
-    {
-     "when": "2026-10-15T08:17:47Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T08:01:37.231Z"
-    },
-    {
-     "when": "2026-10-15T07:45:53Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T07:34:06.180Z"
-    },
-    {
-     "when": "2026-10-15T07:18:19Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T07:12:07.261Z"
-    }
-   ],
-   "steemHead": 110457186,
-   "steemTime": "2026-10-15T09:00:21",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102543.6,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T07:22:27Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T07:18:19Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T07:12:07.261Z"
-    },
-    {
-     "when": "2026-10-15T06:56:15Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T06:44:20.557Z"
-    },
-    {
-     "when": "2026-10-15T06:28:23Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T06:16:34.503Z"
-    },
-    {
-     "when": "2026-10-15T06:00:54Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T05:51:47.548Z"
-    },
-    {
-     "when": "2026-10-15T05:36:08Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T05:24:04.716Z"
-    }
-   ],
-   "steemHead": 110455233,
-   "steemTime": "2026-10-15T07:22:27",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.0,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.0,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102538.5,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T06:29:22Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T06:28:23Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T06:16:34.503Z"
-    },
-    {
-     "when": "2026-10-15T06:00:54Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T05:51:47.548Z"
-    },
-    {
-     "when": "2026-10-15T05:36:08Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T05:24:04.716Z"
-    },
-    {
-     "when": "2026-10-15T05:08:45Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T04:53:41.876Z"
-    },
-    {
-     "when": "2026-10-15T05:08:19Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T04:53:00.709Z"
-    }
-   ],
-   "steemHead": 110454176,
-   "steemTime": "2026-10-15T06:29:21",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.0,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.0,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102538.2,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T04:41:08Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T04:41:04Z",
-     "msg": "system-map: the network sees itself — 8 alive / 0 red / heartbeat ALIVE [skip ci"
-    },
-    {
-     "when": "2026-10-15T04:37:22Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T04:25:26.450Z"
-    },
-    {
-     "when": "2026-10-15T04:09:42Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T03:58:05.345Z"
-    },
-    {
-     "when": "2026-10-15T03:42:25Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T03:30:32.282Z"
-    },
-    {
-     "when": "2026-10-15T03:14:41Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T03:02:46.899Z"
-    }
-   ],
-   "steemHead": 110452019,
-   "steemTime": "2026-10-15T04:41:09",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.0,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.0,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102537.6,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T03:15:37Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T03:14:41Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T03:02:46.899Z"
-    },
-    {
-     "when": "2026-10-15T02:46:54Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T02:40:29.368Z"
-    },
-    {
-     "when": "2026-10-15T02:24:53Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T02:13:15.561Z"
-    },
-    {
-     "when": "2026-10-15T01:57:33Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-15T01:42:11.647Z"
-    },
-    {
-     "when": "2026-10-15T01:29:15Z",
-     "msg": "R361 FLOW-IGNITION (owner word: open all economic barriers): grid arming wire he"
-    }
-   ],
-   "steemHead": 110450313,
-   "steemTime": "2026-10-15T03:15:36",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.0,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.0,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102537.1,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T01:49:38Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-15T01:29:15Z",
-     "msg": "R361 FLOW-IGNITION (owner word: open all economic barriers): grid arming wire he"
-    },
-    {
-     "when": "2026-10-14T23:55:24Z",
-     "msg": "system-map: the network sees itself — 9 alive / 0 red / heartbeat STALE [skip ci"
-    },
-    {
-     "when": "2026-10-14T23:27:15Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T23:27:15Z"
-    },
-    {
-     "when": "2026-10-14T23:15:58Z",
-     "msg": "blurt-revival: receipt 2026-10-14T23:15:58Z [skip ci]"
-    },
-    {
-     "when": "2026-10-14T23:06:35Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T23:06:35Z"
-    }
-   ],
-   "steemHead": 110448597,
-   "steemTime": "2026-10-15T01:49:39",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 12.0,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 12.0,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102531.7,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-15T00:37:29Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-14T23:55:24Z",
-     "msg": "system-map: the network sees itself — 9 alive / 0 red / heartbeat STALE [skip ci"
-    },
-    {
-     "when": "2026-10-14T23:27:15Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T23:27:15Z"
-    },
-    {
-     "when": "2026-10-14T23:15:58Z",
-     "msg": "blurt-revival: receipt 2026-10-14T23:15:58Z [skip ci]"
-    },
-    {
-     "when": "2026-10-14T23:06:35Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T23:06:35Z"
-    },
-    {
-     "when": "2026-10-14T22:31:35Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T22:31:35Z"
-    }
-   ],
-   "steemHead": 110447159,
-   "steemTime": "2026-10-15T00:37:27",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102531.4,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-14T23:26:52Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-14T23:15:58Z",
-     "msg": "blurt-revival: receipt 2026-10-14T23:15:58Z [skip ci]"
-    },
-    {
-     "when": "2026-10-14T23:06:35Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T23:06:35Z"
-    },
-    {
-     "when": "2026-10-14T22:31:35Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T22:31:35Z"
-    },
-    {
-     "when": "2026-10-14T22:04:12Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T22:04:12Z"
-    },
-    {
-     "when": "2026-10-14T21:54:03Z",
-     "msg": "self-memory: the network remembers — +1 new / 9 reinforced / 0 forgotten (12 rec"
-    }
-   ],
-   "steemHead": 110445751,
-   "steemTime": "2026-10-14T23:26:51",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102531.0,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-14T23:09:26Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-14T23:06:35Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T23:06:35Z"
-    },
-    {
-     "when": "2026-10-14T22:31:35Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T22:31:35Z"
-    },
-    {
-     "when": "2026-10-14T22:04:12Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T22:04:12Z"
-    },
-    {
-     "when": "2026-10-14T21:54:03Z",
-     "msg": "self-memory: the network remembers — +1 new / 9 reinforced / 0 forgotten (12 rec"
-    },
-    {
-     "when": "2026-10-14T21:18:53Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T21:18:53Z"
-    }
-   ],
-   "steemHead": 110445403,
-   "steemTime": "2026-10-14T23:09:24",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102530.9,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-14T21:56:12Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-14T21:54:03Z",
-     "msg": "self-memory: the network remembers — +1 new / 9 reinforced / 0 forgotten (12 rec"
-    },
-    {
-     "when": "2026-10-14T21:18:53Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T21:18:53Z"
-    },
-    {
-     "when": "2026-10-14T21:17:25Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T21:17:25Z"
-    },
-    {
-     "when": "2026-10-14T20:58:34Z",
-     "msg": "system-map: the network sees itself — 9 alive / 0 red / heartbeat ALIVE [skip ci"
-    },
-    {
-     "when": "2026-10-14T20:40:18Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T20:40:18Z"
-    }
-   ],
-   "steemHead": 110443944,
-   "steemTime": "2026-10-14T21:56:12",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102530.5,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-14T20:40:20Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-14T20:40:18Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T20:40:18Z"
-    },
-    {
-     "when": "2026-10-14T20:35:48Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T20:35:48Z"
-    },
-    {
-     "when": "2026-10-14T20:15:03Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T20:15:03Z"
-    },
-    {
-     "when": "2026-10-14T19:43:52Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T19:43:52Z"
-    },
-    {
-     "when": "2026-10-14T19:12:28Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T19:12:28Z"
-    }
-   ],
-   "steemHead": 110442430,
-   "steemTime": "2026-10-14T20:40:18",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102530.1,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-14T20:00:20Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-14T19:43:52Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T19:43:52Z"
-    },
-    {
-     "when": "2026-10-14T19:12:28Z",
-     "msg": "watchdog: 2 reds @ 2026-10-14T19:12:28Z"
-    },
-    {
-     "when": "2026-10-14T18:41:22Z",
-     "msg": "watchdog: 1 reds @ 2026-10-14T18:41:22Z"
-    },
-    {
-     "when": "2026-10-14T18:40:57Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T18:28:00.304Z"
-    },
-    {
-     "when": "2026-10-14T18:39:49Z",
-     "msg": "blurt-revival: receipt 2026-10-14T18:39:49Z [skip ci]"
-    }
-   ],
-   "steemHead": 110441637,
-   "steemTime": "2026-10-14T20:00:18",
-   "fleetNetSp": {
-    "acct-00": 2810.8,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.8,
-   "hiveCornerstoneHp": 102523.2,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  },
-  {
-   "at": "2026-10-14T18:30:24Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-14T18:11:53Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T18:04:54.709Z"
-    },
-    {
-     "when": "2026-10-14T17:49:33Z",
-     "msg": "watchdog: 1 reds @ 2026-10-14T17:49:33Z"
-    },
-    {
-     "when": "2026-10-14T17:49:03Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-14T17:41:48.182Z"
-    },
-    {
-     "when": "2026-10-14T17:37:40Z",
-     "msg": "system-map: the network sees itself — 8 alive / 0 red / heartbeat ALIVE [skip ci"
-    },
-    {
-     "when": "2026-10-14T17:33:06Z",
-     "msg": "self-memory: the network remembers — +0 new / 9 reinforced / 0 forgotten (11 rec"
-    }
-   ],
-   "steemHead": 110439843,
-   "steemTime": "2026-10-14T18:30:24",
-   "fleetNetSp": {
-    "acct-00": 2810.7,
-    "acct-01": 75.3,
-    "acct-02": 78.4,
-    "acct-03": 94.0,
-    "acct-04": 79.8,
-    "acct-05": 75.2,
-    "acct-06": 31.2,
-    "acct-07": 31.2,
-    "acct-08": 32.7,
-    "acct-09": 11.9,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 11.9,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2810.7,
-   "hiveCornerstoneHp": 102522.7,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
-  }
- ],
- "lastPulse": {
-  "at": "2026-10-16T18:20:35Z",
-  "runtimeLatestCommits": [
-   {
-    "when": "2026-10-16T18:04:15Z",
-    "msg": "watchdog: 1 reds @ 2026-10-16T18:04:15Z"
-   },
-   {
-    "when": "2026-10-16T18:03:48Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T17:40:43.742Z"
-   },
-   {
-    "when": "2026-10-16T17:25:16Z",
-    "msg": "watchdog: 1 reds @ 2026-10-16T17:25:16Z"
-   },
-   {
-    "when": "2026-10-16T17:24:53Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-16T17:07:13.918Z"
-   },
-   {
-    "when": "2026-10-16T16:42:28Z",
-    "msg": "watchdog: 1 reds @ 2026-10-16T16:42:28Z"
-   }
   ],
-  "steemHead": 110496829,
-  "steemTime": "2026-10-16T18:20:36",
-  "fleetNetSp": {
-   "acct-00": 3502.3,
-   "acct-01": 75.3,
-   "acct-02": 78.4,
-   "acct-03": 95.0,
-   "acct-04": 79.9,
-   "acct-05": 75.2,
-   "acct-06": 31.2,
-   "acct-07": 31.2,
-   "acct-08": 32.7,
-   "acct-09": 12.1,
-   "acct-10": 70.0,
-   "acct-15": 0.0,
-   "acct-16": 0.0,
-   "acct-17": 0.0,
-   "acct-11": 17.0,
-   "acct-12": 17.0,
-   "acct-13": 17.0
+  "grid": {
+    "posts": 15,
+    "lastPostAt": "2026-10-16T19:20:07.215Z",
+    "lastTitle": "1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
+    "recent": [
+      {
+        "id": "gmv85e1b4",
+        "ts": "2026-10-14T13:30:44.906Z",
+        "kind": "report",
+        "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+        "chain": {
+          "ok": false
+        }
+      },
+      {
+        "id": "gmv86gobt",
+        "ts": "2026-10-14T14:00:47.669Z",
+        "kind": "report",
+        "title": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
+        "chain": {
+          "ok": false
+        }
+      },
+      {
+        "id": "gmv87jbd7",
+        "ts": "2026-10-14T14:30:50.454Z",
+        "kind": "report",
+        "title": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+        "chain": {
+          "ok": false
+        }
+      },
+      {
+        "id": "gmv88lyf0",
+        "ts": "2026-10-14T15:00:53.256Z",
+        "kind": "report",
+        "title": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
+        "chain": {
+          "ok": false
+        }
+      },
+      {
+        "id": "gmvbcr17z",
+        "ts": "2026-10-16T19:20:07.215Z",
+        "kind": "report",
+        "title": "1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
+        "chain": {
+          "ok": false
+        }
+      }
+    ]
   },
-  "minOperatorSp": 12.1,
-  "soldierSp": [
-   17.0,
-   17.0,
-   17.0
+  "gridPosts": [
+    {
+      "id": "gmv2lc7z0",
+      "ts": "2026-10-10T16:10:37.033Z",
+      "kind": "report",
+      "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· תרגיל-כספת: פער! (?) [vaultDrill]",
+        "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
+        "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
+        "· שערים-חוסמים: 0 (היה ?) [escalations]",
+        "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
+        "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
+        "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
+        "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
+        "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
+        "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
+      ],
+      "evidence": {
+        "commits": 6,
+        "newReceiptLines": 20,
+        "escalOpen": 0,
+        "heartChain": "6565452ad35d",
+        "head": "b778ed010852"
+      }
+    },
+    {
+      "id": "gmv2mev0g",
+      "ts": "2026-10-10T16:40:39.822Z",
+      "kind": "report",
+      "title": "8 קומיטים: T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (va (+7 עוד)",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b778•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
+        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 0eb6a9e T-66c-final: PROVEN=true (sovereignty-drill-11/11) · ריפוי-תוכן-בלוב (vaultBlobContentMatches) · GitLab-הדביק-עד-d28ffa6",
+        "· commit: d28ffa6 T-66c: reseal-11-במפתח-הקנון-המאוחד + ריפוי-עצמי-משופר (בלוב-חייב-להכיל-את-התוכן-עצמו — קץ-מלחמת-הבלובים-הטכנית)",
+        "· commit: efd9984 HQ sync 2026-10-10T16:14:33.524Z",
+        "· commit: bda589d T-66c: חיסון-טעינה-עצמית-למפקח · גריד-סנכרוני-לפני-מגדלור · כותרות-מהותיות-וחיסון-כפילות · איחוד-מפתח-כספת-עם-ארנק-האם (reseal-11) · guard-נופל-בכבוד-לקנון-מקומי · escalations-אמת (SUPERSEDED/OPTIONAL) · עורקות-חיים-לקונסולה · סייר-10-נושאים",
+        "· commit: c238c12 HQ sync 2026-10-10T16:04:59.527Z",
+        "· ועוד 3 קומיטים (זנב-מלא-בגיט)"
+      ],
+      "evidence": {
+        "commits": 8,
+        "newReceiptLines": 14,
+        "escalOpen": 0,
+        "heartChain": "0c1beb31f5dc",
+        "head": "0eb6a9e3ce9c"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmv2nhi2e",
+      "ts": "2026-10-10T17:10:42.624Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 0eb6•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
+        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 7809c89 HQ sync 2026-10-10T16:47:18.859Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 7,
+        "escalOpen": 0,
+        "heartChain": "138aa9efa404",
+        "head": "7809c89f19a8"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmv2ok528",
+      "ts": "2026-10-10T17:40:45.353Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: b2ef891 HQ sync 2026-10-10T17:17:18.831Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 7,
+        "escalOpen": 0,
+        "heartChain": "b659aa8c7256",
+        "head": "b2ef8918c752"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmv84be8y",
+      "ts": "2026-10-14T13:00:42.163Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-10T17:47:18.808Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 5dba•) [stateReplica]",
+        "· כשל-דחיפה-גיטלאב (?) [gitlabPush]",
+        "· דחיפה-לענן: ? () [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 5dbac59 HQ sync 2026-10-10T17:47:18.808Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 7,
+        "escalOpen": 0,
+        "heartChain": "217c9bee3179",
+        "head": "5dbac5945e79"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmv85e1b4",
+      "ts": "2026-10-14T13:30:44.906Z",
+      "kind": "report",
+      "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
+      "lines": [
+        "· סיור-רשת-הושלם: \"מחירי דלק בישראל היום\" (4755ms · חיפוש+ביקורת-חוץ-עצמית) [webRecon]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 5dba•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]",
+        "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: ae07e7a HQ sync 2026-10-14T13:01:28.552Z",
+        "· commit: f75dea4 sovereign identity law: every commit signed as roshpinacare-sys - foreign account attribution eliminated (name collisions on noreply emails credited stranger accounts)",
+        "· commit: 5fb059a docs(N4/T-63): rename receipt - sanbox -> sandbox-private (sovereign decision D2, redirect 301 verified)",
+        "· commit: 32b2262 [zai-10c] README role declaration: constant productive role + why-silenced (measured) + revival path (owner mandate trace 1a12c59452cbc355: no archive, no fleeing — every unit works as one fist)"
+      ],
+      "evidence": {
+        "commits": 4,
+        "newReceiptLines": 7,
+        "escalOpen": 0,
+        "heartChain": "77c45b187418",
+        "head": "ae07e7a21421"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmv86gobt",
+      "ts": "2026-10-14T14:00:47.669Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-14T13:31:33.450Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head ae07•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 3d5bba7 HQ sync 2026-10-14T13:31:33.450Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 6,
+        "escalOpen": 0,
+        "heartChain": "7c763b8a2b33",
+        "head": "3d5bba712a0f"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmv87jbd7",
+      "ts": "2026-10-14T14:30:50.454Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-14T14:01:33.428Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3d5b•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 7a33063 HQ sync 2026-10-14T14:01:33.428Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 6,
+        "escalOpen": 0,
+        "heartChain": "7bad0c2a699b",
+        "head": "7a33063100f3"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmv88lyf0",
+      "ts": "2026-10-14T15:00:53.256Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-14T14:31:33.421Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7a33•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: 10e6549 HQ sync 2026-10-14T14:31:33.421Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 6,
+        "escalOpen": 0,
+        "heartChain": "480229eb60d5",
+        "head": "10e65492d606"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    },
+    {
+      "id": "gmvbcr17z",
+      "ts": "2026-10-16T19:20:07.215Z",
+      "kind": "report",
+      "title": "1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
+      "lines": [
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]",
+        "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head f0ce•) [stateReplica]",
+        "· כשל-דחיפה: ? (?) [pushLog]",
+        "· משימת-מקור-ביומן: T-66c-final [worklog]",
+        "· commit: f0ce062 HQ sync 2026-10-14T15:01:33.418Z"
+      ],
+      "evidence": {
+        "commits": 1,
+        "newReceiptLines": 6,
+        "escalOpen": 0,
+        "heartChain": "b2d54732782a",
+        "head": "f0ce062728b5"
+      },
+      "chain": {
+        "hive": {
+          "ok": false,
+          "skipped": "no-key"
+        }
+      }
+    }
   ],
-  "treasuryNetSp": 3502.3,
-  "hiveCornerstoneHp": 102585.3,
-  "hiveCornerstoneLiquid": 13036.5,
-  "degraded": true,
-  "degradedWhy": [
-   "raw.githubusercontent.com:HTTP Error 404: Not Found"
-  ]
- }
+  "escalations": [
+    {
+      "id": "vercel-token-read-only",
+      "status": "SUPERSEDED — ורסל-היה-עותק-מיותר-של-המגד",
+      "gate": "POST /v13/deployments + POST /v9/projects → 403 (טוקן-קריאה-בלבד)",
+      "needed": "אופציונלי-בלבד: אם-וורסל-עדיין-רצוי — טוקן-ב-scope-מלא (deployments:create+projects:create) ב-secrets/vercel.keys; אחרת-אפס-פעולה-נדרשת"
+    },
+    {
+      "id": "gitlab-ci-identity-verification",
+      "status": "OPEN-OPTIONAL — שיפור-אצולה; אפס-תלות-רי",
+      "gate": "CI-jobs=0 · POST-pipeline→400 \"Identity verification is required\" · runner-עצמאי-57265759-polling→403",
+      "needed": "אופציונלי-בלבד: אימות-זהות-בדשבורד-GitLab (כרטיס/טלפון) — פותח-צופה-CI-שובה-לב-אך-לא-דבר-נוסף"
+    },
+    {
+      "id": "github-pages-plan",
+      "status": "RESOLVED-BY-BYPASS — המגדלור-הריבוני-חי",
+      "gate": "POST /repos/sanbox/pages → 422 \"plan does not support GitHub Pages\" — רלוונטי-לריפו-פרטי-בלבד",
+      "needed": "—אין"
+    }
+  ],
+  "fleet": {
+    "runner": "GitLab runner 57265759 (self-healing via boot-all.sh)",
+    "renderCockpit": "הצי-מחזיק-את-הנתיב (אי-התנגשות>מאבק)",
+    "escalations": "sanbox repo-vault/escalations.json — שערי-בעלים-עם-ראיות",
+    "webSense": "T-62: חיפוש-ריבוני (Tavily x2 · 200) + קריאת-דפים (Jina · 200) — אטום-בכספת · scripts/web-sense.mjs",
+    "motherConsole": "T-64: קונסולת-האם 3050 נולדה-מחדש-מהריפו (scripts/console-server.ts) · משגיח-מחוסן (spawn-אסינכרוני+execPath)",
+    "webRecon": "T-64: סייר-ריבוני-תקופתי (כל-~שעה): חיפוש-מדורג + ביקורת-חוץ-עצמית-של-המגדלור-מהאינטרנט",
+    "sovereigntyDrill": "T-65: משפט-הריבונות (scripts/sovereignty-drill.sh): עננים-מרחוק+clone-טרי+שחזור-כספת+ביט-מול-חיים",
+    "grid": "T-66: הגריד-הריבוני-חי (grids/run.mjs · spawn-5-מהלב) — פוסטים-מראיות: 15 · אחרון: 1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
+    "developmentPaths": "מ-Head-Corner: browser-use/Skyvern (דפדפן) · vLLM (אינפרנס-עצמאי) · LangSearch (401-ממתין-הפעלה)"
+  },
+  "awakening": [
+    "1. הגיט-הוא-הקוד-המלא: שני-עננים-נושאים-sanbox + vault/vault-backup.enc (AES-256-GCM)",
+    "2. שחזור-כספת: bun scripts/vault-restore.ts — המפתח: HQ_VAULT_PASS (hq.password אצל-Head-Corner · וב-~/.sovereign/guardian.env לאוטונומיה-מלאה-לאחר-התקנת-השומר)",
+    "3. הצתה: sh sanbox/scripts/boot-all.sh — סודות→כספת→מפקח→שומר→HQ-3010",
+    "4. זיכרון-חוץ-מכונה: bun scripts/state-replica.mjs pull",
+    "5. ההתחדשות-אוטומטית: קומיט=הצתה; הלב-פועם-כל-15-דקות ומכתיב-את-המגדלור-הזה"
+  ],
+  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה"
 }
