@@ -1,54 +1,61 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T22:06:46.082Z",
+ "at": "2026-10-16T23:35:16.739Z",
  "redKeys": [
-  "FleetHQ|office-ci",
-  "Autonomy|artery-grid",
-  "Console|console-publish",
   "Domain|arb-mesh",
-  "Domain|exposure-gate"
+  "Domain|dex-mirror",
+  "Autonomy|artery-grid",
+  "FleetHQ|office-ci"
  ],
  "red": {
-  "FleetHQ|office-ci": {
-   "repo": "FleetHQ",
-   "workflow": "office-ci",
-   "failsInWindow": 9,
-   "lastAt": "2026-10-16T22:00:09Z",
-   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/38973037428"
+  "Domain|arb-mesh": {
+   "repo": "Domain",
+   "workflow": "arb-mesh",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-16T23:18:44Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38980740460"
+  },
+  "Domain|dex-mirror": {
+   "repo": "Domain",
+   "workflow": "dex-mirror",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-16T23:01:20Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38979125030"
   },
   "Autonomy|artery-grid": {
    "repo": "Autonomy",
    "workflow": "artery-grid",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T22:05:04Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38973572816"
+   "failsInWindow": 2,
+   "lastAt": "2026-10-16T22:44:09Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38977500069"
   },
-  "Console|console-publish": {
-   "repo": "Console",
-   "workflow": "console-publish",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T21:41:31Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38971061700"
-  },
-  "Domain|arb-mesh": {
-   "repo": "Domain",
-   "workflow": "arb-mesh",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T22:00:22Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38973063915"
-  },
-  "Domain|exposure-gate": {
-   "repo": "Domain",
-   "workflow": "exposure-gate",
+  "FleetHQ|office-ci": {
+   "repo": "FleetHQ",
+   "workflow": "office-ci",
    "failsInWindow": 3,
-   "lastAt": "2026-10-16T21:51:39Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38972158290"
+   "lastAt": "2026-10-16T23:17:01Z",
+   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/38980589498"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T23:35:16.739Z",
+   "kind": "RECOVERED",
+   "key": "Domain|exposure-gate"
+  },
+  {
+   "at": "2026-10-16T23:35:16.739Z",
+   "kind": "RECOVERED",
+   "key": "Console|console-publish"
+  },
+  {
+   "at": "2026-10-16T23:35:16.739Z",
+   "kind": "NEW-RED",
+   "key": "Domain|dex-mirror"
+  },
   {
    "at": "2026-10-16T22:06:46.082Z",
    "kind": "RECOVERED",
@@ -282,21 +289,6 @@
   {
    "at": "2026-10-15T18:41:23.632Z",
    "kind": "NEW-RED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T18:12:02.211Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-participation"
-  },
-  {
-   "at": "2026-10-15T18:12:02.211Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-decision-truth"
-  },
-  {
-   "at": "2026-10-15T16:58:15.513Z",
-   "kind": "RECOVERED",
    "key": "Console|estate-scrub"
   }
  ]
