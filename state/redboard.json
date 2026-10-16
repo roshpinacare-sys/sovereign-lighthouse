@@ -1,6 +1,6 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T18:49:44.030Z",
+ "at": "2026-10-16T20:14:18.572Z",
  "redKeys": [
   "Autonomy|artery-grid"
  ],
@@ -8,9 +8,9 @@
   "Autonomy|artery-grid": {
    "repo": "Autonomy",
    "workflow": "artery-grid",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T17:52:39Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38943036916"
+   "failsInWindow": 2,
+   "lastAt": "2026-10-16T19:40:46Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38956681194"
   }
  },
  "stasisKeys": [],
