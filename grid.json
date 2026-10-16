@@ -1,37 +1,28 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-16T19:20:07.215Z",
- "total": 15,
- "lastPostAt": "2026-10-16T19:20:07.215Z",
- "lastTitle": "1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z",
- "lastSig": "[\"1 קומיטים: HQ sync 2026-10-14T15:01:33.418Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 10e6•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head f0ce•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: f0ce062 HQ sync 2026-10-14T15:01:33.418Z\"]]",
+ "asof": "2026-10-16T19:50:10.051Z",
+ "total": 16,
+ "lastPostAt": "2026-10-16T19:50:10.051Z",
+ "lastTitle": "2 קומיטים: HQ sync 2026-10-16T19:50:07.989Z (+1 עוד)",
+ "lastSig": "[\"2 קומיטים: HQ sync 2026-10-16T19:50:07.989Z (+1 עוד)\",[\"· סיור-רשת-הושלם: \\\"GitHub Actions status incidents\\\" (4001ms · חיפוש+ביקורת-חוץ-עצמית) [webRecon]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head f0ce•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head c1f2•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: e20fdf1 HQ sync 2026-10-16T19:50:07.989Z\",\"· commit: c1f2088 HQ sync 2026-10-16T19:20:53.033Z\"]]",
  "cursor": {
-  "commit": "f0ce062728b58b7066ffc0e06e50c60a57755f20",
+  "commit": "e20fdf14f1708383177345b30e0200385ef24a23",
   "lineCounts": {
    "supervisor": 500,
-   "consoleServer": 7,
-   "webRecon": 37,
+   "consoleServer": 8,
+   "webRecon": 39,
    "lighthouse": 7,
-   "stateReplica": 476,
+   "stateReplica": 478,
    "vercelBeacon": 200,
    "gitlabPush": 66,
-   "pushLog": 79,
+   "pushLog": 81,
    "sovereigntyDrill": 11,
    "vaultDrill": 5
   },
   "escalOpen": 0,
-  "heartChain": "b2d54732782adb2f245b4905"
+  "heartChain": "487ca4fabaeecb31d81c5d09"
  },
  "recent": [
-  {
-   "id": "gmv2nhi2e",
-   "ts": "2026-10-10T17:10:42.624Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-10T16:47:18.859Z",
-   "chain": {
-    "ok": false
-   }
-  },
   {
    "id": "gmv2ok528",
    "ts": "2026-10-10T17:40:45.353Z",
@@ -94,44 +85,18 @@
    "chain": {
     "ok": false
    }
+  },
+  {
+   "id": "gmvbdtoca",
+   "ts": "2026-10-16T19:50:10.051Z",
+   "kind": "report",
+   "title": "2 קומיטים: HQ sync 2026-10-16T19:50:07.989Z (+1 עוד)",
+   "chain": {
+    "ok": false
+   }
   }
  ],
  "posts": [
-  {
-   "id": "gmv2lc7z0",
-   "ts": "2026-10-10T16:10:37.033Z",
-   "kind": "report",
-   "title": "6 קומיטים: HQ sync 2026-10-10T15:56:21.858Z (+5 עוד)",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head cf57•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 3917•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· כשל-דחיפה: ? (?) [pushLog]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· תרגיל-כספת: פער! (?) [vaultDrill]",
-    "· תרגיל-כספת: שחזור-ביט-מושלם (?/?) [vaultDrill]",
-    "· משימת-מקור-ביומן: T-66-grid-single-child [worklog]",
-    "· שערים-חוסמים: 0 (היה ?) [escalations]",
-    "· commit: b778ed0 HQ sync 2026-10-10T15:56:21.858Z",
-    "· commit: 39171d6 HQ sync 2026-10-10T15:32:21.880Z",
-    "· commit: 8603fa0 HQ sync 2026-10-10T15:30:11.652Z",
-    "· commit: 181a1f8 T-66: פורט-HQ-הקנון=3011 (boot-all·supervisor·server) — הדקס-הבעלים-היחיד-על-3010; מלחמת-הפורטים-נגמרת-מבנית",
-    "· commit: 6e55533 HQ sync 2026-10-10T14:57:56.387Z",
-    "· ועוד 1 קומיטים (זנב-מלא-בגיט)"
-   ],
-   "evidence": {
-    "commits": 6,
-    "newReceiptLines": 20,
-    "escalOpen": 0,
-    "heartChain": "6565452ad35d",
-    "head": "b778ed010852"
-   }
-  },
   {
    "id": "gmv2mev0g",
    "ts": "2026-10-10T16:40:39.822Z",
@@ -378,6 +343,35 @@
     "escalOpen": 0,
     "heartChain": "b2d54732782a",
     "head": "f0ce062728b5"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
+  },
+  {
+   "id": "gmvbdtoca",
+   "ts": "2026-10-16T19:50:10.051Z",
+   "kind": "report",
+   "title": "2 קומיטים: HQ sync 2026-10-16T19:50:07.989Z (+1 עוד)",
+   "lines": [
+    "· סיור-רשת-הושלם: \"GitHub Actions status incidents\" (4001ms · חיפוש+ביקורת-חוץ-עצמית) [webRecon]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head f0ce•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head c1f2•) [stateReplica]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: e20fdf1 HQ sync 2026-10-16T19:50:07.989Z",
+    "· commit: c1f2088 HQ sync 2026-10-16T19:20:53.033Z"
+   ],
+   "evidence": {
+    "commits": 2,
+    "newReceiptLines": 8,
+    "escalOpen": 0,
+    "heartChain": "487ca4fabaee",
+    "head": "e20fdf14f170"
    },
    "chain": {
     "hive": {
