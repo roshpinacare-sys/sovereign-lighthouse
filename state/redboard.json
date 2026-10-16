@@ -1,22 +1,32 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T05:07:25.922Z",
+ "at": "2026-10-16T06:44:06.775Z",
  "redKeys": [
-  "Console|estate-scrub"
+  "Sandbox|compute-canary"
  ],
  "red": {
-  "Console|estate-scrub": {
-   "repo": "Console",
-   "workflow": "estate-scrub",
+  "Sandbox|compute-canary": {
+   "repo": "Sandbox",
+   "workflow": "compute-canary",
    "failsInWindow": 1,
-   "lastAt": "2026-10-16T04:33:18Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38851223098"
+   "lastAt": "2026-10-16T05:59:59Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38858722801"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T06:44:06.775Z",
+   "kind": "RECOVERED",
+   "key": "Console|estate-scrub"
+  },
+  {
+   "at": "2026-10-16T06:44:06.775Z",
+   "kind": "NEW-RED",
+   "key": "Sandbox|compute-canary"
+  },
   {
    "at": "2026-10-16T05:07:25.922Z",
    "kind": "RECOVERED",
@@ -256,16 +266,6 @@
    "at": "2026-10-15T10:56:25.201Z",
    "kind": "NEW-RED",
    "key": "Domain|exposure-gate"
-  },
-  {
-   "at": "2026-10-15T09:28:28.695Z",
-   "kind": "RECOVERED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-15T09:28:28.695Z",
-   "kind": "RECOVERED",
-   "key": "Domain|estate-scrub"
   }
  ]
 }
