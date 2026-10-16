@@ -1,22 +1,45 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T06:44:06.775Z",
+ "at": "2026-10-16T08:10:14.100Z",
  "redKeys": [
-  "Sandbox|compute-canary"
+  "Domain|dex-mirror",
+  "Domain|exposure-gate"
  ],
  "red": {
-  "Sandbox|compute-canary": {
-   "repo": "Sandbox",
-   "workflow": "compute-canary",
+  "Domain|dex-mirror": {
+   "repo": "Domain",
+   "workflow": "dex-mirror",
    "failsInWindow": 1,
-   "lastAt": "2026-10-16T05:59:59Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38858722801"
+   "lastAt": "2026-10-16T07:57:29Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38870503045"
+  },
+  "Domain|exposure-gate": {
+   "repo": "Domain",
+   "workflow": "exposure-gate",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-16T07:52:21Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38869954739"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T08:10:14.100Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|compute-canary"
+  },
+  {
+   "at": "2026-10-16T08:10:14.100Z",
+   "kind": "NEW-RED",
+   "key": "Domain|exposure-gate"
+  },
+  {
+   "at": "2026-10-16T08:10:14.100Z",
+   "kind": "NEW-RED",
+   "key": "Domain|dex-mirror"
+  },
   {
    "at": "2026-10-16T06:44:06.775Z",
    "kind": "RECOVERED",
@@ -251,21 +274,6 @@
    "at": "2026-10-15T10:56:25.201Z",
    "kind": "NEW-RED",
    "key": "Autonomy|artery-participation"
-  },
-  {
-   "at": "2026-10-15T10:56:25.201Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|profit-oracle"
-  },
-  {
-   "at": "2026-10-15T10:56:25.201Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
-  },
-  {
-   "at": "2026-10-15T10:56:25.201Z",
-   "kind": "NEW-RED",
-   "key": "Domain|exposure-gate"
   }
  ]
 }
