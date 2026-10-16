@@ -1,38 +1,45 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T00:26:31.098Z",
+ "at": "2026-10-16T01:39:13.459Z",
  "redKeys": [
-  "Domain|dex-mirror",
-  "Sandbox|compute-canary",
-  "Console|estate-scrub"
+  "Console|estate-scrub",
+  "Domain|estate-scrub"
  ],
  "red": {
-  "Domain|dex-mirror": {
-   "repo": "Domain",
-   "workflow": "dex-mirror",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T00:20:04Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38828889864"
-  },
-  "Sandbox|compute-canary": {
-   "repo": "Sandbox",
-   "workflow": "compute-canary",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-15T23:42:57Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/38825221267"
-  },
   "Console|estate-scrub": {
    "repo": "Console",
    "workflow": "estate-scrub",
    "failsInWindow": 1,
    "lastAt": "2026-10-16T00:07:03Z",
    "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38827619692"
+  },
+  "Domain|estate-scrub": {
+   "repo": "Domain",
+   "workflow": "estate-scrub",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-16T01:32:15Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38835652325"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T01:39:13.459Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|compute-canary"
+  },
+  {
+   "at": "2026-10-16T01:39:13.459Z",
+   "kind": "RECOVERED",
+   "key": "Domain|dex-mirror"
+  },
+  {
+   "at": "2026-10-16T01:39:13.459Z",
+   "kind": "NEW-RED",
+   "key": "Domain|estate-scrub"
+  },
   {
    "at": "2026-10-16T00:26:31.098Z",
    "kind": "RECOVERED",
@@ -267,21 +274,6 @@
    "at": "2026-10-15T07:46:54.552Z",
    "kind": "NEW-RED",
    "key": "Autonomy|value-scan"
-  },
-  {
-   "at": "2026-10-15T06:29:21.963Z",
-   "kind": "RECOVERED",
-   "key": "Console|truth-gate"
-  },
-  {
-   "at": "2026-10-15T06:29:21.963Z",
-   "kind": "RECOVERED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T06:29:21.963Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
   }
  ]
 }
