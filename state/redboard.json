@@ -1,22 +1,71 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T20:14:18.572Z",
+ "at": "2026-10-16T21:27:30.449Z",
  "redKeys": [
-  "Autonomy|artery-grid"
+  "FleetHQ|office-ci",
+  "Domain|dex-mirror",
+  "Domain|exposure-gate",
+  "Domain|arb-mesh"
  ],
  "red": {
-  "Autonomy|artery-grid": {
-   "repo": "Autonomy",
-   "workflow": "artery-grid",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-16T19:40:46Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/38956681194"
+  "FleetHQ|office-ci": {
+   "repo": "FleetHQ",
+   "workflow": "office-ci",
+   "failsInWindow": 12,
+   "lastAt": "2026-10-16T21:25:49Z",
+   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/38969310619"
+  },
+  "Domain|dex-mirror": {
+   "repo": "Domain",
+   "workflow": "dex-mirror",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-16T21:22:00Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38968861258"
+  },
+  "Domain|exposure-gate": {
+   "repo": "Domain",
+   "workflow": "exposure-gate",
+   "failsInWindow": 6,
+   "lastAt": "2026-10-16T21:15:53Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38968149387"
+  },
+  "Domain|arb-mesh": {
+   "repo": "Domain",
+   "workflow": "arb-mesh",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-16T21:07:39Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38967170467"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T21:27:30.449Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|artery-grid"
+  },
+  {
+   "at": "2026-10-16T21:27:30.449Z",
+   "kind": "NEW-RED",
+   "key": "Domain|arb-mesh"
+  },
+  {
+   "at": "2026-10-16T21:27:30.449Z",
+   "kind": "NEW-RED",
+   "key": "Domain|exposure-gate"
+  },
+  {
+   "at": "2026-10-16T21:27:30.449Z",
+   "kind": "NEW-RED",
+   "key": "Domain|dex-mirror"
+  },
+  {
+   "at": "2026-10-16T21:27:30.449Z",
+   "kind": "NEW-RED",
+   "key": "FleetHQ|office-ci"
+  },
   {
    "at": "2026-10-16T17:47:08.469Z",
    "kind": "RECOVERED",
@@ -241,31 +290,6 @@
    "at": "2026-10-15T16:58:15.513Z",
    "kind": "NEW-RED",
    "key": "Sandbox|compute-canary"
-  },
-  {
-   "at": "2026-10-15T16:58:15.513Z",
-   "kind": "NEW-RED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-15T16:58:15.513Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
-  },
-  {
-   "at": "2026-10-15T16:58:15.513Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-decision-truth"
-  },
-  {
-   "at": "2026-10-15T14:26:14.247Z",
-   "kind": "RECOVERED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-15T14:26:14.247Z",
-   "kind": "NEW-RED",
-   "key": "Console|estate-scrub"
   }
  ]
 }
