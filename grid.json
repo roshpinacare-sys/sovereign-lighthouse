@@ -1,37 +1,28 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-16T20:50:15.247Z",
- "total": 18,
- "lastPostAt": "2026-10-16T20:50:15.247Z",
- "lastTitle": "1 קומיטים: HQ sync 2026-10-16T20:50:08.036Z",
- "lastSig": "[\"1 קומיטים: HQ sync 2026-10-16T20:50:08.036Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7e18•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7e18•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: 6f7008d HQ sync 2026-10-16T20:50:08.036Z\"]]",
+ "asof": "2026-10-16T21:20:17.896Z",
+ "total": 19,
+ "lastPostAt": "2026-10-16T21:20:17.896Z",
+ "lastTitle": "1 קומיטים: HQ sync 2026-10-16T21:20:08.010Z",
+ "lastSig": "[\"1 קומיטים: HQ sync 2026-10-16T21:20:08.010Z\",[\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 6f70•) [stateReplica]\",\"· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 6f70•) [stateReplica]\",\"· כשל-דחיפה: ? (?) [pushLog]\",\"· משימת-מקור-ביומן: T-66c-final [worklog]\",\"· commit: 3467323 HQ sync 2026-10-16T21:20:08.010Z\"]]",
  "cursor": {
-  "commit": "6f7008d12d414e18485db32523db67812d9994f4",
+  "commit": "34673233b6ae9244649baaf01b9403423fb06980",
   "lineCounts": {
    "supervisor": 500,
    "consoleServer": 8,
-   "webRecon": 43,
+   "webRecon": 45,
    "lighthouse": 7,
-   "stateReplica": 482,
+   "stateReplica": 484,
    "vercelBeacon": 200,
    "gitlabPush": 66,
-   "pushLog": 83,
+   "pushLog": 84,
    "sovereigntyDrill": 11,
    "vaultDrill": 5
   },
   "escalOpen": 0,
-  "heartChain": "d93f1ad2b99a494978e66efc"
+  "heartChain": "92f2578e9255408bac20c3d1"
  },
  "recent": [
-  {
-   "id": "gmv85e1b4",
-   "ts": "2026-10-14T13:30:44.906Z",
-   "kind": "report",
-   "title": "4 קומיטים: HQ sync 2026-10-14T13:01:28.552Z (+3 עוד)",
-   "chain": {
-    "ok": false
-   }
-  },
   {
    "id": "gmv86gobt",
    "ts": "2026-10-14T14:00:47.669Z",
@@ -94,36 +85,18 @@
    "chain": {
     "ok": false
    }
+  },
+  {
+   "id": "gmvbh1l1o",
+   "ts": "2026-10-16T21:20:17.896Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-16T21:20:08.010Z",
+   "chain": {
+    "ok": false
+   }
   }
  ],
  "posts": [
-  {
-   "id": "gmv2ok528",
-   "ts": "2026-10-10T17:40:45.353Z",
-   "kind": "report",
-   "title": "1 קומיטים: HQ sync 2026-10-10T17:17:18.831Z",
-   "lines": [
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 7809•) [stateReplica]",
-    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head b2ef•) [stateReplica]",
-    "· דחיפה-לגיטלאב אומתה () [gitlabPush]",
-    "· דחיפה-לענן: ? () [pushLog]",
-    "· משימת-מקור-ביומן: T-66c-final [worklog]",
-    "· commit: b2ef891 HQ sync 2026-10-10T17:17:18.831Z"
-   ],
-   "evidence": {
-    "commits": 1,
-    "newReceiptLines": 7,
-    "escalOpen": 0,
-    "heartChain": "b659aa8c7256",
-    "head": "b2ef8918c752"
-   },
-   "chain": {
-    "hive": {
-     "ok": false,
-     "skipped": "no-key"
-    }
-   }
-  },
   {
    "id": "gmv84be8y",
    "ts": "2026-10-14T13:00:42.163Z",
@@ -358,6 +331,32 @@
     "escalOpen": 0,
     "heartChain": "d93f1ad2b99a",
     "head": "6f7008d12d41"
+   },
+   "chain": {
+    "hive": {
+     "ok": false,
+     "skipped": "no-key"
+    }
+   }
+  },
+  {
+   "id": "gmvbh1l1o",
+   "ts": "2026-10-16T21:20:17.896Z",
+   "kind": "report",
+   "title": "1 קומיטים: HQ sync 2026-10-16T21:20:08.010Z",
+   "lines": [
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 6f70•) [stateReplica]",
+    "· זיכרון-חוץ-מכונה נחתם בפוסטגרס (head 6f70•) [stateReplica]",
+    "· כשל-דחיפה: ? (?) [pushLog]",
+    "· משימת-מקור-ביומן: T-66c-final [worklog]",
+    "· commit: 3467323 HQ sync 2026-10-16T21:20:08.010Z"
+   ],
+   "evidence": {
+    "commits": 1,
+    "newReceiptLines": 6,
+    "escalOpen": 0,
+    "heartChain": "92f2578e9255",
+    "head": "34673233b6ae"
    },
    "chain": {
     "hive": {
