@@ -1,10 +1,8 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-16T04:33:46.347Z",
+ "at": "2026-10-16T05:07:25.922Z",
  "redKeys": [
-  "Console|estate-scrub",
-  "Domain|estate-scrub",
-  "Domain|dex-mirror"
+  "Console|estate-scrub"
  ],
  "red": {
   "Console|estate-scrub": {
@@ -13,26 +11,22 @@
    "failsInWindow": 1,
    "lastAt": "2026-10-16T04:33:18Z",
    "url": "https://github.com/roshpinacare-sys/Console/actions/runs/38851223098"
-  },
-  "Domain|estate-scrub": {
-   "repo": "Domain",
-   "workflow": "estate-scrub",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T04:27:43Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38850736002"
-  },
-  "Domain|dex-mirror": {
-   "repo": "Domain",
-   "workflow": "dex-mirror",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-16T04:22:48Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/38850310524"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-16T05:07:25.922Z",
+   "kind": "RECOVERED",
+   "key": "Domain|dex-mirror"
+  },
+  {
+   "at": "2026-10-16T05:07:25.922Z",
+   "kind": "RECOVERED",
+   "key": "Domain|estate-scrub"
+  },
   {
    "at": "2026-10-16T04:33:46.347Z",
    "kind": "NEW-RED",
@@ -272,16 +266,6 @@
    "at": "2026-10-15T09:28:28.695Z",
    "kind": "RECOVERED",
    "key": "Domain|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T09:28:28.695Z",
-   "kind": "NEW-RED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-15T09:00:45.235Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
   }
  ]
 }
