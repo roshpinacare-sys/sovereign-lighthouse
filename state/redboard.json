@@ -1,78 +1,79 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-18T16:34:33.737Z",
+ "at": "2026-10-18T18:03:57.499Z",
  "redKeys": [
-  "Console|console-publish",
-  "Autonomy|artery-fleet",
-  "Autonomy|artery-decision-truth",
-  "Autonomy|value-scan",
   "Autonomy|artery-participation",
-  "Autonomy|world-evolver",
-  "steem|signing-health",
-  "saos-runtime|hive-custody-revival"
+  "Autonomy|value-scan",
+  "Autonomy|artery-decision-truth",
+  "Autonomy|artery-fleet",
+  "steem|exec-cycle"
  ],
  "red": {
-  "Console|console-publish": {
-   "repo": "Console",
-   "workflow": "console-publish",
+  "Autonomy|artery-participation": {
+   "repo": "Autonomy",
+   "workflow": "artery-participation",
    "failsInWindow": 1,
-   "lastAt": "2026-10-18T16:07:09Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/39143552349"
-  },
-  "Autonomy|artery-fleet": {
-   "repo": "Autonomy",
-   "workflow": "artery-fleet",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-18T16:23:24Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39144773722"
-  },
-  "Autonomy|artery-decision-truth": {
-   "repo": "Autonomy",
-   "workflow": "artery-decision-truth",
-   "failsInWindow": 4,
-   "lastAt": "2026-10-18T16:23:22Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39144772075"
+   "lastAt": "2026-10-18T17:57:51Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39151961621"
   },
   "Autonomy|value-scan": {
    "repo": "Autonomy",
    "workflow": "value-scan",
    "failsInWindow": 3,
-   "lastAt": "2026-10-18T16:23:20Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39144768833"
+   "lastAt": "2026-10-18T17:42:58Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39150855836"
   },
-  "Autonomy|artery-participation": {
+  "Autonomy|artery-decision-truth": {
    "repo": "Autonomy",
-   "workflow": "artery-participation",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-18T15:52:18Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39142430485"
+   "workflow": "artery-decision-truth",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-18T17:42:45Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39150840913"
   },
-  "Autonomy|world-evolver": {
+  "Autonomy|artery-fleet": {
    "repo": "Autonomy",
-   "workflow": "world-evolver",
+   "workflow": "artery-fleet",
    "failsInWindow": 1,
-   "lastAt": "2026-10-18T15:51:59Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39142405597"
+   "lastAt": "2026-10-18T17:16:16Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39148796751"
   },
-  "steem|signing-health": {
+  "steem|exec-cycle": {
    "repo": "steem",
-   "workflow": "signing-health",
+   "workflow": "exec-cycle",
    "failsInWindow": 1,
-   "lastAt": "2026-10-18T15:04:11Z",
-   "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39138803742"
-  },
-  "saos-runtime|hive-custody-revival": {
-   "repo": "saos-runtime",
-   "workflow": "hive-custody-revival",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-18T16:28:11Z",
-   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39145131820"
+   "lastAt": "2026-10-18T17:20:47Z",
+   "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39149153321"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-18T18:03:57.499Z",
+   "kind": "RECOVERED",
+   "key": "saos-runtime|hive-custody-revival"
+  },
+  {
+   "at": "2026-10-18T18:03:57.499Z",
+   "kind": "RECOVERED",
+   "key": "steem|signing-health"
+  },
+  {
+   "at": "2026-10-18T18:03:57.499Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|world-evolver"
+  },
+  {
+   "at": "2026-10-18T18:03:57.499Z",
+   "kind": "RECOVERED",
+   "key": "Console|console-publish"
+  },
+  {
+   "at": "2026-10-18T18:03:57.499Z",
+   "kind": "NEW-RED",
+   "key": "steem|exec-cycle"
+  },
   {
    "at": "2026-10-18T16:34:33.737Z",
    "kind": "RECOVERED",
@@ -297,31 +298,6 @@
    "at": "2026-10-16T23:35:16.739Z",
    "kind": "NEW-RED",
    "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-16T22:06:46.082Z",
-   "kind": "RECOVERED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-16T22:06:46.082Z",
-   "kind": "NEW-RED",
-   "key": "Console|console-publish"
-  },
-  {
-   "at": "2026-10-16T22:06:46.082Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-grid"
-  },
-  {
-   "at": "2026-10-16T21:27:30.449Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-grid"
-  },
-  {
-   "at": "2026-10-16T21:27:30.449Z",
-   "kind": "NEW-RED",
-   "key": "Domain|arb-mesh"
   }
  ]
 }
