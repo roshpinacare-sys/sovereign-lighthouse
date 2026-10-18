@@ -1,70 +1,90 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-18T09:05:30.975Z",
+ "at": "2026-10-18T12:28:34.761Z",
  "redKeys": [
-  "FleetHQ|office-3d",
+  "Console|console-publish",
+  "Autonomy|artery-fleet",
+  "saos-runtime|escrow-payroll",
   "saos-dex|dex-ci",
   "saos-dex|dex-selftest",
   "saos-dex|gitleaks-secret-scan",
-  "saos-runtime|escrow-payroll",
-  "Autonomy|artery-fleet",
-  "roshpina|sovereign-invariants-i38"
+  "saos-owner-channel|arsenal-sentinel"
  ],
  "red": {
-  "FleetHQ|office-3d": {
-   "repo": "FleetHQ",
-   "workflow": "office-3d",
+  "Console|console-publish": {
+   "repo": "Console",
+   "workflow": "console-publish",
    "failsInWindow": 1,
-   "lastAt": "2026-10-18T07:37:33Z",
-   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/39108370844"
-  },
-  "saos-dex|dex-ci": {
-   "repo": "saos-dex",
-   "workflow": "dex-ci",
-   "failsInWindow": 10,
-   "lastAt": "2026-10-18T08:53:34Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39113201459"
-  },
-  "saos-dex|dex-selftest": {
-   "repo": "saos-dex",
-   "workflow": "dex-selftest",
-   "failsInWindow": 5,
-   "lastAt": "2026-10-18T08:53:34Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39113201455"
-  },
-  "saos-dex|gitleaks-secret-scan": {
-   "repo": "saos-dex",
-   "workflow": "gitleaks-secret-scan",
-   "failsInWindow": 11,
-   "lastAt": "2026-10-18T08:53:34Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39113201497"
-  },
-  "saos-runtime|escrow-payroll": {
-   "repo": "saos-runtime",
-   "workflow": "escrow-payroll",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-18T08:52:12Z",
-   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39113112704"
+   "lastAt": "2026-10-18T11:42:09Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/39124304299"
   },
   "Autonomy|artery-fleet": {
    "repo": "Autonomy",
    "workflow": "artery-fleet",
    "failsInWindow": 2,
-   "lastAt": "2026-10-18T07:49:17Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39109099992"
+   "lastAt": "2026-10-18T12:24:55Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39127175361"
   },
-  "roshpina|sovereign-invariants-i38": {
-   "repo": "roshpina",
-   "workflow": "sovereign-invariants-i38",
+  "saos-runtime|escrow-payroll": {
+   "repo": "saos-runtime",
+   "workflow": "escrow-payroll",
    "failsInWindow": 1,
-   "lastAt": "2026-10-18T07:46:12Z",
-   "url": "https://github.com/roshpinacare-sys/roshpina/actions/runs/39108911487"
+   "lastAt": "2026-10-18T12:00:33Z",
+   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39125511074"
+  },
+  "saos-dex|dex-ci": {
+   "repo": "saos-dex",
+   "workflow": "dex-ci",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-18T11:49:07Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39124761844"
+  },
+  "saos-dex|dex-selftest": {
+   "repo": "saos-dex",
+   "workflow": "dex-selftest",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-18T11:49:07Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39124761876"
+  },
+  "saos-dex|gitleaks-secret-scan": {
+   "repo": "saos-dex",
+   "workflow": "gitleaks-secret-scan",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-18T11:49:07Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39124761877"
+  },
+  "saos-owner-channel|arsenal-sentinel": {
+   "repo": "saos-owner-channel",
+   "workflow": "arsenal-sentinel",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-18T12:00:18Z",
+   "url": "https://github.com/roshpinacare-sys/saos-owner-channel/actions/runs/39125491460"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-18T12:28:34.761Z",
+   "kind": "RECOVERED",
+   "key": "roshpina|sovereign-invariants-i38"
+  },
+  {
+   "at": "2026-10-18T12:28:34.761Z",
+   "kind": "RECOVERED",
+   "key": "FleetHQ|office-3d"
+  },
+  {
+   "at": "2026-10-18T12:28:34.761Z",
+   "kind": "NEW-RED",
+   "key": "saos-owner-channel|arsenal-sentinel"
+  },
+  {
+   "at": "2026-10-18T12:28:34.761Z",
+   "kind": "NEW-RED",
+   "key": "Console|console-publish"
+  },
   {
    "at": "2026-10-18T09:05:30.975Z",
    "kind": "RECOVERED",
@@ -294,26 +314,6 @@
    "at": "2026-10-16T05:07:25.922Z",
    "kind": "RECOVERED",
    "key": "Domain|estate-scrub"
-  },
-  {
-   "at": "2026-10-16T04:33:46.347Z",
-   "kind": "NEW-RED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-16T03:18:48.283Z",
-   "kind": "RECOVERED",
-   "key": "Console|estate-scrub"
-  },
-  {
-   "at": "2026-10-16T03:18:48.283Z",
-   "kind": "NEW-RED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-16T01:39:13.459Z",
-   "kind": "RECOVERED",
-   "key": "Sandbox|compute-canary"
   }
  ]
 }
