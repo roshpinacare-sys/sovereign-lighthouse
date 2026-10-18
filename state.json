@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-18T12:00:22Z",
+ "generatedAt": "2026-10-18T13:15:32Z",
  "commit": "lastKnown:34673233b6ae",
  "commitDate": "2026-10-16T21:35:19.145Z",
  "branch": "sanbox-main",
@@ -397,6 +397,65 @@
  ],
  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
  "pulses": [
+  {
+   "at": "2026-10-18T13:15:32Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-18T12:52:55Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T12:26:57.280Z"
+    },
+    {
+     "when": "2026-10-18T12:24:19Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T11:59:57.029Z"
+    },
+    {
+     "when": "2026-10-18T12:15:55Z",
+     "msg": "fabric: הסרת מדדים מטעים של 'in_progress', 'pending' ו-'failure' מקבצי ה-evoluti"
+    },
+    {
+     "when": "2026-10-18T12:15:52Z",
+     "msg": "fabric: הסרת מנגנוני דיווח שגויים על דליפות זיכרון מקבצי ה-STATUS.md והסקריפטים "
+    },
+    {
+     "when": "2026-10-18T12:15:16Z",
+     "msg": "fabric: תיקון מדדי דליפות זיכרון מטעים בקובצי ה-evolution — הצעת-למידה-אוטונומית"
+    }
+   ],
+   "steemHead": 110547821,
+   "steemTime": "2026-10-18T13:15:33",
+   "fleetNetSp": {
+    "acct-00": 2874.8,
+    "acct-01": 75.4,
+    "acct-02": 78.4,
+    "acct-03": 95.0,
+    "acct-04": 79.9,
+    "acct-05": 75.2,
+    "acct-06": 82.7,
+    "acct-07": 87.5,
+    "acct-08": 41.7,
+    "acct-09": 89.3,
+    "acct-10": 70.0,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 41.7,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2874.8,
+   "hiveCornerstoneHp": 102638.9,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-18T12:00:22Z",
    "runtimeLatestCommits": [
@@ -1048,33 +1107,33 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-18T12:00:22Z",
+  "at": "2026-10-18T13:15:32Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-18T11:57:23Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T11:35:37.648Z"
+    "when": "2026-10-18T12:52:55Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T12:26:57.280Z"
    },
    {
-    "when": "2026-10-18T11:33:30Z",
-    "msg": "watchdog: green @ 2026-10-18T11:33:30Z"
+    "when": "2026-10-18T12:24:19Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T11:59:57.029Z"
    },
    {
-    "when": "2026-10-18T11:33:04Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T11:07:15.876Z"
+    "when": "2026-10-18T12:15:55Z",
+    "msg": "fabric: הסרת מדדים מטעים של 'in_progress', 'pending' ו-'failure' מקבצי ה-evoluti"
    },
    {
-    "when": "2026-10-18T11:04:38Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T10:38:29.163Z"
+    "when": "2026-10-18T12:15:52Z",
+    "msg": "fabric: הסרת מנגנוני דיווח שגויים על דליפות זיכרון מקבצי ה-STATUS.md והסקריפטים "
    },
    {
-    "when": "2026-10-18T10:35:51Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T10:12:11.910Z"
+    "when": "2026-10-18T12:15:16Z",
+    "msg": "fabric: תיקון מדדי דליפות זיכרון מטעים בקובצי ה-evolution — הצעת-למידה-אוטונומית"
    }
   ],
-  "steemHead": 110546396,
-  "steemTime": "2026-10-18T12:00:21",
+  "steemHead": 110547821,
+  "steemTime": "2026-10-18T13:15:33",
   "fleetNetSp": {
-   "acct-00": 2874.7,
+   "acct-00": 2874.8,
    "acct-01": 75.4,
    "acct-02": 78.4,
    "acct-03": 95.0,
@@ -1098,8 +1157,8 @@
    17.0,
    17.0
   ],
-  "treasuryNetSp": 2874.7,
-  "hiveCornerstoneHp": 102638.5,
+  "treasuryNetSp": 2874.8,
+  "hiveCornerstoneHp": 102638.9,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
