@@ -1,86 +1,46 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-18T18:57:20.414Z",
+ "at": "2026-10-18T20:26:52.081Z",
  "redKeys": [
-  "Domain|econ-engine",
-  "Domain|office3d-guard",
   "Autonomy|artery-fleet",
-  "Autonomy|artery-participation",
   "Autonomy|artery-decision-truth",
   "Autonomy|value-scan",
-  "Autonomy|world-evolver",
-  "Autonomy|.github/workflows/fleet-yield.yml",
-  "saos-runtime|hive-custody-revival",
+  "Autonomy|artery-participation",
   "fleet-economy|economy-beat"
  ],
  "red": {
-  "Domain|econ-engine": {
-   "repo": "Domain",
-   "workflow": "econ-engine",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-18T18:51:46Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39156105053"
-  },
-  "Domain|office3d-guard": {
-   "repo": "Domain",
-   "workflow": "office3d-guard",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-18T18:51:44Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39156102756"
-  },
   "Autonomy|artery-fleet": {
    "repo": "Autonomy",
    "workflow": "artery-fleet",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-18T18:51:54Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39156114652"
-  },
-  "Autonomy|artery-participation": {
-   "repo": "Autonomy",
-   "workflow": "artery-participation",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-18T18:51:53Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39156113176"
+   "failsInWindow": 4,
+   "lastAt": "2026-10-18T20:21:59Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39162970481"
   },
   "Autonomy|artery-decision-truth": {
    "repo": "Autonomy",
    "workflow": "artery-decision-truth",
    "failsInWindow": 5,
-   "lastAt": "2026-10-18T18:51:52Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39156111834"
+   "lastAt": "2026-10-18T20:21:56Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39162966589"
   },
   "Autonomy|value-scan": {
    "repo": "Autonomy",
    "workflow": "value-scan",
-   "failsInWindow": 4,
-   "lastAt": "2026-10-18T18:51:51Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39156110315"
+   "failsInWindow": 5,
+   "lastAt": "2026-10-18T20:21:53Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39162963391"
   },
-  "Autonomy|world-evolver": {
+  "Autonomy|artery-participation": {
    "repo": "Autonomy",
-   "workflow": "world-evolver",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-18T18:51:43Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39156101582"
-  },
-  "Autonomy|.github/workflows/fleet-yield.yml": {
-   "repo": "Autonomy",
-   "workflow": ".github/workflows/fleet-yield.yml",
+   "workflow": "artery-participation",
    "failsInWindow": 1,
-   "lastAt": "2026-10-18T18:36:02Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39154894372"
-  },
-  "saos-runtime|hive-custody-revival": {
-   "repo": "saos-runtime",
-   "workflow": "hive-custody-revival",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-18T18:51:45Z",
-   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39156103914"
+   "lastAt": "2026-10-18T19:55:31Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39160956535"
   },
   "fleet-economy|economy-beat": {
    "repo": "fleet-economy",
    "workflow": "economy-beat",
-   "failsInWindow": 2,
+   "failsInWindow": 1,
    "lastAt": "2026-10-18T18:55:22Z",
    "url": "https://github.com/roshpinacare-sys/fleet-economy/actions/runs/39156379827"
   }
@@ -89,6 +49,31 @@
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-18T20:26:52.081Z",
+   "kind": "RECOVERED",
+   "key": "saos-runtime|hive-custody-revival"
+  },
+  {
+   "at": "2026-10-18T20:26:52.081Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|.github/workflows/fleet-yield.yml"
+  },
+  {
+   "at": "2026-10-18T20:26:52.081Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|world-evolver"
+  },
+  {
+   "at": "2026-10-18T20:26:52.081Z",
+   "kind": "RECOVERED",
+   "key": "Domain|office3d-guard"
+  },
+  {
+   "at": "2026-10-18T20:26:52.081Z",
+   "kind": "RECOVERED",
+   "key": "Domain|econ-engine"
+  },
   {
    "at": "2026-10-18T18:57:20.414Z",
    "kind": "RECOVERED",
@@ -313,31 +298,6 @@
    "at": "2026-10-18T09:05:30.975Z",
    "kind": "NEW-RED",
    "key": "roshpina|sovereign-invariants-i38"
-  },
-  {
-   "at": "2026-10-18T09:05:30.975Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|artery-fleet"
-  },
-  {
-   "at": "2026-10-18T09:05:30.975Z",
-   "kind": "NEW-RED",
-   "key": "saos-runtime|escrow-payroll"
-  },
-  {
-   "at": "2026-10-18T09:05:30.975Z",
-   "kind": "NEW-RED",
-   "key": "saos-dex|gitleaks-secret-scan"
-  },
-  {
-   "at": "2026-10-18T09:05:30.975Z",
-   "kind": "NEW-RED",
-   "key": "saos-dex|dex-selftest"
-  },
-  {
-   "at": "2026-10-18T09:05:30.975Z",
-   "kind": "NEW-RED",
-   "key": "saos-dex|dex-ci"
   }
  ]
 }
