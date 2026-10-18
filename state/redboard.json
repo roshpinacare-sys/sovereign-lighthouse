@@ -1,37 +1,44 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-18T16:01:41.736Z",
+ "at": "2026-10-18T16:34:33.737Z",
  "redKeys": [
-  "Domain|office3d-guard",
-  "Autonomy|value-scan",
+  "Console|console-publish",
+  "Autonomy|artery-fleet",
   "Autonomy|artery-decision-truth",
+  "Autonomy|value-scan",
   "Autonomy|artery-participation",
   "Autonomy|world-evolver",
-  "Autonomy|.github/workflows/fleet-yield.yml",
   "steem|signing-health",
   "saos-runtime|hive-custody-revival"
  ],
  "red": {
-  "Domain|office3d-guard": {
-   "repo": "Domain",
-   "workflow": "office3d-guard",
+  "Console|console-publish": {
+   "repo": "Console",
+   "workflow": "console-publish",
    "failsInWindow": 1,
-   "lastAt": "2026-10-18T15:55:37Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39142672435"
+   "lastAt": "2026-10-18T16:07:09Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/39143552349"
+  },
+  "Autonomy|artery-fleet": {
+   "repo": "Autonomy",
+   "workflow": "artery-fleet",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-18T16:23:24Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39144773722"
+  },
+  "Autonomy|artery-decision-truth": {
+   "repo": "Autonomy",
+   "workflow": "artery-decision-truth",
+   "failsInWindow": 4,
+   "lastAt": "2026-10-18T16:23:22Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39144772075"
   },
   "Autonomy|value-scan": {
    "repo": "Autonomy",
    "workflow": "value-scan",
    "failsInWindow": 3,
-   "lastAt": "2026-10-18T15:57:43Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39142825293"
-  },
-  "Autonomy|artery-decision-truth": {
-   "repo": "Autonomy",
-   "workflow": "artery-decision-truth",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-18T15:56:50Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39142759705"
+   "lastAt": "2026-10-18T16:23:20Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39144768833"
   },
   "Autonomy|artery-participation": {
    "repo": "Autonomy",
@@ -47,32 +54,45 @@
    "lastAt": "2026-10-18T15:51:59Z",
    "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39142405597"
   },
-  "Autonomy|.github/workflows/fleet-yield.yml": {
-   "repo": "Autonomy",
-   "workflow": ".github/workflows/fleet-yield.yml",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-18T15:47:56Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39142100508"
-  },
   "steem|signing-health": {
    "repo": "steem",
    "workflow": "signing-health",
-   "failsInWindow": 2,
+   "failsInWindow": 1,
    "lastAt": "2026-10-18T15:04:11Z",
    "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39138803742"
   },
   "saos-runtime|hive-custody-revival": {
    "repo": "saos-runtime",
    "workflow": "hive-custody-revival",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-18T15:10:54Z",
-   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39139308835"
+   "failsInWindow": 3,
+   "lastAt": "2026-10-18T16:28:11Z",
+   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39145131820"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-18T16:34:33.737Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|.github/workflows/fleet-yield.yml"
+  },
+  {
+   "at": "2026-10-18T16:34:33.737Z",
+   "kind": "RECOVERED",
+   "key": "Domain|office3d-guard"
+  },
+  {
+   "at": "2026-10-18T16:34:33.737Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|artery-fleet"
+  },
+  {
+   "at": "2026-10-18T16:34:33.737Z",
+   "kind": "NEW-RED",
+   "key": "Console|console-publish"
+  },
   {
    "at": "2026-10-18T16:01:41.736Z",
    "kind": "RECOVERED",
@@ -302,26 +322,6 @@
    "at": "2026-10-16T21:27:30.449Z",
    "kind": "NEW-RED",
    "key": "Domain|arb-mesh"
-  },
-  {
-   "at": "2026-10-16T21:27:30.449Z",
-   "kind": "NEW-RED",
-   "key": "Domain|exposure-gate"
-  },
-  {
-   "at": "2026-10-16T21:27:30.449Z",
-   "kind": "NEW-RED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-16T21:27:30.449Z",
-   "kind": "NEW-RED",
-   "key": "FleetHQ|office-ci"
-  },
-  {
-   "at": "2026-10-16T17:47:08.469Z",
-   "kind": "RECOVERED",
-   "key": "Domain|office-worldbeat"
   }
  ]
 }
