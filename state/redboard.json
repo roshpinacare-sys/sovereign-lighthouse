@@ -1,38 +1,61 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-19T21:27:58.033Z",
+ "at": "2026-10-19T23:00:42.299Z",
  "redKeys": [
-  "Autonomy|hive-probe",
   "Autonomy|artery-defi",
-  "Domain|weave-anchor-ping"
+  "Autonomy|hive-probe",
+  "Domain|artery-integrity-twin",
+  "saos-dex|hive-heartbeat"
  ],
  "red": {
-  "Autonomy|hive-probe": {
-   "repo": "Autonomy",
-   "workflow": "hive-probe",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-19T21:09:13Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39325219835"
-  },
   "Autonomy|artery-defi": {
    "repo": "Autonomy",
    "workflow": "artery-defi",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T20:58:33Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39323757482"
+   "failsInWindow": 2,
+   "lastAt": "2026-10-19T22:57:57Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39338521226"
   },
-  "Domain|weave-anchor-ping": {
-   "repo": "Domain",
-   "workflow": "weave-anchor-ping",
+  "Autonomy|hive-probe": {
+   "repo": "Autonomy",
+   "workflow": "hive-probe",
    "failsInWindow": 1,
-   "lastAt": "2026-10-19T21:10:52Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39325444890"
+   "lastAt": "2026-10-19T21:51:08Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39330684682"
+  },
+  "Domain|artery-integrity-twin": {
+   "repo": "Domain",
+   "workflow": "artery-integrity-twin",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-19T22:57:55Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39338518761"
+  },
+  "saos-dex|hive-heartbeat": {
+   "repo": "saos-dex",
+   "workflow": "hive-heartbeat",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T21:59:08Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39331660839"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-19T23:00:42.299Z",
+   "kind": "RECOVERED",
+   "key": "Domain|weave-anchor-ping"
+  },
+  {
+   "at": "2026-10-19T23:00:42.299Z",
+   "kind": "NEW-RED",
+   "key": "saos-dex|hive-heartbeat"
+  },
+  {
+   "at": "2026-10-19T23:00:42.299Z",
+   "kind": "NEW-RED",
+   "key": "Domain|artery-integrity-twin"
+  },
   {
    "at": "2026-10-19T21:27:58.033Z",
    "kind": "RECOVERED",
@@ -267,21 +290,6 @@
    "at": "2026-10-19T14:39:49.651Z",
    "kind": "RECOVERED",
    "key": "Domain|org-gitleaks"
-  },
-  {
-   "at": "2026-10-19T14:39:49.651Z",
-   "kind": "NEW-RED",
-   "key": "saos-dex|gitleaks-secret-scan"
-  },
-  {
-   "at": "2026-10-19T14:39:49.651Z",
-   "kind": "NEW-RED",
-   "key": "saos-dex|dex-selftest"
-  },
-  {
-   "at": "2026-10-19T14:39:49.651Z",
-   "kind": "NEW-RED",
-   "key": "FleetHQ|office-3d"
   }
  ]
 }
