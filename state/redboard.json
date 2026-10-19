@@ -1,46 +1,95 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-19T09:44:40.271Z",
+ "at": "2026-10-19T11:00:40.274Z",
  "redKeys": [
+  "Domain|office3d-guard",
   "Domain|exposure-gate",
-  "saos-dex|dex-selftest",
   "saos-dex|gitleaks-secret-scan",
-  "saos-dex|hive-heartbeat"
+  "saos-dex|dex-selftest",
+  "Sandbox|artery-catchup",
+  "Sandbox|pages-deploy",
+  "Sandbox|sovereign-tick"
  ],
  "red": {
+  "Domain|office3d-guard": {
+   "repo": "Domain",
+   "workflow": "office3d-guard",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T10:50:15Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39240292955"
+  },
   "Domain|exposure-gate": {
    "repo": "Domain",
    "workflow": "exposure-gate",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T09:10:23Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39228046597"
-  },
-  "saos-dex|dex-selftest": {
-   "repo": "saos-dex",
-   "workflow": "dex-selftest",
-   "failsInWindow": 4,
-   "lastAt": "2026-10-19T09:21:49Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39229489599"
+   "failsInWindow": 3,
+   "lastAt": "2026-10-19T10:49:36Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39240216755"
   },
   "saos-dex|gitleaks-secret-scan": {
    "repo": "saos-dex",
    "workflow": "gitleaks-secret-scan",
    "failsInWindow": 5,
-   "lastAt": "2026-10-19T09:21:49Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39229489411"
+   "lastAt": "2026-10-19T10:55:31Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39240924359"
   },
-  "saos-dex|hive-heartbeat": {
+  "saos-dex|dex-selftest": {
    "repo": "saos-dex",
-   "workflow": "hive-heartbeat",
+   "workflow": "dex-selftest",
+   "failsInWindow": 4,
+   "lastAt": "2026-10-19T10:55:31Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39240924367"
+  },
+  "Sandbox|artery-catchup": {
+   "repo": "Sandbox",
+   "workflow": "artery-catchup",
    "failsInWindow": 1,
-   "lastAt": "2026-10-19T08:23:06Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39222376603"
+   "lastAt": "2026-10-19T10:18:42Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39236542071"
+  },
+  "Sandbox|pages-deploy": {
+   "repo": "Sandbox",
+   "workflow": "pages-deploy",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T10:18:42Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39236541865"
+  },
+  "Sandbox|sovereign-tick": {
+   "repo": "Sandbox",
+   "workflow": "sovereign-tick",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T10:18:42Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39236541842"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-19T11:00:40.274Z",
+   "kind": "RECOVERED",
+   "key": "saos-dex|hive-heartbeat"
+  },
+  {
+   "at": "2026-10-19T11:00:40.274Z",
+   "kind": "NEW-RED",
+   "key": "Sandbox|sovereign-tick"
+  },
+  {
+   "at": "2026-10-19T11:00:40.274Z",
+   "kind": "NEW-RED",
+   "key": "Sandbox|pages-deploy"
+  },
+  {
+   "at": "2026-10-19T11:00:40.274Z",
+   "kind": "NEW-RED",
+   "key": "Sandbox|artery-catchup"
+  },
+  {
+   "at": "2026-10-19T11:00:40.274Z",
+   "kind": "NEW-RED",
+   "key": "Domain|office3d-guard"
+  },
   {
    "at": "2026-10-19T09:44:40.271Z",
    "kind": "RECOVERED",
@@ -265,31 +314,6 @@
    "at": "2026-10-19T01:43:17.276Z",
    "kind": "NEW-RED",
    "key": "saos-runtime|escrow-payroll"
-  },
-  {
-   "at": "2026-10-19T01:16:56.010Z",
-   "kind": "RECOVERED",
-   "key": "saos-runtime|hive-custody-revival"
-  },
-  {
-   "at": "2026-10-19T01:16:56.010Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-participation"
-  },
-  {
-   "at": "2026-10-19T01:16:56.010Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|value-scan"
-  },
-  {
-   "at": "2026-10-19T01:16:56.010Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|artery-decision-truth"
-  },
-  {
-   "at": "2026-10-19T01:16:56.010Z",
-   "kind": "RECOVERED",
-   "key": "Sandbox|compute-canary"
   }
  ]
 }
