@@ -1,110 +1,144 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-19T01:43:17.276Z",
+ "at": "2026-10-19T03:33:03.863Z",
  "redKeys": [
+  "Domain|exposure-gate",
+  "Domain|dex-mirror",
+  "Domain|office3d-guard",
+  "Sandbox|artery-catchup",
+  "Sandbox|pages-deploy",
+  "Sandbox|sovereign-tick",
   "saos-dex|dex-selftest",
   "saos-dex|gitleaks-secret-scan",
-  "saos-runtime|escrow-payroll",
-  "saos-runtime|hive-custody-revival",
-  "steem|exec-cycle",
-  "Domain|exposure-gate",
-  "Autonomy|artery-grid",
-  "Autonomy|world-evolver",
-  "Sandbox|artery-catchup",
-  "Sandbox|sovereign-tick",
-  "Sandbox|pages-deploy",
-  "Console|console-publish"
+  "sovereign-runner-kit|.github/workflows/keepalive.yml",
+  "Adsmarket|gitleaks-secret-scan"
  ],
  "red": {
-  "saos-dex|dex-selftest": {
-   "repo": "saos-dex",
-   "workflow": "dex-selftest",
-   "failsInWindow": 9,
-   "lastAt": "2026-10-19T01:42:21Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39186565580"
-  },
-  "saos-dex|gitleaks-secret-scan": {
-   "repo": "saos-dex",
-   "workflow": "gitleaks-secret-scan",
-   "failsInWindow": 12,
-   "lastAt": "2026-10-19T01:42:21Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39186565689"
-  },
-  "saos-runtime|escrow-payroll": {
-   "repo": "saos-runtime",
-   "workflow": "escrow-payroll",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T01:27:41Z",
-   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39185452004"
-  },
-  "saos-runtime|hive-custody-revival": {
-   "repo": "saos-runtime",
-   "workflow": "hive-custody-revival",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-19T01:13:03Z",
-   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39184330975"
-  },
-  "steem|exec-cycle": {
-   "repo": "steem",
-   "workflow": "exec-cycle",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T00:12:00Z",
-   "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39179694822"
-  },
   "Domain|exposure-gate": {
    "repo": "Domain",
    "workflow": "exposure-gate",
-   "failsInWindow": 3,
-   "lastAt": "2026-10-19T01:40:15Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39186408988"
+   "failsInWindow": 7,
+   "lastAt": "2026-10-19T03:25:57Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39194658476"
   },
-  "Autonomy|artery-grid": {
-   "repo": "Autonomy",
-   "workflow": "artery-grid",
-   "failsInWindow": 5,
-   "lastAt": "2026-10-19T01:39:41Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39186367105"
-  },
-  "Autonomy|world-evolver": {
-   "repo": "Autonomy",
-   "workflow": "world-evolver",
+  "Domain|dex-mirror": {
+   "repo": "Domain",
+   "workflow": "dex-mirror",
    "failsInWindow": 1,
-   "lastAt": "2026-10-19T00:46:16Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39182270450"
+   "lastAt": "2026-10-19T03:20:21Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39194217128"
+  },
+  "Domain|office3d-guard": {
+   "repo": "Domain",
+   "workflow": "office3d-guard",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T03:12:40Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39193597642"
   },
   "Sandbox|artery-catchup": {
    "repo": "Sandbox",
    "workflow": "artery-catchup",
    "failsInWindow": 4,
-   "lastAt": "2026-10-19T01:35:24Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39186045853"
-  },
-  "Sandbox|sovereign-tick": {
-   "repo": "Sandbox",
-   "workflow": "sovereign-tick",
-   "failsInWindow": 4,
-   "lastAt": "2026-10-19T01:35:24Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39186045889"
+   "lastAt": "2026-10-19T03:21:48Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39194328089"
   },
   "Sandbox|pages-deploy": {
    "repo": "Sandbox",
    "workflow": "pages-deploy",
    "failsInWindow": 4,
-   "lastAt": "2026-10-19T01:35:24Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39186045840"
+   "lastAt": "2026-10-19T03:21:48Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39194328173"
   },
-  "Console|console-publish": {
-   "repo": "Console",
-   "workflow": "console-publish",
+  "Sandbox|sovereign-tick": {
+   "repo": "Sandbox",
+   "workflow": "sovereign-tick",
+   "failsInWindow": 4,
+   "lastAt": "2026-10-19T03:21:48Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39194328053"
+  },
+  "saos-dex|dex-selftest": {
+   "repo": "saos-dex",
+   "workflow": "dex-selftest",
+   "failsInWindow": 11,
+   "lastAt": "2026-10-19T03:20:14Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39194206249"
+  },
+  "saos-dex|gitleaks-secret-scan": {
+   "repo": "saos-dex",
+   "workflow": "gitleaks-secret-scan",
+   "failsInWindow": 12,
+   "lastAt": "2026-10-19T03:20:13Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39194206185"
+  },
+  "sovereign-runner-kit|.github/workflows/keepalive.yml": {
+   "repo": "sovereign-runner-kit",
+   "workflow": ".github/workflows/keepalive.yml",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-19T03:07:22Z",
+   "url": "https://github.com/roshpinacare-sys/sovereign-runner-kit/actions/runs/39193161817"
+  },
+  "Adsmarket|gitleaks-secret-scan": {
+   "repo": "Adsmarket",
+   "workflow": "gitleaks-secret-scan",
    "failsInWindow": 1,
-   "lastAt": "2026-10-19T00:28:01Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/39180896938"
+   "lastAt": "2026-10-19T02:58:46Z",
+   "url": "https://github.com/roshpinacare-sys/Adsmarket/actions/runs/39192473143"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "RECOVERED",
+   "key": "Console|console-publish"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|world-evolver"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|artery-grid"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "RECOVERED",
+   "key": "steem|exec-cycle"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "RECOVERED",
+   "key": "saos-runtime|hive-custody-revival"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "RECOVERED",
+   "key": "saos-runtime|escrow-payroll"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "NEW-RED",
+   "key": "Adsmarket|gitleaks-secret-scan"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "NEW-RED",
+   "key": "sovereign-runner-kit|.github/workflows/keepalive.yml"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "NEW-RED",
+   "key": "Domain|office3d-guard"
+  },
+  {
+   "at": "2026-10-19T03:33:03.863Z",
+   "kind": "NEW-RED",
+   "key": "Domain|dex-mirror"
+  },
   {
    "at": "2026-10-19T01:43:17.276Z",
    "kind": "RECOVERED",
@@ -304,56 +338,6 @@
    "at": "2026-10-18T21:30:29.132Z",
    "kind": "NEW-RED",
    "key": "steem|exec-cycle"
-  },
-  {
-   "at": "2026-10-18T21:30:29.132Z",
-   "kind": "NEW-RED",
-   "key": "steem|presence-matrix"
-  },
-  {
-   "at": "2026-10-18T21:30:29.132Z",
-   "kind": "NEW-RED",
-   "key": "saos-runtime|hive-custody-revival"
-  },
-  {
-   "at": "2026-10-18T21:30:29.132Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|world-evolver"
-  },
-  {
-   "at": "2026-10-18T21:30:29.132Z",
-   "kind": "NEW-RED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
-  },
-  {
-   "at": "2026-10-18T21:30:29.132Z",
-   "kind": "NEW-RED",
-   "key": "Domain|office3d-guard"
-  },
-  {
-   "at": "2026-10-18T20:26:52.081Z",
-   "kind": "RECOVERED",
-   "key": "saos-runtime|hive-custody-revival"
-  },
-  {
-   "at": "2026-10-18T20:26:52.081Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|.github/workflows/fleet-yield.yml"
-  },
-  {
-   "at": "2026-10-18T20:26:52.081Z",
-   "kind": "RECOVERED",
-   "key": "Autonomy|world-evolver"
-  },
-  {
-   "at": "2026-10-18T20:26:52.081Z",
-   "kind": "RECOVERED",
-   "key": "Domain|office3d-guard"
-  },
-  {
-   "at": "2026-10-18T20:26:52.081Z",
-   "kind": "RECOVERED",
-   "key": "Domain|econ-engine"
   }
  ]
 }
