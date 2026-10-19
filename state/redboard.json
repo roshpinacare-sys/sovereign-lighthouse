@@ -1,32 +1,51 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-19T13:55:33.826Z",
+ "at": "2026-10-19T14:39:49.651Z",
  "redKeys": [
-  "Domain|org-gitleaks",
-  "Domain|daily-digest",
+  "Autonomy|selfhood",
+  "FleetHQ|office-3d",
+  "roshpina|sovereign-invariants-i38",
+  "saos-dex|dex-selftest",
+  "saos-dex|gitleaks-secret-scan",
   "steem|presence-matrix",
   "steem|exec-cycle",
-  "FleetHQ|office-ci",
-  "roshpina|sovereign-invariants-i38",
-  "Sandbox|compute-canary",
-  "Sandbox|sovereign-tick",
-  "Sandbox|artery-catchup",
-  "Sandbox|pages-deploy"
+  "Sandbox|compute-canary"
  ],
  "red": {
-  "Domain|org-gitleaks": {
-   "repo": "Domain",
-   "workflow": "org-gitleaks",
+  "Autonomy|selfhood": {
+   "repo": "Autonomy",
+   "workflow": "selfhood",
    "failsInWindow": 1,
-   "lastAt": "2026-10-19T13:49:54Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39263510630"
+   "lastAt": "2026-10-19T14:01:29Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39265224647"
   },
-  "Domain|daily-digest": {
-   "repo": "Domain",
-   "workflow": "daily-digest",
+  "FleetHQ|office-3d": {
+   "repo": "FleetHQ",
+   "workflow": "office-3d",
    "failsInWindow": 1,
-   "lastAt": "2026-10-19T13:49:52Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39263505057"
+   "lastAt": "2026-10-19T14:01:46Z",
+   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/39265264570"
+  },
+  "roshpina|sovereign-invariants-i38": {
+   "repo": "roshpina",
+   "workflow": "sovereign-invariants-i38",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T14:34:00Z",
+   "url": "https://github.com/roshpinacare-sys/roshpina/actions/runs/39270104706"
+  },
+  "saos-dex|dex-selftest": {
+   "repo": "saos-dex",
+   "workflow": "dex-selftest",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-19T14:15:09Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39267260676"
+  },
+  "saos-dex|gitleaks-secret-scan": {
+   "repo": "saos-dex",
+   "workflow": "gitleaks-secret-scan",
+   "failsInWindow": 4,
+   "lastAt": "2026-10-19T14:15:09Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39267260616"
   },
   "steem|presence-matrix": {
    "repo": "steem",
@@ -42,53 +61,68 @@
    "lastAt": "2026-10-19T13:07:31Z",
    "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39257490108"
   },
-  "FleetHQ|office-ci": {
-   "repo": "FleetHQ",
-   "workflow": "office-ci",
-   "failsInWindow": 5,
-   "lastAt": "2026-10-19T12:53:37Z",
-   "url": "https://github.com/roshpinacare-sys/FleetHQ/actions/runs/39255608820"
-  },
-  "roshpina|sovereign-invariants-i38": {
-   "repo": "roshpina",
-   "workflow": "sovereign-invariants-i38",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T12:34:14Z",
-   "url": "https://github.com/roshpinacare-sys/roshpina/actions/runs/39253084087"
-  },
   "Sandbox|compute-canary": {
    "repo": "Sandbox",
    "workflow": "compute-canary",
    "failsInWindow": 1,
    "lastAt": "2026-10-19T13:09:16Z",
    "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39257732431"
-  },
-  "Sandbox|sovereign-tick": {
-   "repo": "Sandbox",
-   "workflow": "sovereign-tick",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-19T12:35:08Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39253204027"
-  },
-  "Sandbox|artery-catchup": {
-   "repo": "Sandbox",
-   "workflow": "artery-catchup",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-19T12:35:08Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39253203854"
-  },
-  "Sandbox|pages-deploy": {
-   "repo": "Sandbox",
-   "workflow": "pages-deploy",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-19T12:35:08Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39253203932"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|pages-deploy"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|artery-catchup"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "RECOVERED",
+   "key": "Sandbox|sovereign-tick"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "RECOVERED",
+   "key": "FleetHQ|office-ci"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "RECOVERED",
+   "key": "Domain|daily-digest"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "RECOVERED",
+   "key": "Domain|org-gitleaks"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "NEW-RED",
+   "key": "saos-dex|gitleaks-secret-scan"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "NEW-RED",
+   "key": "saos-dex|dex-selftest"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "NEW-RED",
+   "key": "FleetHQ|office-3d"
+  },
+  {
+   "at": "2026-10-19T14:39:49.651Z",
+   "kind": "NEW-RED",
+   "key": "Autonomy|selfhood"
+  },
   {
    "at": "2026-10-19T13:55:33.826Z",
    "kind": "RECOVERED",
@@ -288,56 +322,6 @@
    "at": "2026-10-19T06:13:10.302Z",
    "kind": "NEW-RED",
    "key": "Console|console-publish"
-  },
-  {
-   "at": "2026-10-19T06:13:10.302Z",
-   "kind": "NEW-RED",
-   "key": "saos-dex|gitleaks-secret-scan"
-  },
-  {
-   "at": "2026-10-19T06:13:10.302Z",
-   "kind": "NEW-RED",
-   "key": "saos-dex|dex-selftest"
-  },
-  {
-   "at": "2026-10-19T06:13:10.302Z",
-   "kind": "NEW-RED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-19T04:58:53.277Z",
-   "kind": "RECOVERED",
-   "key": "Adsmarket|gitleaks-secret-scan"
-  },
-  {
-   "at": "2026-10-19T04:58:53.277Z",
-   "kind": "RECOVERED",
-   "key": "sovereign-runner-kit|.github/workflows/keepalive.yml"
-  },
-  {
-   "at": "2026-10-19T04:58:53.277Z",
-   "kind": "RECOVERED",
-   "key": "saos-dex|gitleaks-secret-scan"
-  },
-  {
-   "at": "2026-10-19T04:58:53.277Z",
-   "kind": "RECOVERED",
-   "key": "saos-dex|dex-selftest"
-  },
-  {
-   "at": "2026-10-19T04:58:53.277Z",
-   "kind": "RECOVERED",
-   "key": "Domain|dex-mirror"
-  },
-  {
-   "at": "2026-10-19T04:58:53.277Z",
-   "kind": "NEW-RED",
-   "key": "Sandbox|compute-canary"
-  },
-  {
-   "at": "2026-10-19T04:58:53.277Z",
-   "kind": "NEW-RED",
-   "key": "Sandbox|sovereign-invariants"
   }
  ]
 }
