@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-19T06:13:10Z",
+ "generatedAt": "2026-10-19T07:36:18Z",
  "commit": "lastKnown:34673233b6ae",
  "commitDate": "2026-10-16T21:35:19.145Z",
  "branch": "sanbox-main",
@@ -397,6 +397,65 @@
  ],
  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
  "pulses": [
+  {
+   "at": "2026-10-19T07:36:18Z",
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-19T07:36:00Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T07:15:34.658Z"
+    },
+    {
+     "when": "2026-10-19T07:12:53Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T06:46:40.159Z"
+    },
+    {
+     "when": "2026-10-19T06:44:02Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T06:20:27.733Z"
+    },
+    {
+     "when": "2026-10-19T06:31:52Z",
+     "msg": "[agent-9/t30] insurance worklog sync: organic 06:17Z pulse verified NOT fired (a"
+    },
+    {
+     "when": "2026-10-19T06:17:42Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T05:59:12.452Z"
+    }
+   ],
+   "steemHead": 110567506,
+   "steemTime": "2026-10-19T07:36:18",
+   "fleetNetSp": {
+    "acct-00": 2817.0,
+    "acct-01": 75.4,
+    "acct-02": 78.4,
+    "acct-03": 95.1,
+    "acct-04": 79.9,
+    "acct-05": 75.2,
+    "acct-06": 82.7,
+    "acct-07": 87.5,
+    "acct-08": 61.0,
+    "acct-09": 89.3,
+    "acct-10": 20.5,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 20.5,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2817.0,
+   "hiveCornerstoneHp": 102662.8,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "raw.githubusercontent.com:HTTP Error 404: Not Found"
+   ]
+  },
   {
    "at": "2026-10-19T06:13:10Z",
    "runtimeLatestCommits": [
@@ -1874,31 +1933,31 @@
   }
  ],
  "lastPulse": {
-  "at": "2026-10-19T06:13:10Z",
+  "at": "2026-10-19T07:36:18Z",
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-19T05:56:54Z",
-    "msg": "watchdog: green @ 2026-10-19T05:56:54Z"
+    "when": "2026-10-19T07:36:00Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T07:15:34.658Z"
    },
    {
-    "when": "2026-10-19T05:56:30Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T05:27:22.662Z"
+    "when": "2026-10-19T07:12:53Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T06:46:40.159Z"
    },
    {
-    "when": "2026-10-19T05:26:13Z",
-    "msg": "[agent-9/t29] insurance worklog sync: three-copy audit caught the first copies-l"
+    "when": "2026-10-19T06:44:02Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T06:20:27.733Z"
    },
    {
-    "when": "2026-10-19T05:24:40Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T04:53:33.684Z"
+    "when": "2026-10-19T06:31:52Z",
+    "msg": "[agent-9/t30] insurance worklog sync: organic 06:17Z pulse verified NOT fired (a"
    },
    {
-    "when": "2026-10-19T04:53:55Z",
-    "msg": "T24 measured chain law: account_update2 setting OWNER authority requires OWNER s"
+    "when": "2026-10-19T06:17:42Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T05:59:12.452Z"
    }
   ],
-  "steemHead": 110565963,
-  "steemTime": "2026-10-19T06:13:06",
+  "steemHead": 110567506,
+  "steemTime": "2026-10-19T07:36:18",
   "fleetNetSp": {
    "acct-00": 2817.0,
    "acct-01": 75.4,
@@ -1925,7 +1984,7 @@
    17.0
   ],
   "treasuryNetSp": 2817.0,
-  "hiveCornerstoneHp": 102662.3,
+  "hiveCornerstoneHp": 102662.8,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
