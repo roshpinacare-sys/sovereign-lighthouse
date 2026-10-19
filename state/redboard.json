@@ -1,46 +1,56 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-19T08:24:19.843Z",
+ "at": "2026-10-19T09:44:40.271Z",
  "redKeys": [
-  "saos-dex|hive-heartbeat",
+  "Domain|exposure-gate",
   "saos-dex|dex-selftest",
   "saos-dex|gitleaks-secret-scan",
-  "roshpina|sovereign-invariants-i38"
+  "saos-dex|hive-heartbeat"
  ],
  "red": {
+  "Domain|exposure-gate": {
+   "repo": "Domain",
+   "workflow": "exposure-gate",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T09:10:23Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39228046597"
+  },
+  "saos-dex|dex-selftest": {
+   "repo": "saos-dex",
+   "workflow": "dex-selftest",
+   "failsInWindow": 4,
+   "lastAt": "2026-10-19T09:21:49Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39229489599"
+  },
+  "saos-dex|gitleaks-secret-scan": {
+   "repo": "saos-dex",
+   "workflow": "gitleaks-secret-scan",
+   "failsInWindow": 5,
+   "lastAt": "2026-10-19T09:21:49Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39229489411"
+  },
   "saos-dex|hive-heartbeat": {
    "repo": "saos-dex",
    "workflow": "hive-heartbeat",
    "failsInWindow": 1,
    "lastAt": "2026-10-19T08:23:06Z",
    "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39222376603"
-  },
-  "saos-dex|dex-selftest": {
-   "repo": "saos-dex",
-   "workflow": "dex-selftest",
-   "failsInWindow": 9,
-   "lastAt": "2026-10-19T08:20:15Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39222044402"
-  },
-  "saos-dex|gitleaks-secret-scan": {
-   "repo": "saos-dex",
-   "workflow": "gitleaks-secret-scan",
-   "failsInWindow": 11,
-   "lastAt": "2026-10-19T08:20:15Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39222044406"
-  },
-  "roshpina|sovereign-invariants-i38": {
-   "repo": "roshpina",
-   "workflow": "sovereign-invariants-i38",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-19T07:37:29Z",
-   "url": "https://github.com/roshpinacare-sys/roshpina/actions/runs/39217188324"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-19T09:44:40.271Z",
+   "kind": "RECOVERED",
+   "key": "roshpina|sovereign-invariants-i38"
+  },
+  {
+   "at": "2026-10-19T09:44:40.271Z",
+   "kind": "NEW-RED",
+   "key": "Domain|exposure-gate"
+  },
   {
    "at": "2026-10-19T08:24:19.843Z",
    "kind": "RECOVERED",
@@ -280,16 +290,6 @@
    "at": "2026-10-19T01:16:56.010Z",
    "kind": "RECOVERED",
    "key": "Sandbox|compute-canary"
-  },
-  {
-   "at": "2026-10-19T01:16:56.010Z",
-   "kind": "RECOVERED",
-   "key": "Domain|office3d-guard"
-  },
-  {
-   "at": "2026-10-19T01:16:56.010Z",
-   "kind": "RECOVERED",
-   "key": "roshpina|sovereign-invariants-i38"
   }
  ]
 }
