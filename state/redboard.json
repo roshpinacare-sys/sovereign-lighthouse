@@ -1,68 +1,48 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-19T01:16:56.010Z",
+ "at": "2026-10-19T01:43:17.276Z",
  "redKeys": [
-  "Console|console-publish",
-  "Autonomy|artery-grid",
-  "Autonomy|world-evolver",
-  "Domain|exposure-gate",
-  "Domain|econ-engine",
   "saos-dex|dex-selftest",
   "saos-dex|gitleaks-secret-scan",
+  "saos-runtime|escrow-payroll",
+  "saos-runtime|hive-custody-revival",
   "steem|exec-cycle",
+  "Domain|exposure-gate",
+  "Autonomy|artery-grid",
+  "Autonomy|world-evolver",
   "Sandbox|artery-catchup",
+  "Sandbox|sovereign-tick",
   "Sandbox|pages-deploy",
-  "Sandbox|sovereign-tick"
+  "Console|console-publish"
  ],
  "red": {
-  "Console|console-publish": {
-   "repo": "Console",
-   "workflow": "console-publish",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T00:28:01Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/39180896938"
-  },
-  "Autonomy|artery-grid": {
-   "repo": "Autonomy",
-   "workflow": "artery-grid",
-   "failsInWindow": 4,
-   "lastAt": "2026-10-19T01:13:20Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39184356201"
-  },
-  "Autonomy|world-evolver": {
-   "repo": "Autonomy",
-   "workflow": "world-evolver",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T00:46:16Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39182270450"
-  },
-  "Domain|exposure-gate": {
-   "repo": "Domain",
-   "workflow": "exposure-gate",
-   "failsInWindow": 5,
-   "lastAt": "2026-10-19T01:13:28Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39184366479"
-  },
-  "Domain|econ-engine": {
-   "repo": "Domain",
-   "workflow": "econ-engine",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-19T01:04:37Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39183651817"
-  },
   "saos-dex|dex-selftest": {
    "repo": "saos-dex",
    "workflow": "dex-selftest",
    "failsInWindow": 9,
-   "lastAt": "2026-10-19T01:12:21Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39184273279"
+   "lastAt": "2026-10-19T01:42:21Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39186565580"
   },
   "saos-dex|gitleaks-secret-scan": {
    "repo": "saos-dex",
    "workflow": "gitleaks-secret-scan",
    "failsInWindow": 12,
-   "lastAt": "2026-10-19T01:12:21Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39184273347"
+   "lastAt": "2026-10-19T01:42:21Z",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39186565689"
+  },
+  "saos-runtime|escrow-payroll": {
+   "repo": "saos-runtime",
+   "workflow": "escrow-payroll",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T01:27:41Z",
+   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39185452004"
+  },
+  "saos-runtime|hive-custody-revival": {
+   "repo": "saos-runtime",
+   "workflow": "hive-custody-revival",
+   "failsInWindow": 2,
+   "lastAt": "2026-10-19T01:13:03Z",
+   "url": "https://github.com/roshpinacare-sys/saos-runtime/actions/runs/39184330975"
   },
   "steem|exec-cycle": {
    "repo": "steem",
@@ -71,32 +51,75 @@
    "lastAt": "2026-10-19T00:12:00Z",
    "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39179694822"
   },
+  "Domain|exposure-gate": {
+   "repo": "Domain",
+   "workflow": "exposure-gate",
+   "failsInWindow": 3,
+   "lastAt": "2026-10-19T01:40:15Z",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39186408988"
+  },
+  "Autonomy|artery-grid": {
+   "repo": "Autonomy",
+   "workflow": "artery-grid",
+   "failsInWindow": 5,
+   "lastAt": "2026-10-19T01:39:41Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39186367105"
+  },
+  "Autonomy|world-evolver": {
+   "repo": "Autonomy",
+   "workflow": "world-evolver",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T00:46:16Z",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39182270450"
+  },
   "Sandbox|artery-catchup": {
    "repo": "Sandbox",
    "workflow": "artery-catchup",
-   "failsInWindow": 5,
-   "lastAt": "2026-10-19T01:06:02Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39183766173"
-  },
-  "Sandbox|pages-deploy": {
-   "repo": "Sandbox",
-   "workflow": "pages-deploy",
-   "failsInWindow": 5,
-   "lastAt": "2026-10-19T01:06:02Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39183766120"
+   "failsInWindow": 4,
+   "lastAt": "2026-10-19T01:35:24Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39186045853"
   },
   "Sandbox|sovereign-tick": {
    "repo": "Sandbox",
    "workflow": "sovereign-tick",
-   "failsInWindow": 5,
-   "lastAt": "2026-10-19T01:06:02Z",
-   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39183766123"
+   "failsInWindow": 4,
+   "lastAt": "2026-10-19T01:35:24Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39186045889"
+  },
+  "Sandbox|pages-deploy": {
+   "repo": "Sandbox",
+   "workflow": "pages-deploy",
+   "failsInWindow": 4,
+   "lastAt": "2026-10-19T01:35:24Z",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39186045840"
+  },
+  "Console|console-publish": {
+   "repo": "Console",
+   "workflow": "console-publish",
+   "failsInWindow": 1,
+   "lastAt": "2026-10-19T00:28:01Z",
+   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/39180896938"
   }
  },
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-19T01:43:17.276Z",
+   "kind": "RECOVERED",
+   "key": "Domain|econ-engine"
+  },
+  {
+   "at": "2026-10-19T01:43:17.276Z",
+   "kind": "NEW-RED",
+   "key": "saos-runtime|hive-custody-revival"
+  },
+  {
+   "at": "2026-10-19T01:43:17.276Z",
+   "kind": "NEW-RED",
+   "key": "saos-runtime|escrow-payroll"
+  },
   {
    "at": "2026-10-19T01:16:56.010Z",
    "kind": "RECOVERED",
@@ -331,21 +354,6 @@
    "at": "2026-10-18T20:26:52.081Z",
    "kind": "RECOVERED",
    "key": "Domain|econ-engine"
-  },
-  {
-   "at": "2026-10-18T18:57:20.414Z",
-   "kind": "RECOVERED",
-   "key": "steem|exec-cycle"
-  },
-  {
-   "at": "2026-10-18T18:57:20.414Z",
-   "kind": "NEW-RED",
-   "key": "fleet-economy|economy-beat"
-  },
-  {
-   "at": "2026-10-18T18:57:20.414Z",
-   "kind": "NEW-RED",
-   "key": "saos-runtime|hive-custody-revival"
   }
  ]
 }
