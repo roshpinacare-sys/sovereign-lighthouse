@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-20T11:33:30Z",
+ "generatedAt": "2026-10-20T12:56:41Z",
  "commit": "lastKnown:34673233b6ae",
  "commitDate": "2026-10-16T21:35:19.145Z",
  "branch": "sanbox-main",
@@ -397,6 +397,65 @@
  ],
  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
  "pulses": [
+  {
+   "at": "2026-10-20T12:56:41Z",
+   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
+   "sandboxLedgerBytes": 182620,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-20T12:33:43Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T12:10:37.746Z"
+    },
+    {
+     "when": "2026-10-20T12:25:17Z",
+     "msg": "agent-9 worklog t47: net-SP metric heal + local brain wired + federation by-desi"
+    },
+    {
+     "when": "2026-10-20T12:07:57Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T11:46:50.493Z"
+    },
+    {
+     "when": "2026-10-20T11:54:09Z",
+     "msg": "[agent-9/t46] worklog refresh: counsel brain UNBLOCKED in-machine — 81-model NIM"
+    },
+    {
+     "when": "2026-10-20T11:44:04Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T11:21:44.478Z"
+    }
+   ],
+   "steemHead": 110601407,
+   "steemTime": "2026-10-20T12:56:39",
+   "fleetNetSp": {
+    "acct-00": 2417.0,
+    "acct-01": 135.4,
+    "acct-02": 78.4,
+    "acct-03": 155.1,
+    "acct-04": 139.9,
+    "acct-05": 135.2,
+    "acct-06": 142.7,
+    "acct-07": 147.5,
+    "acct-08": 61.0,
+    "acct-09": 89.3,
+    "acct-10": 20.5,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 20.5,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2417.0,
+   "hiveCornerstoneHp": 102703.1,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
   {
    "at": "2026-10-20T11:33:30Z",
    "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
@@ -2697,104 +2756,45 @@
    "degradedWhy": [
     "raw.githubusercontent.com:HTTP Error 404: Not Found"
    ]
-  },
-  {
-   "at": "2026-10-18T10:30:21Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-18T10:09:39Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T09:45:34.931Z"
-    },
-    {
-     "when": "2026-10-18T09:42:59Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T09:18:06.472Z"
-    },
-    {
-     "when": "2026-10-18T09:15:51Z",
-     "msg": "watchdog: green @ 2026-10-18T09:15:51Z"
-    },
-    {
-     "when": "2026-10-18T09:15:28Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T08:52:37.439Z"
-    },
-    {
-     "when": "2026-10-18T08:17:05Z",
-     "msg": "W4-F organ-guardian: hourly anti-silent-disable sentinel — re-enables workflows "
-    }
-   ],
-   "steemHead": 110544685,
-   "steemTime": "2026-10-18T10:30:21",
-   "fleetNetSp": {
-    "acct-00": 2855.0,
-    "acct-01": 75.4,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 82.7,
-    "acct-07": 87.5,
-    "acct-08": 41.7,
-    "acct-09": 89.3,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 41.7,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2855.0,
-   "hiveCornerstoneHp": 102638.0,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
   }
  ],
  "lastPulse": {
-  "at": "2026-10-20T11:33:30Z",
+  "at": "2026-10-20T12:56:41Z",
   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
   "sandboxLedgerBytes": 182620,
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-20T11:23:57Z",
-    "msg": "custody-recover: receipt 2026-10-20T11:23:57Z [skip ci]"
+    "when": "2026-10-20T12:33:43Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T12:10:37.746Z"
    },
    {
-    "when": "2026-10-20T11:19:05Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T10:58:01.891Z"
+    "when": "2026-10-20T12:25:17Z",
+    "msg": "agent-9 worklog t47: net-SP metric heal + local brain wired + federation by-desi"
    },
    {
-    "when": "2026-10-20T10:55:47Z",
-    "msg": "watchdog: green @ 2026-10-20T10:55:47Z"
+    "when": "2026-10-20T12:07:57Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T11:46:50.493Z"
    },
    {
-    "when": "2026-10-20T10:55:14Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T10:32:50.224Z"
+    "when": "2026-10-20T11:54:09Z",
+    "msg": "[agent-9/t46] worklog refresh: counsel brain UNBLOCKED in-machine — 81-model NIM"
    },
    {
-    "when": "2026-10-20T10:30:12Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T10:09:10.453Z"
+    "when": "2026-10-20T11:44:04Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T11:21:44.478Z"
    }
   ],
-  "steemHead": 110599758,
-  "steemTime": "2026-10-20T11:33:30",
+  "steemHead": 110601407,
+  "steemTime": "2026-10-20T12:56:39",
   "fleetNetSp": {
-   "acct-00": 2768.0,
-   "acct-01": 75.4,
+   "acct-00": 2417.0,
+   "acct-01": 135.4,
    "acct-02": 78.4,
-   "acct-03": 95.1,
-   "acct-04": 79.9,
-   "acct-05": 75.2,
-   "acct-06": 82.7,
-   "acct-07": 87.5,
+   "acct-03": 155.1,
+   "acct-04": 139.9,
+   "acct-05": 135.2,
+   "acct-06": 142.7,
+   "acct-07": 147.5,
    "acct-08": 61.0,
    "acct-09": 89.3,
    "acct-10": 20.5,
@@ -2811,8 +2811,8 @@
    17.0,
    17.0
   ],
-  "treasuryNetSp": 2768.0,
-  "hiveCornerstoneHp": 102702.6,
+  "treasuryNetSp": 2417.0,
+  "hiveCornerstoneHp": 102703.1,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
