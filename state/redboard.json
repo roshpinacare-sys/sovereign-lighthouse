@@ -1,46 +1,32 @@
 {
  "schema": "estate-redboard/2",
- "at": "2026-10-20T02:05:42.451Z",
- "redKeys": [
-  "Domain|office3d-guard",
-  "Console|saos-fold",
-  "Autonomy|artery-defi",
-  "saos-dex|hive-heartbeat"
- ],
- "red": {
-  "Domain|office3d-guard": {
-   "repo": "Domain",
-   "workflow": "office3d-guard",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-20T01:52:23Z",
-   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39355820264"
-  },
-  "Console|saos-fold": {
-   "repo": "Console",
-   "workflow": "saos-fold",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-20T01:02:25Z",
-   "url": "https://github.com/roshpinacare-sys/Console/actions/runs/39351174858"
-  },
-  "Autonomy|artery-defi": {
-   "repo": "Autonomy",
-   "workflow": "artery-defi",
-   "failsInWindow": 2,
-   "lastAt": "2026-10-20T01:02:28Z",
-   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39351180441"
-  },
-  "saos-dex|hive-heartbeat": {
-   "repo": "saos-dex",
-   "workflow": "hive-heartbeat",
-   "failsInWindow": 1,
-   "lastAt": "2026-10-20T01:37:13Z",
-   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39354442782"
-  }
- },
+ "at": "2026-10-20T03:32:03.754Z",
+ "redKeys": [],
+ "red": {},
  "stasisKeys": [],
  "stasis": {},
  "stale": [],
  "transitions": [
+  {
+   "at": "2026-10-20T03:32:03.754Z",
+   "kind": "RECOVERED",
+   "key": "saos-dex|hive-heartbeat"
+  },
+  {
+   "at": "2026-10-20T03:32:03.754Z",
+   "kind": "RECOVERED",
+   "key": "Autonomy|artery-defi"
+  },
+  {
+   "at": "2026-10-20T03:32:03.754Z",
+   "kind": "RECOVERED",
+   "key": "Console|saos-fold"
+  },
+  {
+   "at": "2026-10-20T03:32:03.754Z",
+   "kind": "RECOVERED",
+   "key": "Domain|office3d-guard"
+  },
   {
    "at": "2026-10-20T02:05:42.451Z",
    "kind": "RECOVERED",
@@ -270,26 +256,6 @@
    "at": "2026-10-19T17:48:16.066Z",
    "kind": "NEW-RED",
    "key": "FleetHQ|office-ci"
-  },
-  {
-   "at": "2026-10-19T17:48:16.066Z",
-   "kind": "NEW-RED",
-   "key": "Console|console-publish"
-  },
-  {
-   "at": "2026-10-19T16:07:05.395Z",
-   "kind": "RECOVERED",
-   "key": "Sandbox|compute-canary"
-  },
-  {
-   "at": "2026-10-19T16:07:05.395Z",
-   "kind": "RECOVERED",
-   "key": "steem|exec-cycle"
-  },
-  {
-   "at": "2026-10-19T16:07:05.395Z",
-   "kind": "RECOVERED",
-   "key": "steem|presence-matrix"
   }
  ]
 }
