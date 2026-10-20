@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-20T07:30:24Z",
+ "generatedAt": "2026-10-20T09:00:45Z",
  "commit": "lastKnown:34673233b6ae",
  "commitDate": "2026-10-16T21:35:19.145Z",
  "branch": "sanbox-main",
@@ -397,6 +397,65 @@
  ],
  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
  "pulses": [
+  {
+   "at": "2026-10-20T09:00:45Z",
+   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
+   "sandboxLedgerBytes": 182620,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-20T08:51:03Z",
+     "msg": "watchdog: green @ 2026-10-20T08:51:03Z"
+    },
+    {
+     "when": "2026-10-20T08:50:25Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T08:29:11.146Z"
+    },
+    {
+     "when": "2026-10-20T08:46:12Z",
+     "msg": "custody-recover: receipt 2026-10-20T08:46:12Z [skip ci]"
+    },
+    {
+     "when": "2026-10-20T08:45:25Z",
+     "msg": "vault-sync: agent-9 insurance snapshot (tools+manifest; worklog preserved per t2"
+    },
+    {
+     "when": "2026-10-20T07:56:13Z",
+     "msg": "watchdog: 1 reds @ 2026-10-20T07:56:13Z"
+    }
+   ],
+   "steemHead": 110596736,
+   "steemTime": "2026-10-20T09:00:45",
+   "fleetNetSp": {
+    "acct-00": 2754.4,
+    "acct-01": 75.4,
+    "acct-02": 78.4,
+    "acct-03": 95.1,
+    "acct-04": 79.9,
+    "acct-05": 75.2,
+    "acct-06": 82.7,
+    "acct-07": 87.5,
+    "acct-08": 61.0,
+    "acct-09": 89.3,
+    "acct-10": 20.5,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 17.0
+   },
+   "minOperatorSp": 20.5,
+   "soldierSp": [
+    17.0,
+    17.0,
+    17.0
+   ],
+   "treasuryNetSp": 2754.4,
+   "hiveCornerstoneHp": 102701.8,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
   {
    "at": "2026-10-20T07:30:24Z",
    "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
@@ -2697,97 +2756,38 @@
    "degradedWhy": [
     "raw.githubusercontent.com:HTTP Error 404: Not Found"
    ]
-  },
-  {
-   "at": "2026-10-18T07:39:29Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-18T07:39:21Z",
-     "msg": "watchdog: 2 reds @ 2026-10-18T07:39:21Z"
-    },
-    {
-     "when": "2026-10-18T07:02:00Z",
-     "msg": "fabric: הטמעת שכבת מטמון עבור stateReplica ב-PostgreSQL — הצעת-למידה-אוטונומית ("
-    },
-    {
-     "when": "2026-10-18T06:28:08Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T06:03:36.234Z"
-    },
-    {
-     "when": "2026-10-18T06:00:34Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T05:40:49.001Z"
-    },
-    {
-     "when": "2026-10-18T05:38:09Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-18T05:11:17.931Z"
-    }
-   ],
-   "steemHead": 110541380,
-   "steemTime": "2026-10-18T07:39:27",
-   "fleetNetSp": {
-    "acct-00": 2854.9,
-    "acct-01": 75.4,
-    "acct-02": 78.4,
-    "acct-03": 95.0,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 82.7,
-    "acct-07": 87.5,
-    "acct-08": 41.7,
-    "acct-09": 89.3,
-    "acct-10": 70.0,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 41.7,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2854.9,
-   "hiveCornerstoneHp": 102631.9,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
   }
  ],
  "lastPulse": {
-  "at": "2026-10-20T07:30:24Z",
+  "at": "2026-10-20T09:00:45Z",
   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
   "sandboxLedgerBytes": 182620,
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-20T07:21:05Z",
-    "msg": "watchdog: 1 reds @ 2026-10-20T07:21:05Z"
+    "when": "2026-10-20T08:51:03Z",
+    "msg": "watchdog: green @ 2026-10-20T08:51:03Z"
    },
    {
-    "when": "2026-10-20T07:20:42Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T06:51:16.212Z"
+    "when": "2026-10-20T08:50:25Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T08:29:11.146Z"
    },
    {
-    "when": "2026-10-20T06:48:37Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T06:25:26.119Z"
+    "when": "2026-10-20T08:46:12Z",
+    "msg": "custody-recover: receipt 2026-10-20T08:46:12Z [skip ci]"
    },
    {
-    "when": "2026-10-20T06:37:32Z",
-    "msg": "[agent-9/t44] worklog: mortal-builder audit measured + roster chain-proven seed "
+    "when": "2026-10-20T08:45:25Z",
+    "msg": "vault-sync: agent-9 insurance snapshot (tools+manifest; worklog preserved per t2"
    },
    {
-    "when": "2026-10-20T06:23:08Z",
-    "msg": "watchdog: 1 reds @ 2026-10-20T06:23:08Z"
+    "when": "2026-10-20T07:56:13Z",
+    "msg": "watchdog: 1 reds @ 2026-10-20T07:56:13Z"
    }
   ],
-  "steemHead": 110594945,
-  "steemTime": "2026-10-20T07:30:24",
+  "steemHead": 110596736,
+  "steemTime": "2026-10-20T09:00:45",
   "fleetNetSp": {
-   "acct-00": 2754.2,
+   "acct-00": 2754.4,
    "acct-01": 75.4,
    "acct-02": 78.4,
    "acct-03": 95.1,
@@ -2811,8 +2811,8 @@
    17.0,
    17.0
   ],
-  "treasuryNetSp": 2754.2,
-  "hiveCornerstoneHp": 102695.7,
+  "treasuryNetSp": 2754.4,
+  "hiveCornerstoneHp": 102701.8,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
