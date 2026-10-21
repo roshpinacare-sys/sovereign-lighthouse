@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-21T03:00:22Z",
+ "generatedAt": "2026-10-21T04:11:25Z",
  "commit": "lastKnown:34673233b6ae",
  "commitDate": "2026-10-16T21:35:19.145Z",
  "branch": "sanbox-main",
@@ -397,6 +397,65 @@
  ],
  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
  "pulses": [
+  {
+   "at": "2026-10-21T04:11:25Z",
+   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
+   "sandboxLedgerBytes": 182580,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-21T03:59:00Z",
+     "msg": "watchdog: 1 reds @ 2026-10-21T03:59:00Z"
+    },
+    {
+     "when": "2026-10-21T03:58:36Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-21T03:30:07.443Z"
+    },
+    {
+     "when": "2026-10-21T03:27:49Z",
+     "msg": "watchdog: 1 reds @ 2026-10-21T03:27:49Z"
+    },
+    {
+     "when": "2026-10-21T03:27:29Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-21T02:58:46.804Z"
+    },
+    {
+     "when": "2026-10-21T03:26:19Z",
+     "msg": "agent-9: t52 — blocker dead (key relayed, READY), grid fueled on-chain (12 txs),"
+    }
+   ],
+   "steemHead": 110619577,
+   "steemTime": "2026-10-21T04:11:24",
+   "fleetNetSp": {
+    "acct-00": 1679.8,
+    "acct-01": 169.9,
+    "acct-02": 43.4,
+    "acct-03": 60.0,
+    "acct-04": 44.8,
+    "acct-05": 40.1,
+    "acct-06": 41.1,
+    "acct-07": 41.2,
+    "acct-08": 42.7,
+    "acct-09": 41.2,
+    "acct-10": 43.6,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 250.0,
+    "acct-12": 250.0,
+    "acct-13": 250.0
+   },
+   "minOperatorSp": 40.1,
+   "soldierSp": [
+    250.0,
+    250.0,
+    250.0
+   ],
+   "treasuryNetSp": 1679.8,
+   "hiveCornerstoneHp": 102725.0,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
   {
    "at": "2026-10-21T03:00:22Z",
    "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
@@ -2697,122 +2756,63 @@
    "degradedWhy": [
     "raw.githubusercontent.com:HTTP Error 404: Not Found"
    ]
-  },
-  {
-   "at": "2026-10-19T01:47:34Z",
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-19T01:41:42Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-19T01:08:10.338Z"
-    },
-    {
-     "when": "2026-10-19T01:27:49Z",
-     "msg": "watchdog: green @ 2026-10-19T01:27:49Z"
-    },
-    {
-     "when": "2026-10-19T01:27:45Z",
-     "msg": "self-memory: the network remembers — +12 new / 6 reinforced / 0 forgotten (28 re"
-    },
-    {
-     "when": "2026-10-19T01:13:22Z",
-     "msg": "T21 [agent-zai]: estate-wide HIVE census — roster refs × all custody × all roles"
-    },
-    {
-     "when": "2026-10-19T01:08:57Z",
-     "msg": "T21 [agent-zai]: census final shape — b64-decoded printable payload also enters "
-    }
-   ],
-   "steemHead": 110561235,
-   "steemTime": "2026-10-19T01:47:30",
-   "fleetNetSp": {
-    "acct-00": 2816.9,
-    "acct-01": 75.4,
-    "acct-02": 78.4,
-    "acct-03": 95.1,
-    "acct-04": 79.9,
-    "acct-05": 75.2,
-    "acct-06": 82.7,
-    "acct-07": 87.5,
-    "acct-08": 61.0,
-    "acct-09": 89.3,
-    "acct-10": 59.6,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 59.6,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2816.9,
-   "hiveCornerstoneHp": 102652.6,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "raw.githubusercontent.com:HTTP Error 404: Not Found"
-   ]
   }
  ],
  "lastPulse": {
-  "at": "2026-10-21T03:00:22Z",
+  "at": "2026-10-21T04:11:25Z",
   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
   "sandboxLedgerBytes": 182580,
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-21T02:56:33Z",
-    "msg": "watchdog: 1 reds @ 2026-10-21T02:56:33Z"
+    "when": "2026-10-21T03:59:00Z",
+    "msg": "watchdog: 1 reds @ 2026-10-21T03:59:00Z"
    },
    {
-    "when": "2026-10-21T02:56:02Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-21T02:27:10.735Z"
+    "when": "2026-10-21T03:58:36Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-21T03:30:07.443Z"
    },
    {
-    "when": "2026-10-21T02:51:17Z",
-    "msg": "[agent-9/t52] treasury-consolidation: live executor for the floor-3000 inward co"
+    "when": "2026-10-21T03:27:49Z",
+    "msg": "watchdog: 1 reds @ 2026-10-21T03:27:49Z"
    },
    {
-    "when": "2026-10-21T02:45:30Z",
-    "msg": "[agent-9/t52] relay verdict fix: GitHub returns 201 on secret CREATE (204 only o"
+    "when": "2026-10-21T03:27:29Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-21T02:58:46.804Z"
    },
    {
-    "when": "2026-10-21T02:43:50Z",
-    "msg": "[agent-9/t52] relay fix-2: real npm versions (tweetnacl@1.0.3, blake2b@2.1.4 — r"
+    "when": "2026-10-21T03:26:19Z",
+    "msg": "agent-9: t52 — blocker dead (key relayed, READY), grid fueled on-chain (12 txs),"
    }
   ],
-  "steemHead": 110618163,
-  "steemTime": "2026-10-21T03:00:21",
+  "steemHead": 110619577,
+  "steemTime": "2026-10-21T04:11:24",
   "fleetNetSp": {
-   "acct-00": 2417.3,
-   "acct-01": 135.4,
-   "acct-02": 78.4,
-   "acct-03": 155.1,
-   "acct-04": 139.9,
-   "acct-05": 135.2,
-   "acct-06": 142.7,
-   "acct-07": 147.6,
-   "acct-08": 61.0,
-   "acct-09": 89.3,
-   "acct-10": 20.5,
+   "acct-00": 1679.8,
+   "acct-01": 169.9,
+   "acct-02": 43.4,
+   "acct-03": 60.0,
+   "acct-04": 44.8,
+   "acct-05": 40.1,
+   "acct-06": 41.1,
+   "acct-07": 41.2,
+   "acct-08": 42.7,
+   "acct-09": 41.2,
+   "acct-10": 43.6,
    "acct-15": 0.0,
    "acct-16": 0.0,
    "acct-17": 0.0,
-   "acct-11": 17.0,
-   "acct-12": 17.0,
-   "acct-13": 17.0
+   "acct-11": 250.0,
+   "acct-12": 250.0,
+   "acct-13": 250.0
   },
-  "minOperatorSp": 20.5,
+  "minOperatorSp": 40.1,
   "soldierSp": [
-   17.0,
-   17.0,
-   17.0
+   250.0,
+   250.0,
+   250.0
   ],
-  "treasuryNetSp": 2417.3,
-  "hiveCornerstoneHp": 102724.6,
+  "treasuryNetSp": 1679.8,
+  "hiveCornerstoneHp": 102725.0,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
