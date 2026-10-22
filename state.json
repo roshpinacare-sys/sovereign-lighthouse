@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-10-22T22:18:50Z",
+ "generatedAt": "2026-10-22T23:29:49Z",
  "commit": "lastKnown:34673233b6ae",
  "commitDate": "2026-10-16T21:35:19.145Z",
  "branch": "sanbox-main",
@@ -397,6 +397,65 @@
  ],
  "doctrine": "אפס-אמון-בטענות · הכל-מנוטר-בגיט · fail-open-לעננים-חוץ-מכונה · הכספת-נפתחת-רק-בסיסמה",
  "pulses": [
+  {
+   "at": "2026-10-22T23:29:49Z",
+   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
+   "sandboxLedgerBytes": 182580,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-10-22T23:29:17Z",
+     "msg": "watchdog: 1 reds @ 2026-10-22T23:29:17Z"
+    },
+    {
+     "when": "2026-10-22T23:28:16Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-22T23:02:11.227Z"
+    },
+    {
+     "when": "2026-10-22T22:58:48Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-22T22:32:49.998Z"
+    },
+    {
+     "when": "2026-10-22T22:57:47Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-10-22T22:32:13.534Z"
+    },
+    {
+     "when": "2026-10-22T22:31:02Z",
+     "msg": "watchdog: 1 reds @ 2026-10-22T22:31:02Z"
+    }
+   ],
+   "steemHead": 110671227,
+   "steemTime": "2026-10-22T23:29:48",
+   "fleetNetSp": {
+    "acct-00": 2196.7,
+    "acct-01": 75.4,
+    "acct-02": 78.4,
+    "acct-03": 60.0,
+    "acct-04": 44.8,
+    "acct-05": 40.1,
+    "acct-06": 41.1,
+    "acct-07": 41.2,
+    "acct-08": 42.7,
+    "acct-09": 41.2,
+    "acct-10": 43.6,
+    "acct-15": 0.0,
+    "acct-16": 0.0,
+    "acct-17": 0.0,
+    "acct-11": 17.0,
+    "acct-12": 17.0,
+    "acct-13": 250.0
+   },
+   "minOperatorSp": 40.1,
+   "soldierSp": [
+    17.0,
+    17.0,
+    250.0
+   ],
+   "treasuryNetSp": 2196.7,
+   "hiveCornerstoneHp": 102774.3,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": false,
+   "degradedWhy": []
+  },
   {
    "at": "2026-10-22T22:18:50Z",
    "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
@@ -2697,97 +2756,38 @@
    "hiveCornerstoneLiquid": 13036.5,
    "degraded": false,
    "degradedWhy": []
-  },
-  {
-   "at": "2026-10-21T00:41:33Z",
-   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
-   "sandboxLedgerBytes": 182580,
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-10-21T00:31:13Z",
-     "msg": "watchdog: 1 reds @ 2026-10-21T00:31:13Z"
-    },
-    {
-     "when": "2026-10-21T00:30:50Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T23:57:57.646Z"
-    },
-    {
-     "when": "2026-10-20T23:55:36Z",
-     "msg": "watchdog: 1 reds @ 2026-10-20T23:55:36Z"
-    },
-    {
-     "when": "2026-10-20T23:55:10Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-10-20T23:17:26.710Z"
-    },
-    {
-     "when": "2026-10-20T22:47:07Z",
-     "msg": "watchdog: 1 reds @ 2026-10-20T22:47:07Z"
-    }
-   ],
-   "steemHead": 110615404,
-   "steemTime": "2026-10-21T00:41:33",
-   "fleetNetSp": {
-    "acct-00": 2417.2,
-    "acct-01": 135.4,
-    "acct-02": 78.4,
-    "acct-03": 155.1,
-    "acct-04": 139.9,
-    "acct-05": 135.2,
-    "acct-06": 142.7,
-    "acct-07": 147.6,
-    "acct-08": 61.0,
-    "acct-09": 89.3,
-    "acct-10": 20.5,
-    "acct-15": 0.0,
-    "acct-16": 0.0,
-    "acct-17": 0.0,
-    "acct-11": 17.0,
-    "acct-12": 17.0,
-    "acct-13": 17.0
-   },
-   "minOperatorSp": 20.5,
-   "soldierSp": [
-    17.0,
-    17.0,
-    17.0
-   ],
-   "treasuryNetSp": 2417.2,
-   "hiveCornerstoneHp": 102717.9,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": false,
-   "degradedWhy": []
   }
  ],
  "lastPulse": {
-  "at": "2026-10-22T22:18:50Z",
+  "at": "2026-10-22T23:29:49Z",
   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
   "sandboxLedgerBytes": 182580,
   "runtimeLatestCommits": [
    {
-    "when": "2026-10-22T21:58:03Z",
-    "msg": "watchdog: 1 reds @ 2026-10-22T21:58:03Z"
+    "when": "2026-10-22T23:29:17Z",
+    "msg": "watchdog: 1 reds @ 2026-10-22T23:29:17Z"
    },
    {
-    "when": "2026-10-22T21:56:41Z",
-    "msg": "system-map: the network sees itself — 21 alive / 0 red / heartbeat ALIVE [skip c"
+    "when": "2026-10-22T23:28:16Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-22T23:02:11.227Z"
    },
    {
-    "when": "2026-10-22T21:56:35Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-10-22T21:31:13.002Z"
+    "when": "2026-10-22T22:58:48Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-22T22:32:49.998Z"
    },
    {
-    "when": "2026-10-22T21:54:47Z",
-    "msg": "self-memory: the network remembers — +0 new / 23 reinforced / 0 forgotten (46 re"
+    "when": "2026-10-22T22:57:47Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-10-22T22:32:13.534Z"
    },
    {
-    "when": "2026-10-22T21:28:42Z",
-    "msg": "watchdog: 1 reds @ 2026-10-22T21:28:42Z"
+    "when": "2026-10-22T22:31:02Z",
+    "msg": "watchdog: 1 reds @ 2026-10-22T22:31:02Z"
    }
   ],
-  "steemHead": 110669815,
-  "steemTime": "2026-10-22T22:18:51",
+  "steemHead": 110671227,
+  "steemTime": "2026-10-22T23:29:48",
   "fleetNetSp": {
-   "acct-00": 2196.6,
+   "acct-00": 2196.7,
    "acct-01": 75.4,
    "acct-02": 78.4,
    "acct-03": 60.0,
@@ -2811,8 +2811,8 @@
    17.0,
    250.0
   ],
-  "treasuryNetSp": 2196.6,
-  "hiveCornerstoneHp": 102773.9,
+  "treasuryNetSp": 2196.7,
+  "hiveCornerstoneHp": 102774.3,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": false,
   "degradedWhy": []
