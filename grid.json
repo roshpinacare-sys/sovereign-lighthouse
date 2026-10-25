@@ -1,6 +1,6 @@
 {
  "schema": "sanbox.grid/1",
- "asof": "2026-10-25T09:53:46Z",
+ "asof": "2026-10-25T11:03:57Z",
  "total": 19,
  "lastPostAt": "2026-10-16T21:20:17.896Z",
  "lastTitle": "1 קומיטים: HQ sync 2026-10-16T21:20:08.010Z",
@@ -23,6 +23,18 @@
   "heartChain": "92f2578e9255408bac20c3d1"
  },
  "recent": [
+  {
+   "id": "pulse-20261025T110357Z",
+   "ts": "2026-10-25T11:03:57Z",
+   "kind": "pulse",
+   "title": "פעימה-חיה: אוצר 2410.7 SP · מינ-מפעיל 40.2 SP · חיילים [17.0, 17.0, 250.1] SP · degraded=False",
+   "sig": [
+    "steem-rpc",
+    "hive-rpc",
+    "sandbox-ledger",
+    "saos-runtime-commits"
+   ]
+  },
   {
    "id": "pulse-20261025T095346Z",
    "ts": "2026-10-25T09:53:46Z",
@@ -490,18 +502,6 @@
     "sandbox-ledger",
     "saos-runtime-commits"
    ]
-  },
-  {
-   "id": "pulse-20261023T155529Z",
-   "ts": "2026-10-23T15:55:29Z",
-   "kind": "pulse",
-   "title": "פעימה-חיה: אוצר 2216.4 SP · מינ-מפעיל 40.1 SP · חיילים [17.0, 17.0, 250.0] SP · degraded=False",
-   "sig": [
-    "steem-rpc",
-    "hive-rpc",
-    "sandbox-ledger",
-    "saos-runtime-commits"
-   ]
   }
  ],
  "posts": [
@@ -774,5 +774,5 @@
    }
   }
  ],
- "pulseCount": 154
+ "pulseCount": 155
 }
