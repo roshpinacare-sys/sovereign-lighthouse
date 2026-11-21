@@ -2,7 +2,7 @@
  "schema": "roshpina.sovereign-beacon/1",
  "pageVersion": "T-66c.1",
  "publisher": "lighthouse-pulse (GitHub Actions, keyless public truth)",
- "generatedAt": "2026-11-21T06:04:12Z",
+ "generatedAt": "2026-11-21T07:31:34Z",
  "commit": "lastKnown:34673233b6ae",
  "commitDate": "2026-10-16T21:35:19.145Z",
  "branch": "sanbox-main",
@@ -341,6 +341,39 @@
  "awakening": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "doctrine": "[REDACTED — P0-1: restoration/custody detail removed from public surface, master-plan T6, session 8fa4709b]",
  "pulses": [
+  {
+   "at": "2026-11-21T07:31:34Z",
+   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
+   "sandboxLedgerBytes": 182580,
+   "runtimeLatestCommits": [
+    {
+     "when": "2026-11-21T07:29:12Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:27:00.311Z"
+    },
+    {
+     "when": "2026-11-21T07:24:21Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:22:10.867Z"
+    },
+    {
+     "when": "2026-11-21T07:19:37Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:17:19.912Z"
+    },
+    {
+     "when": "2026-11-21T07:15:04Z",
+     "msg": "watchdog: 2 reds @ 2026-11-21T07:15:04Z"
+    },
+    {
+     "when": "2026-11-21T07:14:42Z",
+     "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:11:13.402Z"
+    }
+   ],
+   "hiveCornerstoneHp": 103698.0,
+   "hiveCornerstoneLiquid": 13036.5,
+   "degraded": true,
+   "degradedWhy": [
+    "rpc:HTTP Error 403: Forbidden"
+   ]
+  },
   {
    "at": "2026-11-21T06:04:12Z",
    "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
@@ -1627,68 +1660,35 @@
    "degradedWhy": [
     "rpc:HTTP Error 403: Forbidden"
    ]
-  },
-  {
-   "at": "2026-11-19T09:13:26Z",
-   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
-   "sandboxLedgerBytes": 182580,
-   "runtimeLatestCommits": [
-    {
-     "when": "2026-11-19T09:12:04Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-11-19T09:09:58.288Z"
-    },
-    {
-     "when": "2026-11-19T09:07:23Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-11-19T09:05:10.672Z"
-    },
-    {
-     "when": "2026-11-19T09:02:32Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-11-19T09:00:24.606Z"
-    },
-    {
-     "when": "2026-11-19T08:58:11Z",
-     "msg": "watchdog: 2 reds @ 2026-11-19T08:58:10Z"
-    },
-    {
-     "when": "2026-11-19T08:57:15Z",
-     "msg": "beat verdict: canonical home (custodian-free) 2026-11-19T08:55:06.725Z"
-    }
-   ],
-   "hiveCornerstoneHp": 103638.4,
-   "hiveCornerstoneLiquid": 13036.5,
-   "degraded": true,
-   "degradedWhy": [
-    "rpc:HTTP Error 403: Forbidden"
-   ]
   }
  ],
  "lastPulse": {
-  "at": "2026-11-21T06:04:12Z",
+  "at": "2026-11-21T07:31:34Z",
   "sandboxLedgerLastLine": "2026-10-14 | zai-main-1a13bc8fcf41c00d | giant-v2-מערכת-אמיתית (הוראת-בעלים: roast-מוצר — לא-דף-AI-גנרי-אלא-מע",
   "sandboxLedgerBytes": 182580,
   "runtimeLatestCommits": [
    {
-    "when": "2026-11-21T06:00:18Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T05:58:14.016Z"
+    "when": "2026-11-21T07:29:12Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:27:00.311Z"
    },
    {
-    "when": "2026-11-21T05:55:42Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T05:53:37.205Z"
+    "when": "2026-11-21T07:24:21Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:22:10.867Z"
    },
    {
-    "when": "2026-11-21T05:50:57Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T05:48:47.607Z"
+    "when": "2026-11-21T07:19:37Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:17:19.912Z"
    },
    {
-    "when": "2026-11-21T05:46:14Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T05:44:04.351Z"
+    "when": "2026-11-21T07:15:04Z",
+    "msg": "watchdog: 2 reds @ 2026-11-21T07:15:04Z"
    },
    {
-    "when": "2026-11-21T05:41:26Z",
-    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T05:38:06.633Z"
+    "when": "2026-11-21T07:14:42Z",
+    "msg": "beat verdict: canonical home (custodian-free) 2026-11-21T07:11:13.402Z"
    }
   ],
-  "hiveCornerstoneHp": 103697.5,
+  "hiveCornerstoneHp": 103698.0,
   "hiveCornerstoneLiquid": 13036.5,
   "degraded": true,
   "degradedWhy": [
